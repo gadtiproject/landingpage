@@ -1,2 +1,0 @@
-# landingpage
-Regiz landing page
