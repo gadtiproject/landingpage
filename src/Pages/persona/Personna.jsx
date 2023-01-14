@@ -21,9 +21,9 @@ function Personna() {
             className="w-20"
           />
           <p className="text-black dark:text-white text-xl text-start mt-2 break-words italic">
-            Mary obtained a Bachelor of Science degree in Accounting from the
-            University of Liverpool and an (ACCA) Association of Chartered
-            Certified Accountants certification.
+            Mary is a graduate who obtained her Bachelor's degree in Accounting
+            from the University of Liverpool, and a certification from the
+            Association of Chartered Certified Accountants (ACCA).
           </p>
         </div>
 
@@ -37,8 +37,8 @@ function Personna() {
             className="w-56"
           />
           <p className="text-black dark:text-white text-xl text-start mt-2 break-words italic">
-            Mary is trying to apply for a job at <b>Eric Owen's Limited</b>. An
-            audit firm seeking to hire an accountant.
+            Mary is trying to apply for a job At Eric Owen's Limited. An Audit
+            Firm abroad, to fill the position of an Accountant.
           </p>
         </div>
 
@@ -52,13 +52,12 @@ function Personna() {
             className="w-52"
           />
           <p className="text-black dark:text-white text-xl text-start mt-2 break-words italic">
-            The idea occurred to her to get her certificates verified in order
-            to prove their authenticity, so that she would increase her chances
-            of landing her dream job.
+            She thought of a way to increase her chances of getting her dream
+            job by verifying her certificates for authenticity confirmation.
           </p>
           <p className="text-black dark:text-white text-xl text-start mt-2 break-words italic">
-            Mary downloaded the Regiz mobile App from her Device App store and
-            created a wallet.
+            Mary downloads the regiz mobile App from her Device App store and
+            Created a wallet.
           </p>
         </div>
       </div>
@@ -91,9 +90,9 @@ function Personna() {
             Mary pays a token for Minting using RegisCoin.
           </p>
           <p className="text-black dark:text-white text-xl text-start break-words italic mt-2 ">
-            Mary mints on each document a Grade B Minting stamp that reads,
-            "Certificate Genuine but unverified," as well as a unique
-            Identification Number.
+            Mary gets a unique Identification Number and also a Grade B Minting
+            stamp) for each document by minting on them I.e., certificate
+            Genuine but unverified.
           </p>
         </div>
 
@@ -107,12 +106,13 @@ function Personna() {
             className="w-56"
           />
           <p className="text-black dark:text-white text-xl text-start break-words italic mt-2 ">
-            Mary demanded verification from her institution and the ACCA after
-            being unsatisfied with the results. She clicked the Verify and
-            Upgrade to Grade A button.{" "}
+            Unsatisfied, Mary went Further to request Verification by her
+            university and (ACCA) respectively.
           </p>
           <p className="text-black dark:text-white text-xl text-start break-words italic mt-2 ">
-            RegisCoin is used by Mary to pay for the verification token.
+            She clicked the Verify and Upgrade to Grade A Button.
+            <br />
+            Mary pays a token for verification using Regis Coin.
           </p>
         </div>
       </div>
@@ -128,27 +128,25 @@ function Personna() {
             className="w-48"
           />
           <p className="text-black dark:text-white text-xl text-start break-words italic mt-2">
-            A few hours later, Mary got an SMS notification that Her
-            Certification has Been verified and Upgraded to Grade A.{" "}
+            A few hours later, Mary got a notification that Her Certificate has
+            Been verified and Upgraded to Grade A. (Genuine Grade A)
           </p>
           <p className="text-black dark:text-white text-xl text-start break-words italic mt-2">
-            Mary Submitted her CV via Email and attached copies of her verified
-            (Grade A) Certificates.
+            Mary Submitted her CV via Email and also Shared her Document
+            verification I.D. for Authenticity confirmation Purposes. (Grade A)
+            Certificates.
           </p>
         </div>
 
-        <div
-          className="m-5 grid"
-          data-aos="fade-up"
-        >
+        <div className="m-5 grid" data-aos="fade-up">
           <div className="place-items-center justify-center items-center grid">
-          <img
-            src="https://res.cloudinary.com/dpokiomqq/image/upload/v1666979269/girlgotsms_grhr3i.png"
-            alt="girlwithtablet"
-            className="w-56"
-          />  
+            <img
+              src="https://res.cloudinary.com/dpokiomqq/image/upload/v1666979269/girlgotsms_grhr3i.png"
+              alt="girlwithtablet"
+              className="w-56"
+            />
           </div>
-          
+
           <p className="text-black dark:text-white text-xl text-start break-words italic mt-2">
             Mary pays a token for Minting using RegisCoin.{" "}
           </p>
@@ -203,7 +201,7 @@ function Personna() {
           />
           <p className="text-black dark:text-white text-xl text-start break-words italic mt-2  leading-8">
             The HR manager needs to Verify if the certificates attached to each
-            applicant's CV are Genuine.{" "}
+            applicant's CV are authentic.
           </p>
         </div>
 
@@ -217,11 +215,12 @@ function Personna() {
             className="w-56"
           />
           <p className="text-black dark:text-white text-xl text-start break-words italic mt-2  leading-8">
-            To reduce the cost and time of the Verification exercise, He
-            Downloads the regiz APP from the device play store.
+            To reduce the cost and time of the Verification exercise, The HR
+            manager Downloads the regiz APP from the device’s play store.
           </p>
           <p className="text-black dark:text-white text-xl text-start break-words italic mt-2  leading-8">
-            He then signed up and created a Business suite Account.
+            Created a wallet and signed up Business Account. He then pays a
+            token to confirm the authenticity of each applicant's certificate.
           </p>
         </div>
 
@@ -235,14 +234,14 @@ function Personna() {
             className="w-56"
           />
           <p className="text-black dark:text-white text-xl text-start break-words italic mt-2  leading-8">
-            In a few moments, the team was able to verify if the certificates
-            submitted by the applicants were authentic. They entered the
-            Document ID provided by the applicant into the Regiz Document Search
-            app.
+            A few hours later, the team was able to verify the certificate of
+            each applicant if they are authentic, by inputting the Document ID
+            provided by the applicant on the Regiz document search; on the app.
           </p>
           <p className="text-black dark:text-white text-xl text-start break-words italic mt-2  leading-8 tracking-wide">
             The first Document they searched popped up with a Notification
-            displaying (Genuine Grade A) I.e, certificate Genuine and verified.
+            displaying (Genuine Grade A) I.e., (certificate Genuine and
+            verified.)
           </p>
         </div>
 
@@ -256,12 +255,13 @@ function Personna() {
             className="w-56"
           />
           <p className="text-black dark:text-white text-xl text-start break-words italic mt-2  leading-8">
-            Their second search popped up with a notification that read,
-            (Genuine Grade B) i.e, the certificate was genuine but not verified.
+            The second Document they searched popped up with a Notification
+            displaying (Genuine Grade B) I.e.,( certificate Genuine but
+            unverified.)
           </p>
           <p className="text-black dark:text-white text-xl text-start break-words italic mt-2  leading-8">
             The Third Document they searched popped up with a Notification
-            displaying (Invalid) I.e, not uploaded or in-genuine.
+            displaying (Invalid) I.e., not uploaded or in-genuine.
           </p>
         </div>
       </div>
@@ -281,8 +281,8 @@ function Personna() {
             className="w-72"
           />
           <p className="text-black dark:text-white text-xl text-start break-words italic mt-2">
-            Eric Owen’s HR Team was able to confirm the authenticity of Mary’s
-            Certificate and Mary got her Dream Job.{" "}
+            Eric Owen’s HR Team were able to confirm The authenticity of Mary’s
+            Certificate and Mary got her Dream Job...
           </p>
         </div>
       </div>
