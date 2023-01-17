@@ -45,6 +45,7 @@ function App() {
           <Router>
             <Routes>
               <Route path="/" element={<Layout />}>
+                <Route index element={<AllPages />} />
                 <Route path="home" element={<AllPages />} />
                 <Route path="contact" element={<Contact />} />
                 <Route path="contact" element={<Contact />} />
