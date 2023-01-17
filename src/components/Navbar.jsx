@@ -1,28 +1,32 @@
 import React, { useState, useEffect } from "react";
 import { Link, animateScroll as scroll } from "react-scroll";
+import { NavLink } from "react-router-dom"
 import { FiMenu } from "react-icons/fi";
 import { AiOutlineClose } from "react-icons/ai";
 function Navbar() {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
   const handleClose = () => setNav(!nav);
-  const [theme, setTheme] = useState(null);
+  const [theme, setTheme] = useState(localStorage.getItem("theme") || null);
 
   const handleThemeSwitch = () => {
-    setTheme(theme === "dark" ? "light" : "dark");
+    const newTheme = theme === "dark" ? "light" : "dark";
+    setTheme(newTheme);
+    localStorage.setItem("theme", newTheme);
   };
 
-
   useEffect(() => {
-    if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
-      setTheme("dark");
+    const localTheme = localStorage.getItem("theme");
+    if (localTheme) {
+      setTheme(localTheme);
+    } else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+      setTheme("light");
+      localStorage.setItem("theme", "light");
     } else {
       setTheme("light");
+      localStorage.setItem("theme", "light");
     }
-  }, []);
 
-
-  useEffect(() => {
     if (theme === "dark") {
       document.documentElement.classList.add("dark");
     } else {
@@ -31,7 +35,7 @@ function Navbar() {
   }, [theme]);
 
   return (
-    <div className="fixed w-full top-0 z-10 h-[80px] drop-shadow-lg bg-[#02383C]  text-black dark:text-white">
+    <div className="fixed w-full top-0 z-10 h-[80px] drop-shadow-lg bg-[#02383C]  text-black dark:text-white transition-colors duration-300">
       <div className=" flex justify-between items-center w-full h-full shadow-lg cursor-pointer">
         {/* logo image */}
         <div className="lg:flex items-center md:hidden flex px-10">
@@ -337,13 +341,13 @@ function Navbar() {
               </Link>
             </li>
           </a>
-          <a href="#">
+          {/* <a href="#">
             <li className="line mb-2 hover:text-[#66CC7B] text-[#fff] cursor-pointer ">
               <Link to="contact" smooth={true} duration={500}>
                 Contact
               </Link>
             </li>
-          </a>
+          </a> */}
 
           <button
             type="button"
@@ -706,18 +710,7 @@ function Navbar() {
               </Link>
             </li>
 
-            <li className="w-full text-[#000101] hover:bg-[#02383C] py-2 px-2 hover:text-white leading-6 text-base uppercase">
-              <Link
-                onClick={handleClose}
-                to="contact"
-                smooth={true}
-                offset={50}
-                duration={500}
-              >
-                Contact
-              </Link>
-            </li>
-
+           
             <button
               type="button"
               onClick={handleThemeSwitch}

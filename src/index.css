@@ -1,17 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@0;1&family=Lora&family=Poppins&family=Rufina&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
-/* font-family: 'EB Garamond', serif;
-font-family: 'Lora', serif;
-font-family: 'Poppins', sans-serif; */
-
-/* background: #134E5E; 
-background: -webkit-linear-gradient(to right, #71B280, #134E5E);  
-background: linear-gradient(to right, #71B280, #134E5E); */
-
-/* background: #34e89e;
-background: -webkit-linear-gradient(to left, #0f3443, #34e89e); 
-background: linear-gradient(to left, #0f3443, #34e89e); */
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -27,29 +15,19 @@ body{
   font-family: 'Source Sans Pro', sans-serif;
 }
 
-.line{
-    position: relative;
-    padding-bottom: 8px;
+
+.arrow-right {
+  width: 0; 
+  height: 0; 
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid black;
+  transition: all 0.3s ease-in-out;
+}
+.arrow-right:hover{
+  border-left-color: #02383C;
 }
 
-.line::after{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    content:"";
-    width:0%;
-    height: 3px;
-    transition: width 0.4s ease-out;
-}
-
-.line:hover.line::after{
-    width: 100%;
-}
-
-.box{
-  padding: 20px;
-  margin: 0 auto;
-}
 
 .words{
   text-align:justify;
@@ -241,12 +219,7 @@ svg{
 
 
 /* Define the overall container for the roadmap */
-.roadmap {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-}
+
 
 /* Define the style for each milestone on the roadmap */
 .roadmap__milestone {

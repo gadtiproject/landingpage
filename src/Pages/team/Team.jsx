@@ -43,7 +43,7 @@ function Team() {
                   <img src="https://res.cloudinary.com/dpokiomqq/image/upload/v1667291795/businessman-avatar-profile-vector-260nw-249652369_e9glpa.jpg" alt="profileimage" className="shadow rounded-full max-w-full h-auto align-middle w-[130px] h-[130px] hover:w-[132px] hover:h-[132px" id="profile_img"/>
               </div>
           </div>
-          <h1 className="font-bold text-black dark:text-white">John Abraham</h1>
+          <h1 className="font-bold text-black dark:text-white">Duniya Caleb</h1>
           <p className="text-gray-500 text-sm leading-5">Frontend Developer</p>
         </div>
     </div>

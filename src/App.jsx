@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from "react";
 import AnimatedCursor from "react-animated-cursor";
-import Home from "./Pages/Home";
-const LazyContact = React.lazy(() => import('./Pages/Contact'))
-import CareerPage from "./Pages/career/CareerPage";
-import Faqs from "./Pages/faq/Faq";
+import Layout from "./components/Layout";
+import AllPages from "./Pages/AllPages";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Navbar from "./components/Navbar";
+import Contact from "./components/Contact";
+import CareerPage from "./Pages/career/CareerPage";
+import Faqs from "./Pages/faq/Faq";
 
 function App() {
   useEffect(() => {
@@ -15,7 +15,6 @@ function App() {
       duration: 2000,
     });
   }, []);
-
 
   return (
     <>
@@ -40,12 +39,21 @@ function App() {
           ".link",
         ]}
       />
-      
-     <Navbar/>
 
       <div className="bg-white dark:bg-[#070909] min-h-screen font-inter">
         <div className="overflow-hidden">
           <Router>
+            <Routes>
+              <Route path="/" element={<Layout />}>
+                <Route path="home" element={<AllPages />} />
+                <Route path="contact" element={<Contact />} />
+                <Route path="contact" element={<Contact />} />
+                <Route path="/faq" element={<Faqs />} />
+                <Route path="/careers" element={<CareerPage />} />
+              </Route>
+            </Routes>
+          </Router>
+          {/* <Router>
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/contact" element={
@@ -56,7 +64,7 @@ function App() {
               <Route path="/faq" element={<Faqs />} />
               <Route path="/careers" element={<CareerPage />} />
             </Routes>
-          </Router>
+          </Router> */}
         </div>
       </div>
     </>

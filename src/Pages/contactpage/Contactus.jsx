@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import Swal from "sweetalert2";
-import FooterContact from './FooterContact'
 import { HiMail, HiPhone } from "react-icons/hi";
 
 function Contactus() {
@@ -203,9 +202,7 @@ function Contactus() {
           </div>
         </div>
       </div>
-      <div className="mt-auto">
-        <FooterContact />
-      </div>
+    
     </div>
   );
 }
