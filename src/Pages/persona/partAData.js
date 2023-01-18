@@ -8,7 +8,7 @@ export const data = [
     id: 2,
     desc: "Mary is trying to apply for a job At Eric Owen's Limited. An Audit Firm abroad, to fill the position of an Accountant.",
     img: "https://res.cloudinary.com/dpokiomqq/image/upload/v1666979310/girlunsatisfied_ihixhl.png",
-    style: "pt-40"
+    style: "pt-40",
   },
   {
     id: 3,
@@ -43,5 +43,33 @@ export const data = [
     id: 8,
     desc: "Unsatisfied, Mary went Further to request Verification by her university and (ACCA) respectively.",
     img: "https://res.cloudinary.com/dpokiomqq/image/upload/v1666979267/girlclicksabutton_qdxixn.png",
+  },
+  {
+    id: 9,
+    desc: "The HR manager needs to Verify if the certificates attached to each applicant's CV are authentic.",
+    img: "https://res.cloudinary.com/dpokiomqq/image/upload/v1666979369/manangerhr_zvhnyl.png",
+  },
+  {
+    id: 10,
+    desc: "To reduce the cost and time of the Verification exercise, The HR manager Downloads the regiz APP from the device’s play store.",
+    para: "Created a wallet and signed up Business Account. He then pays a token to confirm the authenticity of each applicant's certificate.",
+    img: "https://res.cloudinary.com/dpokiomqq/image/upload/v1666979372/mandownloadapp_xbbwwb.png",
+  },
+  {
+    id: 11,
+    desc: "A few hours later, the team was able to verify the certificate of each applicant if they are authentic, by inputting the Document ID provided by the applicant on the Regiz document search; on the app.",
+    para: "The first Document they searched popped up with a Notification displaying (Genuine Grade A) I.e., (certificate Genuine and verified.)",
+    img: "https://res.cloudinary.com/dpokiomqq/image/upload/v1666982110/theteam_qowzgo.png",
+  },
+  {
+    id: 12,
+    desc: "The second Document they searched popped up with a Notification displaying (Genuine Grade B) I.e.,( certificate Genuine but unverified.)",
+    para: "The Third Document they searched popped up with a Notification displaying (Invalid) I.e., not uploaded or in-genuine.",
+    img: "https://res.cloudinary.com/dpokiomqq/image/upload/v1666982068/theteamfinal_bbapon.png",
+  },
+  {
+    id: 13,
+    img: "https://res.cloudinary.com/dpokiomqq/image/upload/v1668435270/casual-life-3d-girl-with-boxes-1_duhqch.png",
+    desc: "Eric Owen’s HR Team were able to confirm The authenticity of Mary’s Certificate and Mary got her Dream Job... ",
   },
 ];

@@ -7,7 +7,7 @@ function Regiscoin() {
         Regiscoin
       </h5>
 
-      <div className="flex flex-wrap lg:m-10 m-5 place-items-center gap-5 lg:gap-10  items-center justify-center  ">
+      <div className="grid lg:flex lg:m-10 m-5 place-items-center gap-5 items-center justify-center  ">
         <div
           data-aos="fade-left"
           className="leading-10  m-5 lg:text-start  break-word place-items-center"
@@ -55,7 +55,7 @@ function Regiscoin() {
         </div>
       </div>
 
-      <div className="dark:bg-[#070909]  bg-[#fff] flex flex-wrap justify-center items-center place-items-center">
+      <div className="dark:bg-[#070909]  bg-[#fff] grid lg:flex justify-center items-center place-items-center">
         <div className="justify-center items-center place-items-center h-[600px]">
           <h3 className="lg:text-5xl text-3xl text-center mt-3 dark:text-white font-bold tracking-wide mb-5 pt-5 text-black">
             Token Distribution
