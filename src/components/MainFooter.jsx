@@ -10,7 +10,7 @@ function Contact() {
       name="contact"
       className=" lg:h-[390px] p-6 bg-[#02383C] font-[poppins]"
     >
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 ">
         <div className="p-4">
           <img
             src="https://res.cloudinary.com/dpokiomqq/image/upload/v1671902954/regizlogo_2_ey8kjj.png"
@@ -18,7 +18,7 @@ function Contact() {
             className="w-[80px] bg-black rounded-full px-2 py-2"
           />
           <div>
-            <p className="text-x text-[#FFFEFE] text-[14px] mt-2 leading-[26px] break-words w-full">
+            <p className=" text-[#FFFEFE] text-[14px] mt-2 leading-[26px] break-words w-full">
               Regiz is a Generation Alpha Digital documentation technology
               (DOCUTECH) project that focuses on the authentication,
               verification, and digitization of documents so that they can be
@@ -27,15 +27,15 @@ function Contact() {
           </div>
         </div>
 
-        <div className="p-4 text-center">
-          <h6 className="font-extrabold text-[19px] mb-5 text-white">
+        <div className="p-4  grid lg:justify-center lg:items-center lg:place-items-center lg:text-center">
+          <h6 className="font-[900] text-[19px] mb-5 text-white">
             QUICK NavLinkS
           </h6>
           <ul className="space-y-5">
             <li>
               <NavLink
                 to="/home"
-                className="text-x hover:text-[#100] text-[#FFFEFE] cursor-pointer"
+                className="text-[14px] hover:text-[#100] text-[#FFFEFE] cursor-pointer"
               >
                 Home
               </NavLink>
@@ -45,36 +45,36 @@ function Contact() {
                 to="about"
                 smooth={true}
                 duration={500}
-                className="text-x hover:text-[#100] text-[#FFFEFE] cursor-pointer"
+                className="text-[14px] hover:text-[#100] text-[#FFFEFE] cursor-pointer"
               >
                 About us
               </Navigate>
             </li>
-            <li className="text-x hover:text-[#100] text-[#FFFEFE] cursor-pointer">
+            <li className="text-[14px] hover:text-[#100] text-[#FFFEFE] cursor-pointer">
               <NavLink to="/Careers">Careers</NavLink>
             </li>
-            <li className="text-x hover:text-[#100] text-[#FFFEFE] cursor-pointer">
+            <li className="text-[14px] hover:text-[#100] text-[#FFFEFE] cursor-pointer">
               <NavLink to="/contact">Contact us</NavLink>
             </li>
-            <li className="text-x hover:text-[#100] text-[#FFFEFE] cursor-pointer">
+            <li className="text-[14px] hover:text-[#100] text-[#FFFEFE] cursor-pointer">
               <NavLink to="/faq">FAQs</NavLink>
             </li>
           </ul>
         </div>
 
-        <div className="p-4 text-center">
-          <h6 className="font-extrabold text-[19px] mb-5 text-white">PITCH</h6>
+        <div className="p-4 lg:text-center">
+          <h6 className="font-[900] text-[19px] mb-5 text-white">PITCH</h6>
           <ul>
-            <li className="text-x text-[#FFFEFE]">Blogs</li>
+            <li className="text-[14px] text-[#FFFEFE]">Blogs</li>
           </ul>
         </div>
 
-        <div className="p-4 text-center">
+        <div className="p-4 lg:text-center text-start">
           <div className="lg:justify-center lg:items-center lg:text-center">
-            <p className=" text-white font-bold mb-5 text-xl">
+            <p className=" text-white font-[900] mb-5 text-[19px]">
               Connect with us
             </p>
-            <div className="flex mb-6 lg:justify-center">
+            <div className="flex mb-6 justify-start lg:justify-center">
               <a
                 href="https://facebook.com/Regizofficial"
                 type="button"

@@ -18,7 +18,7 @@ function AllPages() {
         <Benefits />
         <Howitworks />
         <Regiscoin />
-        {/* <Personna/> */}
+        {/* <Personna/>  */}
         <Roadmap />
         <Team />
       </div>

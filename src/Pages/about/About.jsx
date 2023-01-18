@@ -18,11 +18,11 @@ function About() {
             (DOCUTECH) project that focuses on the authentication, verification,
             and digitization of documents so that they can be electronically
             stored more compactly and securely.
-            <p>
+            <span>
               It may be educational certificates or professional certifications,
               computerized receipts, work identification cards, or any suitable
               documents.
-            </p>
+            </span>
           </p>
 
           <div className="content">
@@ -38,12 +38,12 @@ function About() {
               A verification and validation process will be applied to all
               certificate issued by institutions and organizations that are
               registered with the government.
-              <p>
+              <span>
                 {" "}
                 With the owner's permission, third parties can also check up on
                 these documents for confirmation purposes (using the Regiz app).
                 This allows anyone to verify its legitimacy globally.
-              </p>
+              </span>
             </p>
             <p className="sm:text-[14px] text-[20px] lg:text-[1rem] md:text-[1rem] mt-3 lg:leading-10 lg:tracking-wider leading-8 break-word justify-center lg:w-full md:w-[450px]">
               Regiz will be a decentralized application based on blockchain
@@ -58,7 +58,7 @@ function About() {
           </div>
 
           <label
-            for="check"
+            htmlFor="check"
             className="px-3 py-3 rounded-full text-white  bg-[#02383C] hover:animate-bounce"
           >
             READ MORE
