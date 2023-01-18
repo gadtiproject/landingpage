@@ -362,7 +362,7 @@ function Navbar() {
           className={
             !nav
               ? "hidden"
-              : "absolute w-full shadow-full mt-[429px] cursor-pointer bg-white"
+              : "absolute w-full shadow-full mt-[399px] cursor-pointer bg-white"
           }
         >
           <div className="flex flex-col">
