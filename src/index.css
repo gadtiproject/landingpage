@@ -285,3 +285,21 @@ svg{
 .react-multiple-carousel__arrow {
   background-color: #02383C;
 }
+
+.react-multi-carousel-track{
+  place-items:center;
+}
+
+.react-multi-carousel-item--active{
+  transform: scale(1.1);
+  /* transition: all 0.3s ease-out; */
+}
+
+.react-multi-carousel-item{
+  transform: scale(0.9);
+  transition: all 0.3s ease-out;
+}
+
+.react-multi-carousel-dot-list {
+  bottom: -10px !important;
+}

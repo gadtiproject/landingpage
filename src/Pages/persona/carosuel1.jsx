@@ -9,11 +9,11 @@ function Carousel1() {
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
       items: 3,
-      slidesToSlide: 3, // optional, default to 1.
+      slidesToSlide: 1, // optional, default to 1.
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
-      items: 2,
+      items: 1,
       slidesToSlide: 2, // optional, default to 1.
     },
     mobile: {
@@ -23,20 +23,19 @@ function Carousel1() {
     },
   };
   return (
-    <div className="mx-auto">
-      <Carousel responsive={responsive} className="mb-14  m-10">
+    <div className="mx-auto w-[80%] relative">
+      <Carousel
+        responsive={responsive}    
+        showDots={true}
+      >
         {data.map(({ id, img, desc, para }) => {
           return (
-            <div key={id}>
-              <div className="max-w-sm rounded-lg shadow-lg h-[500px]  bg-white">
-                <div className="w-full h-72 overflow-hidden flex items-center justify-center object-cover">
-                  <img className="h-full" src={img} alt={desc} />
-                </div>
-                <div className="px-6 py-4">
-                  <p className="text-gray-700 text-base">{desc}</p>
-                  <p className="text-gray-700 text-base">{para}</p>
-                </div>
+            <div className="rounded-lg shadow-lg p-5  bg-white " key={id}>
+              <div className="w-80 h-44 overflow-hidden flex justify-center mb-2">
+                <img src={img} alt={desc} />
               </div>
+              <p className="text-gray-500 text-base leading-6 ">{desc}</p>
+              <p className="text-gray-500 text-base leading-6 ">{para}</p>
             </div>
           );
         })}
