@@ -7,22 +7,22 @@ import Howitworks from "./how/Howitworks";
 import Regiscoin from "./regiscoin/Regiscoin";
 import Roadmap from "./roadmap/Roadmap";
 import Team from "./team/Team";
-// import Personna from "./persona/Personna"
+import Personna from "./persona/Personna"
 function AllPages() {
   return (
-    <div className="justify-center items-center grid place-items-center w-[100%]">
+    //  <div className="justify-center items-center flex w-[100%]">
       <div>
-        <Dashboard />
+         <Dashboard />
         <About />
         <Features />
         <Benefits />
         <Howitworks />
-        <Regiscoin />
-        {/* <Personna/>  */}
+        <Regiscoin /> 
+        <Personna/> 
         <Roadmap />
         <Team />
       </div>
-    </div>
+    //</div>
   );
 }
 

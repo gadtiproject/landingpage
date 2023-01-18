@@ -8,6 +8,7 @@ export const data = [
     id: 2,
     desc: "Mary is trying to apply for a job At Eric Owen's Limited. An Audit Firm abroad, to fill the position of an Accountant.",
     img: "https://res.cloudinary.com/dpokiomqq/image/upload/v1666979310/girlunsatisfied_ihixhl.png",
+    style: "pt-40"
   },
   {
     id: 3,

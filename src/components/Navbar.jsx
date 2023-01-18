@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from "react";
 import { Link, animateScroll as scroll } from "react-scroll";
-import { NavLink } from "react-router-dom"
 import { FiMenu } from "react-icons/fi";
 import { AiOutlineClose } from "react-icons/ai";
+
 function Navbar() {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
   const handleClose = () => setNav(!nav);
-  const [theme, setTheme] = useState(localStorage.getItem("theme") || null);
+  const [theme, setTheme] = useState(localStorage.getItem("theme") || "");
 
   const handleThemeSwitch = () => {
     const newTheme = theme === "dark" ? "light" : "dark";
@@ -591,7 +591,7 @@ function Navbar() {
                           smooth={true}
                           offset={-50}
                           duration={500}
-                          class=" dropdown-item
+                          className=" dropdown-item
                                           text-sm
                                           py-2
                                           px-4

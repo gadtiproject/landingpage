@@ -10,7 +10,7 @@ function Benefits() {
         BENEFITS
       </h1>
 
-      <div className=" font-[poppins] " data-aos="fade-up">
+      <div className=" font-[poppins] " >
         <div className="lg:m-10 m-5 lg:flex place-items-center items-center justify-center margin-auto xl:gap-20 lg:gap-10">
           <div className="gap-5">
             <div className="flex md:grid-cols-2">

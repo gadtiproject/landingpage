@@ -1,4 +1,5 @@
 import React from "react";
+import Items from "./items";
 import Carousel1 from './carosuel1';
 function Personna() {
   return (
@@ -8,6 +9,7 @@ function Personna() {
       </h1>
       <div>
         <Carousel1/>
+        {/* <Items/> */}
       </div>
     </div>
   );

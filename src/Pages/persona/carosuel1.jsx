@@ -1,78 +1,81 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { data } from "./partAData";
+import { items } from "./partbData";
+import { partcData } from "./partcData";
 
 function Carousel1() {
+  const responsive = {
+    desktop: {
+      breakpoint: { max: 3000, min: 1024 },
+      items: 3,
+      slidesToSlide: 3, // optional, default to 1.
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 464 },
+      items: 2,
+      slidesToSlide: 2, // optional, default to 1.
+    },
+    mobile: {
+      breakpoint: { max: 464, min: 0 },
+      items: 1,
+      slidesToSlide: 1, // optional, default to 1.
+    },
+  };
   return (
-    <div>
-      <Carousel
-        additionalTransfrom={0}
-        arrows
-        autoPlaySpeed={3000}
-        centerMode={false}
-        className=""
-        containerClass="container"
-        dotListClass=""
-        draggable
-        focusOnSelect={false}
-        infinite={false}
-        itemClass=""
-        keyBoardControl
-        minimumTouchDrag={80}
-        pauseOnHover
-        renderArrowsWhenDisabled={false}
-        renderButtonGroupOutside={false}
-        renderDotsOutside={false}
-        responsive={{
-          desktop: {
-            breakpoint: {
-              max: 3000,
-              min: 1024,
-            },
-            items: 3,
-            partialVisibilityGutter: 40,
-          },
-          mobile: {
-            breakpoint: {
-              max: 464,
-              min: 0,
-            },
-            items: 1,
-            partialVisibilityGutter: 30,
-          },
-          tablet: {
-            breakpoint: {
-              max: 1024,
-              min: 464,
-            },
-            items: 2,
-            partialVisibilityGutter: 30,
-          },
-        }}
-        rewind={false}
-        rewindWithAnimation={false}
-        rtl={false}
-        shouldResetAutoplay
-        showDots={false}
-        sliderClass=""
-        slidesToSlide={1}
-        swipeable
-      >
-        <div>
-          {data.map(({ id, img, desc, para }) => {
+    <div className="mx-auto">
+      <Carousel responsive={responsive} className="mb-14  m-10">
+        {data.map(({ id, img, desc, para }) => {
+          return (
             <div key={id}>
-              <div class="max-w-sm rounded overflow-hidden shadow-lg bg-slate-300">
-                <img class="w-full" src={img} alt="regiz images" />
-                <div class="px-6 py-4">
-                  <div class="font-bold text-xl mb-2">{desc}</div>
-                  <p class="text-gray-700 text-base">{para}</p>
+              <div className="max-w-sm rounded-lg shadow-lg h-[500px]  bg-white">
+                <div className="w-full h-72 overflow-hidden flex items-center justify-center object-cover">
+                  <img className="h-full" src={img} alt={desc} />
+                </div>
+                <div className="px-6 py-4">
+                  <p className="text-gray-700 text-base">{desc}</p>
+                  <p className="text-gray-700 text-base">{para}</p>
                 </div>
               </div>
             </div>
-          })}
-        </div>
-        
+          );
+        })}
       </Carousel>
+
+      {/* <Carousel responsive={responsive} className="mb-14 bg-[red] m-10">
+        {items.map(({ id, image, des, text }) => {
+          return (
+            <div key={id}>
+              <div className="max-w-sm rounded-lg shadow-lg h-[500px]  bg-white">
+                <div className="w-full h-72 overflow-hidden flex items-center justify-center object-cover">
+                  <img className=" h-full " src={image} alt={des} />
+                </div>
+                <div className="px-6 py-4">
+                  <p className="text-gray-700 text-base">{des}</p>
+                  <p className="text-gray-700 text-base">{text}</p>
+                </div>
+              </div>
+            </div>
+          );
+        })}
+      </Carousel>
+
+      <div>
+        {partcData.map(({ id, imgUrl, title }) => {
+          return (
+            <div key={id}>
+              <div className="max-w-sm rounded-lg shadow-lg h-[500px]  bg-white">
+                <div className="w-full h-72 overflow-hidden flex items-center justify-center object-cover">
+                  <img className=" h-full " src={imgUrl} alt={title} />
+                </div>
+                <div className="px-6 py-4">
+                  <p className="text-gray-700 text-base">{title}</p>
+                </div>
+              </div>
+            </div>
+          );
+        })}
+      </div> */}
     </div>
   );
 }

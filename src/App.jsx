@@ -54,18 +54,7 @@ function App() {
               </Route>
             </Routes>
           </Router>
-          {/* <Router>
-            <Routes>
-              <Route path="/" element={<Home />} />
-              <Route path="/contact" element={
-              <React.Suspense fallback='Loading...'>
-               <LazyContact />
-              </React.Suspense>
-              } /> 
-              <Route path="/faq" element={<Faqs />} />
-              <Route path="/careers" element={<CareerPage />} />
-            </Routes>
-          </Router> */}
+          
         </div>
       </div>
     </>

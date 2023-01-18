@@ -13,10 +13,10 @@ function Roadmap() {
         Project roadmap for the year 2022/23
       </p>
 
-      <div class="roadmap lg:m-10 grid lg:grid-cols-3 place-items-center justify-center items-center">
+      <div className="roadmap lg:m-10 grid lg:grid-cols-3 place-items-center justify-center items-center">
         <div className="flex place-items-center justify-center items-center">
-          <div class="roadmap__milestone w-[300px] lg:w-[400px] lg:h-[300px] bg-[#02383C] dark:bg-white">
-            <div class="roadmap__milestone-description">
+          <div className="roadmap__milestone w-[300px] lg:w-[400px] lg:h-[300px] bg-[#02383C] dark:bg-white">
+            <div className="roadmap__milestone-description">
               <p className="text-end text-white dark:text-black date">
                 Q4 - 2022
               </p>
@@ -38,9 +38,9 @@ function Roadmap() {
         </div>
 
         <div className="flex place-items-center justify-center items-center">
-          <div class="roadmap__milestone w-[300px] lg:w-[400px] lg:h-[300px] overflow-scroll bg-[#02383C] dark:bg-white">
+          <div className="roadmap__milestone w-[300px] lg:w-[400px] lg:h-[300px] overflow-scroll bg-[#02383C] dark:bg-white">
             <div className="flex place-items-center justify-center items-center">
-              <div class="roadmap__milestone-description">
+              <div className="roadmap__milestone-description">
                 <p className="text-end text-white dark:text-black date">
                   Q1 - 2023
                 </p>
@@ -69,8 +69,8 @@ function Roadmap() {
         </div>
 
         <div className="flex place-items-center justify-center items-center">
-          <div class="roadmap__milestone w-[300px] lg:w-[400px] lg:h-[300px] overflow-scroll bg-[#02383C] dark:bg-white">
-            <div class="roadmap__milestone-description">
+          <div className="roadmap__milestone w-[300px] lg:w-[400px] lg:h-[300px] overflow-scroll bg-[#02383C] dark:bg-white">
+            <div className="roadmap__milestone-description">
               <h5 className="text-end text-white dark:text-black date">
                 Q2 - 2023
               </h5>
@@ -102,8 +102,8 @@ function Roadmap() {
         </div>
 
         <div className="flex place-items-center justify-center items-center">
-          <div class="roadmap__milestone w-[300px] lg:w-[400px] lg:h-[300px] overflow-scroll bg-[#02383C] dark:bg-white">
-            <div class="roadmap__milestone-description">
+          <div className="roadmap__milestone w-[300px] lg:w-[400px] lg:h-[300px] overflow-scroll bg-[#02383C] dark:bg-white">
+            <div className="roadmap__milestone-description">
               <h5 className="text-end text-white dark:text-black date">
                 Q3 -2023
               </h5>
@@ -150,8 +150,8 @@ function Roadmap() {
           <span className="arrow-right"></span>
         </div>
 
-        <div class="roadmap__milestone w-[300px] lg:w-[400px] lg:h-[300px] bg-[#02383C] dark:bg-white">
-          <div class="roadmap__milestone-description">
+        <div className="roadmap__milestone w-[300px] lg:w-[400px] lg:h-[300px] bg-[#02383C] dark:bg-white">
+          <div className="roadmap__milestone-description">
             <h5 className="text-end text-white dark:text-black date">
               Q4 - 2023
             </h5>
