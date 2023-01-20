@@ -10,9 +10,9 @@ function Contact() {
       name="contact"
       className=" lg:h-[320px] p-6 bg-[#02383C] font-[poppins]"
     >
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 ">
-        <div className="p-4 flex">
-          <div className="w-[700px]">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+        <div className="p-4 lg:flex mb-3">
+          <div className="w-[700px] mb-5">
             <img
               src="https://res.cloudinary.com/dpokiomqq/image/upload/v1671902954/regizlogo_2_ey8kjj.png"
               alt="regiz logo"
@@ -171,7 +171,7 @@ function Contact() {
             </div>
           </div>
 
-          <div className="mb-3 text-white text-center mt-32">
+          <div className="mb-3 text-white lg:text-center lg:mt-32">
             <span className="hover:underline">Privacy |</span>
             <span className="hover:underline"> Terms</span>
           </div>
