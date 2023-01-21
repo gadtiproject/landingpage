@@ -66,10 +66,10 @@ function Contact() {
           <h6 className="font-[900] text-[19px] mb-5 text-white">CONTACT US</h6>
           <ul className="space-y-5">
             <li className="text-[14px] hover:text-[#100] text-[#FFFEFE] cursor-pointer">
-              <NavLink to="/Careers">Careers</NavLink>
+              <NavLink to="/contact">Contact</NavLink>
             </li>
             <li className="text-[14px] hover:text-[#100] text-[#FFFEFE] cursor-pointer">
-              <NavLink to="/contact">Contact</NavLink>
+              <NavLink to="/Careers">Careers</NavLink>
             </li>
           </ul>
         </div>
@@ -171,9 +171,10 @@ function Contact() {
             </div>
           </div>
 
-          <div className="mb-3 text-white lg:text-center lg:mt-32">
+          <div className="mb-3 text-white lg:text-center lg:mt-28">
             <span className="hover:underline">Privacy |</span>
             <span className="hover:underline"> Terms</span>
+            <p className="mt-3">© 2023 Copyright Regiz LLC</p>
           </div>
         </div>
       </div>
