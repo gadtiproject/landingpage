@@ -29,24 +29,24 @@ function Regiscoin() {
           className="mt-5 lg:mt-0 flex items-center justify-center place-items-center"
           data-aos="fade-up"
         >
-          <div className=" bg-[#02383C] text-center mx-5 mb-3 rounded-lg h-[350px] w-[300px] md:w-[400px]  lg:w-[500px]">
-            <div className="p-6">
-              <div className="flex text-white justify-between m-5 text-xl hover:animate-pulse transition-colors duration-200">
+          <div className=" bg-[#02383C] text-center mx-5 mb-3 rounded-lg h-[300px] w-[300px] md:w-[400px]  lg:w-[500px]">
+            <div className="p-2">
+              <div className="flex text-white justify-between m-5 text-x hover:animate-pulse transition-colors duration-200">
                 <p>Token Name</p>
                 <p className="text-end">Regis coin</p>
               </div>
               <hr className="border-black border-1" />
-              <div className="flex text-white gap-5 justify-between m-5 text-xl hover:animate-pulse hover:text-white transition-colors duration-200">
+              <div className="flex text-white gap-5 justify-between m-5 text-x hover:animate-pulse hover:text-white transition-colors duration-200">
                 <p>Symbol</p>
                 <p>rgz</p>
               </div>
               <hr className="border-black border-1" />
-              <div className="flex text-white gap-5 justify-between m-5 text-xl hover:animate-pulse hover:text-white transition-colors duration-200">
+              <div className="flex text-white gap-5 justify-between m-5 text-x hover:animate-pulse hover:text-white transition-colors duration-200">
                 <p>Token Supply</p>
                 <p>100 billion</p>
               </div>
               <hr className="border-black border-1" />
-              <div className="flex text-white gap-5 justify-between m-5 text-xl hover:animate-pulse hover:text-white transition-colors duration-200">
+              <div className="flex text-white gap-5 justify-between m-5 text-x hover:animate-pulse hover:text-white transition-colors duration-200">
                 <p>Total in Circulation</p>
                 <p>57%</p>
               </div>
@@ -119,7 +119,7 @@ function Regiscoin() {
           </div>
         </div>
 
-        <div className="justify-center items-center place-items-center h-[600px]">
+        <div className="justify-center items-center place-items-center lg:h-[600px]">
           <h3 className="lg:text-5xl text-3xl text-center mt-3 dark:text-white font-bold tracking-wide mb-5 pt-5 text-black">
             Taxes
           </h3>

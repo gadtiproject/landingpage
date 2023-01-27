@@ -31,7 +31,7 @@ function Carousel1() {
           return (
             <div className="rounded-lg shadow-lg p-5  bg-white " key={id}>
               <div className="w-80 h-44 overflow-hidden flex justify-center mb-2">
-                <img src={img} alt={desc} />
+                <img src={img} alt={desc} className="h-full w-auto"/>
               </div>
               <p className="text-gray-500 text-base leading-6 ">{desc}</p>
               <p className="text-gray-500 text-base leading-6 ">{para}</p>

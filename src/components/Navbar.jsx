@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link, animateScroll as scroll } from "react-scroll";
+import { NavLink } from "react-router-dom";
 import { FiMenu } from "react-icons/fi";
 import { AiOutlineClose } from "react-icons/ai";
 
@@ -47,11 +48,15 @@ function Navbar() {
         </div>
         {/* Links for desxtop */}
         <ul className="gap-8 lg:mx-40 md:mx-[80px] xxl:mx-[900px]  uppercase md:flex hidden lg:flex mt-3">
-          <li className="line hover:text-[#66CC7B] text-[#fff] cursor-pointer ">
-            Home
+          <li className="line hover:text-[#66CC7B] text-[#fff] cursor-pointer">
+            <Link to="home" smooth={true} duration={500}>
+              Home
+            </Link>
           </li>
           <li className="line mb-2 hover:text-[#66CC7B] text-[#fff] cursor-pointer ">
-            About
+            <Link to="about" smooth={true} duration={500}>
+              About
+            </Link>
           </li>
           <li>
             <div className="dropdown relative">
@@ -564,7 +569,30 @@ function Navbar() {
                       <li>
                         <Link
                           onClick={handleClose}
-                          to="Regiscoin"
+                          to="how"
+                          smooth={true}
+                          offset={-50}
+                          duration={500}
+                          className=" dropdown-item
+                                          text-sm
+                                          py-2
+                                          px-4
+                                          font-normal
+                                          block
+                                          w-full
+                                          uppercase
+                                          whitespace-nowrap
+                                          bg-transparent
+                                          text-gray-700
+                                          hover:bg-gray-100"
+                        >
+                          HOW IT WORKS
+                        </Link>
+                      </li>
+                      <li>
+                        <Link
+                          onClick={handleClose}
+                          to="regiscoin"
                           smooth={true}
                           offset={-50}
                           duration={500}
@@ -587,7 +615,7 @@ function Navbar() {
                       <li>
                         <Link
                           onClick={handleClose}
-                          to="how"
+                          to="persona"
                           smooth={true}
                           offset={-50}
                           duration={500}
@@ -598,13 +626,12 @@ function Navbar() {
                                           font-normal
                                           block
                                           w-full
-                                          uppercase
                                           whitespace-nowrap
                                           bg-transparent
                                           text-gray-700
                                           hover:bg-gray-100"
                         >
-                          How it works
+                          Personna
                         </Link>
                       </li>
                       <li>
@@ -621,44 +648,19 @@ function Navbar() {
                                           font-normal
                                           block
                                           w-full
-                                          whitespace-nowrap
-                                          bg-transparent
-                                          text-gray-700
-                                          hover:bg-gray-100"
-                        >
-                          TEAM
-                        </Link>
-                      </li>
-                      <li>
-                        <Link
-                          onClick={handleClose}
-                          to="persona"
-                          smooth={true}
-                          offset={-50}
-                          duration={500}
-                          className=" dropdown-item
-                                          text-sm
-                                          py-2
-                                          px-4
-                                          font-normal
-                                          block
-                                          w-full
                                           uppercase
                                           whitespace-nowrap
                                           bg-transparent
                                           text-gray-700
                                           hover:bg-gray-100"
                         >
-                          Persona
+                          Team
                         </Link>
                       </li>
                       <li>
-                        <Link
+                        <NavLink
+                          to="/faq"
                           onClick={handleClose}
-                          to="faq"
-                          smooth={true}
-                          offset={-50}
-                          duration={500}
                           className=" dropdown-item
                                           text-sm
                                           py-2
@@ -673,7 +675,7 @@ function Navbar() {
                                           hover:bg-gray-100"
                         >
                           FAQ
-                        </Link>
+                        </NavLink>
                       </li>
                     </ul>
                   </div>
