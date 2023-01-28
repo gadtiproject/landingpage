@@ -29,7 +29,7 @@ function Carousel1() {
       >
         {data.map(({ id, img, desc, para }) => {
           return (
-            <div className="rounded-lg shadow-lg p-5  bg-white " key={id}>
+            <div className="rounded-lg shadow-lg p-[50px]  bg-white" key={id}>
               <div className="w-80 h-44 overflow-hidden flex justify-center mb-2">
                 <img src={img} alt={desc} className="h-full w-auto"/>
               </div>

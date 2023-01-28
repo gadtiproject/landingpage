@@ -74,18 +74,17 @@ function Contactus() {
                 <div className="flex gap-[50px] mt-8 place-items-center items-center">
                   <HiMail className="text-5xl fill-[#02383C]" />
                   <div className="flex flex-col gap-5">
-                    <p className="font-bold text-xl">Reach out to us</p>
                     <a
                       href="mailto:info@regiz.io"
                       className="hover:text-[#02383C] cursor-pointer"
                     >
-                      info@regis.io
+                      info@regiz.io
                     </a>
                     <a
                       href="mailto:support@regiz.io"
                       className="hover:text-[#02383C] cursor-pointer"
                     >
-                      support@regis.io
+                      support@regiz.io
                     </a>
                   </div>
                 </div>
@@ -93,7 +92,6 @@ function Contactus() {
                 <div className="flex gap-[50px] mt-8 place-items-center items-center">
                   <HiPhone className="text-5xl fill-[#02383C]" />
                   <div className="flex flex-col gap-5">
-                    <p className="font-bold text-xl">Phone</p>
                     <a href="tel:08032113990" className="hover:text-[#02383C]">
                       +2348032113990
                     </a>

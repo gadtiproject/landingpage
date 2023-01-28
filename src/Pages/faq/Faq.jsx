@@ -1,7 +1,12 @@
 import React from "react";
+import SimpleAccordion from "../../components/Accordion";
 
 function Faq() {
-  return <div className="faq">Faq</div>;
+  return (
+    <div className="faq">
+      <SimpleAccordion />
+    </div>
+  );
 }
 
 export default Faq;

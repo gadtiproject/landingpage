@@ -10,7 +10,6 @@ import Team from "./team/Team";
 import Personna from "./persona/Personna"
 function AllPages() {
   return (
-    //  <div className="justify-center items-center flex w-[100%]">
       <div>
          <Dashboard />
         <About />
@@ -22,7 +21,6 @@ function AllPages() {
         <Roadmap />
         <Team />
       </div>
-    //</div>
   );
 }
 
