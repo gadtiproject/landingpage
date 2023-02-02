@@ -28,17 +28,14 @@ body{
   border-left-color: #02383C;
 }
 
-
 .words{
-  text-align:justify;
-  word-break:keep-all;
-  word-spacing: -2px;
+    word-spacing: -1px;
+
+}
+.justify{
+  word-spacing: -10px;
 }
 
-.word-about{
-  text-align:justify;
-  word-break:keep-all;
-}
 
 
 #check{

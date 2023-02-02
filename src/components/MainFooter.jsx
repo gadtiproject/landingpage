@@ -21,7 +21,7 @@ function Contact() {
           </div>
 
           <div>
-            <p className=" text-[#FFFEFE] text-[14px] leading-[26px] break-words w-full">
+            <p className=" text-[#FFFEFE] text-justify  lg:justify w-full">
               Regiz is a Generation Alpha Digital documentation technology
               (DOCUTECH) project that focuses on the authentication,
               verification, and digitization of documents so that they can be
