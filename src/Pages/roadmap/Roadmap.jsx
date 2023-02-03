@@ -104,7 +104,6 @@ function Roadmap() {
         responsive={responsive}
         focusOnSelect={false}
         infinite
-        className="h-[500px]"
       >
         {data.map(
           ({
