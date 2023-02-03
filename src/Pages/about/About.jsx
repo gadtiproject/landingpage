@@ -12,7 +12,8 @@ function About() {
           <input type="checkbox" id="check" />
 
           <p className="sm:text-[14px] text-[18px] lg:text-[1rem] md:text-[1rem] text-justify  mt-3 lg:leading-10 lg:tracking-wider  words justify-center lg:w-full">
-            Regiz is a Generation Alpha Digital documentation technology (DOCUTECH) project that focuses on the authentication, verification, and digitization of documents so that they can be electronically
+            Regiz is a Generation Alpha Digital documentation technology (DOCUTECH) project that focuses on the authentication, verification, 
+            and digitization of documents so that they can be electronically
             stored more compactly and securely.
             <span className="mx-3">
               It may be educational certificates or professional certifications,
