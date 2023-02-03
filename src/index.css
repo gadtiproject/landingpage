@@ -30,12 +30,11 @@ body{
 
 .words{
     word-spacing: -1px;
-
 }
+
 .justify{
-  word-spacing: -10px;
+  word-spacing: -1.8px;
 }
-
 
 
 #check{
