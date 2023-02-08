@@ -2,8 +2,9 @@ import React from "react";
 
 function About() {
   return (
-    <div name="about" className="pt-[70px] dark:bg-[#070909] bg-white">
-      <h1 className="lg:text-5xl text-3xl dark:text-white text-black text-center mt-3 font-bold tracking-wide mb-5 pt-5">
+    <div name="about" className="pt-[3%] dark:bg-[#070909] bg-white">
+      
+      <h1 className="lg:text-5xl text-3xl dark:text-white text-black text-center mt-3 font-bold tracking-wide ">
         About Regiz
       </h1>
 
@@ -11,7 +12,7 @@ function About() {
         <div className="box place-items-center lg:text-start text-center justify-center items-center m-10 lg:w-[950px] md:w-[500px] w-[300px] ">
           <input type="checkbox" id="check" />
 
-          <p className="sm:text-[14px] text-[18px] lg:text-[1rem] md:text-[1rem] text-justify  mt-3 lg:leading-10 lg:tracking-wider  words justify-center lg:w-full">
+          <p className="sm:text-[14px] text-[18px] lg:text-[1rem] md:text-[1rem] text-justify lg:leading-10 lg:tracking-wider  words justify-center lg:w-full">
             Regiz is a Generation Alpha Digital documentation technology (DOCUTECH) project that focuses on the authentication, verification, 
             and digitization of documents so that they can be electronically
             stored more compactly and securely.
