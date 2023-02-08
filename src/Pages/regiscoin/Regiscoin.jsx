@@ -1,10 +1,10 @@
 import React from "react";
 
-function Regiscoin() {
+function Regizcoin() {
   return (
-    <div name="Regiscoin" className="pt-5 dark:bg-[#070909] bg-gray-100 ">
+    <div name="Regizcoin" className="pt-5 dark:bg-[#070909] bg-gray-100 ">
       <h5 className="lg:text-5xl text-3xl text-center dark:text-white text-black font-bold tracking-wide mb-5 pt-5">
-        Regiscoin
+        Regizcoin
       </h5>
 
       <div className="grid lg:flex lg:m-10 m-5 place-items-center gap-5 items-center justify-center  ">
@@ -13,13 +13,13 @@ function Regiscoin() {
           className="leading-10  m-5 lg:text-start  break-word place-items-center"
         >
           <p className=" dark:text-white text-black  text-xl  lg:text-2xl w-[320px] md:w-[400px] lg:w-[500px]">
-            Regiscoin is a token owned by Regiz LLC.
+            Regizcoin is a token owned by Regiz LLC.
           </p>
 
           <p className="dark:text-white text-black mt-3  text-[1.2rem] lg:leading-[52px] leading-10 text-justify lg:text-xl w-[310px] md:w-[400px] lg:w-[600px] break-word">
-            Regiscoin will be used for payments to access services on the
+            Regizcoin will be used for payments to access services on the
             platform. Either on the Documentation Technology platform or Social
-            Marketplace, Regiscoin will be our acceptable transaction currency.
+            Marketplace, Regizcoin will be our acceptable transaction currency.
             The purpose of the coin is for easy accessibility and usage of the
             platform, It makes the platform accessible to users globally.
           </p>
@@ -33,7 +33,7 @@ function Regiscoin() {
             <div className="p-2">
               <div className="flex text-white justify-between m-5 text-x hover:animate-pulse transition-colors duration-200">
                 <p>Token Name</p>
-                <p className="text-end">Regis coin</p>
+                <p className="text-end">Regiz coin</p>
               </div>
               <hr className="border-black border-1" />
               <div className="flex text-white gap-5 justify-between m-5 text-x hover:animate-pulse hover:text-white transition-colors duration-200">
@@ -101,10 +101,10 @@ function Regiscoin() {
               ></div>
             </div>
 
-            <p className="dark:text-white text-black text-xl">Locked 3%</p>
+            <p className="dark:text-white text-black text-xl">Locked 18%</p>
             <div className="w-full shadow bg-[#323F52] mt-5 rounded-lg">
               <div
-                className="bg-cyan-500 rounded-lg text-xs leading-none py-[2px] mb-3 text-center text-white w-12 lg:w-[3%]"
+                className="bg-cyan-500 rounded-lg text-xs leading-none py-[2px] mb-3 text-center text-white w-12 lg:w-[18%]"
                 data-aos="slide-right"
               ></div>
             </div>
@@ -166,4 +166,4 @@ function Regiscoin() {
   );
 }
 
-export default Regiscoin;
+export default Regizcoin;
