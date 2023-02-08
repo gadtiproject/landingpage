@@ -29,7 +29,7 @@ function Howitworks() {
                 <FaStarOfLife className="lg:text-xl text-x" />
               </div>
               <li className="mx-4 dark:text-[#fff] text-black text-x tracking-wide leading-8  lg:text-xl text-sm">
-                Launch the app and connect your wallet E.g., Meta mask, Trust
+                Launch the app and connect your wallet E.g., Metamask, Trust
                 wallet.
               </li>
             </div>
@@ -68,7 +68,7 @@ function Howitworks() {
                 <FaStarOfLife className="lg:text-xl text-x" />
               </div>
               <li className="mx-4 dark:text-[#fff] text-black text-x tracking-wide leading-8  lg:text-xl text-sm">
-                Proceed to Verify the document from issuing body and upgrade to
+                Proceed to verify the document from issuing body and upgrade to
                 (Grade A) Genuine Verified.
               </li>
             </div>
@@ -76,7 +76,7 @@ function Howitworks() {
 
           <ul className="text-black lg:h-[500px] lg:w-[600px]">
             <h3 className="lg:text-3xl text-2xl dark:text-[#fff] text-black mb-7 font-bold text-start">
-              Social market place
+              Social marketplace
             </h3>
 
             <div className="flex mt-3">
@@ -84,7 +84,7 @@ function Howitworks() {
                 <FaStarOfLife className="lg:text-xl text-x fill-white" />
               </div>
               <li className="mx-4 dark:text-[#fff] text-black tracking-wide leading-8  lg:text-xl  text-sm">
-                Download the Regiz Dapp from your App/Play Store or Visit
+                Download the Regiz Dapp from your App/Play store or visit
                 regiz.io from your web browser.
               </li>
             </div>
@@ -94,7 +94,7 @@ function Howitworks() {
                 <FaStarOfLife className="lg:text-xl text-x" />
               </div>
               <li className="mx-4 dark:text-[#fff] text-black text-x tracking-wide leading-8  lg:text-xl text-sm">
-                Launch the app and connect your wallet E.g., Meta mask, Trust
+                Launch the app and connect your wallet E.g., Metamask, Trust
                 wallet
               </li>
             </div>

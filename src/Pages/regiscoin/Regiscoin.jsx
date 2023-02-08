@@ -33,22 +33,22 @@ function Regizcoin() {
             <div className="p-2">
               <div className="flex text-white justify-between m-5 text-x hover:animate-pulse transition-colors duration-200">
                 <p>Token Name</p>
-                <p className="text-end">Regiz coin</p>
+                <p className="text-end uppercase">Regiz coin</p>
               </div>
               <hr className="border-black border-1" />
               <div className="flex text-white gap-5 justify-between m-5 text-x hover:animate-pulse hover:text-white transition-colors duration-200">
                 <p>Symbol</p>
-                <p>rgz</p>
+                <p className="uppercase">rgz</p>
               </div>
               <hr className="border-black border-1" />
               <div className="flex text-white gap-5 justify-between m-5 text-x hover:animate-pulse hover:text-white transition-colors duration-200">
                 <p>Token Supply</p>
-                <p>100 billion</p>
+                <p>100 Billions</p>
               </div>
               <hr className="border-black border-1" />
               <div className="flex text-white gap-5 justify-between m-5 text-x hover:animate-pulse hover:text-white transition-colors duration-200">
                 <p>Total in Circulation</p>
-                <p>57%</p>
+                <p>67%</p>
               </div>
             </div>
           </div>

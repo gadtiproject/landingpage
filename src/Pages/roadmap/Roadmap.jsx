@@ -31,6 +31,7 @@ function Roadmap() {
       sub3: "Kyc verification",
       sub4: "Q&A",
       sub5: "Contract Audit",
+      sub6: " Token pre-sale",
     },
     {
       id: 2,
@@ -50,11 +51,10 @@ function Roadmap() {
       para1: "Market campaign",
       sub1: "We will start our marketing listing",
       sub2: "Our contract will get audited by TBD",
-      para2: "Multi-network profiles",
       sub3: "Track on ETH & BSC Networks",
-      para3: "Staking dapp",
+      para2: "Staking dapp",
       sub4: "Reward for regiscoin",
-      para4: "Learning Pad",
+      para3: "Learning Pad",
       sub5: "Community learning center for cryptocurrencies and tokens",
     },
     {
@@ -86,8 +86,7 @@ function Roadmap() {
       sub3: "Addition of issuing organization",
       sub4: "  Additional Features",
       sub5: "Launch Nft Market place",
-      para2: "GET STARTED",
-      sub6: " Token pre-sale",
+      para2: "GET STARTED",    
     },
   ];
 
