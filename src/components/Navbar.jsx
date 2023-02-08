@@ -363,10 +363,14 @@ function Navbar() {
         </div>
 
         <div className="z-10 top-0 flex bg-white dark:bg-black dark:text-white text-black drop-shadow-lg justify-between p-1">
+         <div className="flex">
           <img
             src="https://res.cloudinary.com/dpokiomqq/image/upload/v1671902954/regizlogo_2_ey8kjj.png"
             className="w-[70px]"
           />
+          <h1 className="text-3xl mt-3">Regiz</h1>
+         </div>
+          
           <div
             className="cursor-pointer flex items-center justify-center pr-2"
             onClick={handleClick}

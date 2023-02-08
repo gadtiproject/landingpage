@@ -11,7 +11,7 @@ function Home() {
         />
 
         <div className="lg:pt-[5%] pt-[10%] text-center">
-          <button className="rounded-full py-6 px-5 lg:w-[300px] w-[200px] text-white dark:text-white hover:text-black hover:dark:text-white bg-[#02383C] hover:bg-transparent hover:border-2 hover:dark:border-white hover:border-[#070909] transistion-all duration-300">
+          <button className="rounded-full py-5 px-4 lg:w-[300px] w-[200px] text-white dark:text-white hover:text-black hover:dark:text-white bg-[#02383C] hover:bg-transparent hover:border-2 hover:dark:border-white hover:border-[#070909] transistion-all duration-300">
             GET STRATED
           </button>
         </div>
