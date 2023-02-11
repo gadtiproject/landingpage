@@ -61,26 +61,30 @@ function Regizcoin() {
             Token Distribution
           </h3>
           <div className="lg:m-20 text-start m-5 md:w-[500px] lg:w-[540px] w-[360px]">
-            <p className="dark:text-white text-black text-xl">Presale 12%</p>
+            <p className="dark:text-white text-black text-xl">
+              Private Sales 1%
+            </p>
             <div className="w-full shadow bg-[#323F52] mt-3 rounded-lg">
               <div
-                className="bg-blue-500 rounded-lg text-xs leading-none py-[2px] mb-3 text-center dark:text-white text-black w-20 lg:w-[12%]"
+                className="bg-blue-500 rounded-lg text-xs leading-none py-[2px] mb-3 text-center dark:text-white text-black w-20 lg:w-[1%]"
                 data-aos="slide-right"
               ></div>
             </div>
 
-            <p className="dark:text-white text-black text-xl">Liquidity 40%</p>
-            <div className="w-full shadow bg-[#323F52] mt-5 rounded-lg">
+            <p className="dark:text-white text-black text-xl">
+              Public Sales 10%
+            </p>
+            <div className="w-full shadow bg-[#323F52] mt-3 rounded-lg">
               <div
-                className="bg-orange-500 text-xs rounded-lg leading-none py-[2px] mb-3 text-center dark:text-white text-black w-36 lg:w-[40%]"
+                className="bg-blue-500 rounded-lg text-xs leading-none py-[2px] mb-3 text-center dark:text-white text-black w-20 lg:w-[10%]"
                 data-aos="slide-right"
               ></div>
             </div>
 
-            <p className="dark:text-white text-black text-xl">Team 5%</p>
-            <div className="w-full shadow bg-[#323F52] mt-5 rounded-lg">
+            <p className="dark:text-white text-black text-xl">Team 3%</p>
+            <div className="w-full shadow bg-[#323F32] mt-5 rounded-lg">
               <div
-                className="bg-green-500 text-xs rounded-lg leading-none py-[2px] mb-3 text-center dark:text-white text-black w-14 lg:w-[5%]"
+                className="bg-green-500 text-xs rounded-lg leading-none py-[2px] mb-3 text-center dark:text-white text-black w-14 lg:w-[3%]"
                 data-aos="slide-right"
               ></div>
             </div>
@@ -93,26 +97,26 @@ function Regizcoin() {
               ></div>
             </div>
 
-            <p className="dark:text-white text-black text-xl">Rewards 15%</p>
+            <p className="dark:text-white text-black text-xl">Rewards 10%</p>
             <div className="w-full shadow bg-[#323F52] mt-5 rounded-lg">
               <div
-                className="bg-blue-500 text-xs rounded-lg leading-none py-[2px] mb-3 text-center dark:text-white text-black w-24 lg:w-[15%]"
+                className="bg-blue-500 text-xs rounded-lg leading-none py-[2px] mb-3 text-center dark:text-white text-black w-24 lg:w-[10%]"
                 data-aos="slide-right"
               ></div>
             </div>
 
-            <p className="dark:text-white text-black text-xl">Locked 18%</p>
+            <p className="dark:text-white text-black text-xl">Liquidity 40%</p>
             <div className="w-full shadow bg-[#323F52] mt-5 rounded-lg">
               <div
-                className="bg-cyan-500 rounded-lg text-xs leading-none py-[2px] mb-3 text-center text-white w-12 lg:w-[18%]"
+                className="bg-orange-500 text-xs rounded-lg leading-none py-[2px] mb-3 text-center dark:text-white text-black w-36 lg:w-[40%]"
                 data-aos="slide-right"
               ></div>
             </div>
 
-            <p className="dark:text-white text-black text-xl">Charity 5%</p>
+            <p className="dark:text-white text-black text-xl">Locked 30%</p>
             <div className="w-full shadow bg-[#323F52] mt-5 rounded-lg">
               <div
-                className="bg-cyan-500 rounded-lg text-xs leading-none py-[2px] mb-3 text-center text-white w-12 lg:w-[5%]"
+                className="bg-cyan-500 rounded-lg text-xs leading-none py-[2px] mb-3 text-center text-white w-12 lg:w-[30%]"
                 data-aos="slide-right"
               ></div>
             </div>
