@@ -39,7 +39,7 @@ function Navbar() {
     <div className="">
       <div className="z-10 top-0 fixed w-full">
         {/* logo image */}
-        <div className="lg:flex justify-between px-5 p-3 fixed top-0 z-10 w-full drop-shadow-lg bg-white dark:bg-black transistion-all duration-300 hidden">
+        <div className="lg:flex justify-between px-5 p-3 fixed top-0 z-10 w-full  bg-white dark:bg-black transistion-all duration-300 hidden">
           <div className="lg:flex items-center md:hidden flex">
             <img
               src="https://res.cloudinary.com/dpokiomqq/image/upload/v1671902954/regizlogo_2_ey8kjj.png"
@@ -347,7 +347,7 @@ function Navbar() {
             <button
               type="button"
               onClick={handleThemeSwitch}
-              className="bg-[#3CC3A9] px-3 py-3 rounded-md"
+              className="bg-[#3CC3A9] w-[40px] h-[40px] rounded"
             >
               {theme === "dark" ? (
                 <div className="text-white">
@@ -362,7 +362,7 @@ function Navbar() {
           </div>
         </div>
 
-        <div className="z-10 top-0 flex bg-white dark:bg-black dark:text-white text-black drop-shadow-lg justify-between p-1">
+        <div className="z-10 top-0 flex bg-white dark:bg-black dark:text-white text-black drop-shadow-lg justify-between p-1 lg:hidden">
          <div className="flex">
           <img
             src="https://res.cloudinary.com/dpokiomqq/image/upload/v1671902954/regizlogo_2_ey8kjj.png"

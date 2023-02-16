@@ -129,42 +129,42 @@ function Roadmap() {
             return (
               <div key={id}>
                 <div className="flex place-items-center justify-center items-center px-[25px]">
-                  <div className="roadmap__milestone w-[300px] lg:w-[400px] h-[300px] bg-[#02383C] dark:bg-white overflow-scroll">
+                  <div className="roadmap__milestone w-[300px] lg:w-[400px] h-[630px] bg-[#02383C] dark:bg-white">
                     <div className="roadmap__milestone-description">
                       <h5 className="text-end text-white dark:text-black date">
                         {date}
                       </h5>
                       <div className="text-white dark:text-black text-start mt-5">
-                        <p className="font-bold text-xl">{para1}</p>
-                        <p className="text-x text-white dark:text-[#111] font-[poppins]">
+                        <p className="font-bold text-[24px]">{para1}</p>
+                        <p className="text-[15px] text-white dark:text-[#111] font-[poppins]">
                           {sub1}
                         </p>
-                        <p className="font-bold text-xl mt-3">{para2}</p>
-                        <p className="text-x text-white dark:text-[#111] font-[poppins]">
+                        <p className="font-bold text-[24px] mt-3">{para2}</p>
+                        <p className="text-[15px] text-white dark:text-[#111] font-[poppins]">
                           {sub2}
                         </p>
-                        <p className="font-bold text-xl mt-3">{para3}</p>
-                        <p className="text-x text-white dark:text-[#111] font-[poppins]">
+                        <p className="font-bold text-[24px] mt-3">{para3}</p>
+                        <p className="text-[15px] text-white dark:text-[#111] font-[poppins]">
                           {sub3}
                         </p>
-                        <p className="font-bold text-xl mt-3">{para4}</p>
-                        <p className="text-x text-white dark:text-[#111] font-[poppins]">
+                        <p className="font-bold text-[24px] mt-3">{para4}</p>
+                        <p className="text-[15px] text-white dark:text-[#111] font-[poppins]">
                           {sub4}
                         </p>
-                        <p className="font-bold text-xl mt-3">{para5}</p>
-                        <p className="text-x text-white dark:text-[#111] font-[poppins]">
+                        <p className="font-bold text-[24px] mt-3">{para5}</p>
+                        <p className="text-[15px] text-white dark:text-[#111] font-[poppins]">
                           {sub5}
                         </p>
                         <p className="font-bold mt-3 text-2zl">{para6}</p>
-                        <p className="text-x text-white dark:text-[#111] font-[poppins]">
+                        <p className="text-[15px] text-white dark:text-[#111] font-[poppins]">
                           {sub6}
                         </p>
-                        <p className="font-bold mt-3 text-xl">{para7}</p>
-                        <p className="text-x text-white dark:text-[#111] font-[poppins]">
+                        <p className="font-bold mt-3 text-[24px]">{para7}</p>
+                        <p className="text-[15px] text-white dark:text-[#111] font-[poppins]">
                           {sub7}
                         </p>
-                        <p className="font-bold mt-3 text-xl">{para8}</p>
-                        <p className="text-x text-white dark:text-[#111] font-[poppins]">
+                        <p className="font-bold mt-3 text-[24px]">{para8}</p>
+                        <p className="text-[15px] text-white dark:text-[#111] font-[poppins]">
                           {sub8}
                         </p>
                       </div>
