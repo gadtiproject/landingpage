@@ -129,7 +129,7 @@ function Roadmap() {
             return (
               <div key={id}>
                 <div className="flex place-items-center justify-center items-center px-[25px]">
-                  <div className="roadmap__milestone w-[300px] lg:w-[400px] h-[630px] bg-[#02383C] dark:bg-white">
+                  <div className="roadmap__milestone w-[300px] lg:w-[400px] h-auto bg-[#02383C] dark:bg-white">
                     <div className="roadmap__milestone-description">
                       <h5 className="text-end text-white dark:text-black date">
                         {date}

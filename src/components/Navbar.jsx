@@ -36,8 +36,7 @@ function Navbar() {
   }, [theme]);
 
   return (
-    <div className="">
-      <div className="z-10 top-0 fixed w-full">
+    <div className="z-10 top-0 fixed w-full">
         {/* logo image */}
         <div className="lg:flex justify-between px-5 p-3 fixed top-0 z-10 w-full  bg-white dark:bg-black transistion-all duration-300 hidden">
           <div className="lg:flex items-center md:hidden flex">
@@ -354,7 +353,7 @@ function Navbar() {
                   <ion-icon name="sunny"></ion-icon>{" "}
                 </div>
               ) : (
-                <div className="">
+                <div className="text-white">
                   <ion-icon name="moon"></ion-icon>
                 </div>
               )}
@@ -363,14 +362,14 @@ function Navbar() {
         </div>
 
         <div className="z-10 top-0 flex bg-white dark:bg-black dark:text-white text-black drop-shadow-lg justify-between p-1 lg:hidden">
-         <div className="flex">
-          <img
-            src="https://res.cloudinary.com/dpokiomqq/image/upload/v1671902954/regizlogo_2_ey8kjj.png"
-            className="w-[70px]"
-          />
-          <h1 className="text-3xl mt-3">Regiz</h1>
-         </div>
-          
+          <div className="flex">
+            <img
+              src="https://res.cloudinary.com/dpokiomqq/image/upload/v1671902954/regizlogo_2_ey8kjj.png"
+              className="w-[70px]"
+            />
+            <h1 className="text-3xl mt-3">Regiz</h1>
+          </div>
+
           <div
             className="cursor-pointer flex items-center justify-center pr-2"
             onClick={handleClick}
@@ -378,7 +377,7 @@ function Navbar() {
             {!nav ? (
               <FiMenu className="w-8 h-8" />
             ) : (
-              <AiOutlineClose className="w-8 h-8 fill-black" />
+              <AiOutlineClose className="w-8 h-8 fill-black dark:fill-white" />
             )}
           </div>
         </div>
@@ -389,13 +388,13 @@ function Navbar() {
             !nav ? "hidden" : "absolute w-full drop-shadow-lg cursor-pointer"
           }
         >
-          <div className="flex flex-col bg-white">
+          <div className="flex flex-col bg-white dark:bg-[#010101] relative z-10">
             <ul>
-              <li className="w-full mb-3 text-[#000101] hover:bg-[#02383C] py-2 px-2 hover:text-white leading-6 text-base uppercase cursor-pointer">
+              <li className="w-full mb-3 text-[#000101] dark:text-white hover:bg-[#02383C] py-2 px-4 hover:text-white leading-6 text-base uppercase cursor-pointer">
                 <a href="/">Home</a>
               </li>
 
-              <li className="w-full mb-3 text-[#000101] hover:bg-[#02383C] py-2 px-2 hover:text-white leading-6 text-base uppercase">
+              <li className="w-full mb-3 text-[#000101] dark:text-white hover:bg-[#02383C] py-2 px-4 hover:text-white leading-6 text-base uppercase">
                 <Link
                   onClick={handleClose}
                   to="about"
@@ -407,13 +406,12 @@ function Navbar() {
                 </Link>
               </li>
 
-              <div className="w-full mb-3 text-[#000101] hover:bg-[#02383C] py-2 px-2 hover:text-white leading-6 text-base uppercase">
+              <div className="w-full mb-3 text-[#000101] dark:text-white hover:bg-[#02383C] py-2 px-4 hover:text-white leading-6 text-base uppercase">
                 <div>
                   <div className="dropdown relative">
                     <button
                       className="
-                                      dropdown-toggle
-                                      px-3                         
+                                      dropdown-toggle                                                      
                                       text-black
                                       font-medium
                                       leading-tight
@@ -422,6 +420,8 @@ function Navbar() {
                                       duration-150
                                       ease-in-out
                                       flex
+                                      dark:text-white
+                                      p-0
                                       hover:text-white
                                       mt-0
                                       items-center
@@ -521,13 +521,13 @@ function Navbar() {
                 </div>
               </div>
 
-              <div className="w-full mb-3 text-[#000101] hover:bg-[#02383C] py-2 px-2 hover:text-white leading-6 text-base uppercase">
+              <div className="w-full mb-3 text-[#000101] dark:text-white hover:bg-[#02383C] py-2 px-4 hover:text-white leading-6 text-base uppercase">
                 <div>
                   <div className="dropdown relative">
                     <button
                       className="
                                       dropdown-toggle
-                                      px-3                         
+                                    dark:text-white                         
                                       text-black
                                       font-medium
                                       leading-tight
@@ -701,7 +701,7 @@ function Navbar() {
                 </div>
               </div>
 
-              <li className="w-full mb-3 text-[#000101] hover:bg-[#02383C] py-2 px-2 hover:text-white leading-6 text-base uppercase">
+              <li className="w-full mb-3 text-[#000101] dark:text-white hover:bg-[#02383C] py-2 px-4 hover:text-white leading-6 text-base uppercase">
                 <Link
                   onClick={handleClose}
                   to="roadmap"
@@ -732,7 +732,6 @@ function Navbar() {
           </div>
         </div>
       </div>
-    </div>
   );
 }
 
