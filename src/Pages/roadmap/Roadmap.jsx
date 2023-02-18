@@ -68,25 +68,25 @@ function Roadmap() {
       sub3: "Refine Verification Analysis",
       para4: "Multi-document Support",
       sub4: "Add support for multipage document",
-      para5: "Add verification partners",
-      sub5: "Partnership with issuing organizations",
-      para6: "Basic demo",
-      sub6: "Provide a public demo so you can test regiz Dapp",
-      para7: "Price Alerts",
-      sub7: "Get alerts on events for your tracked coins",
-      para8: "Release 0.1",
-      sub8: "The BETA version of our app goes public.",
     },
+
     {
       id: 5,
-      date: "Q1 - 2024",
+      date: "Q5 - 2023",
+      para1: "Add verification partners",
+      sub1: "Partnership with issuing organizations",
+      para2: "Basic demo",
+      sub2: "Provide a public demo so you can test regiz Dapp",
+      para3: "Price Alerts",
+      sub3: "Get alerts on events for your tracked coins",
+      para4: "Release 0.1",
+      sub4: "The BETA version of our app goes public.",
+    },
+    {
+      id: 6,
+      date: "Q6 - 2024",
       para1: "Launch Dapp",
-      sub1: "launch on App Store and Play store",
-      // sub2: "Marketing",
-      // sub3: "Addition of issuing organization",
-      // sub4: "Additional Features",
-      // sub5: "Launch Nft Market place",
-      // para2: "GET STARTED",    
+      sub1: "launch on App Store and Play store", 
     },
   ];
 
@@ -97,7 +97,7 @@ function Roadmap() {
         Roadmap
       </p>
       <p className="text-gray-500 text-xl leading-5 text-center font-[poppins] p-5">
-        Project roadmap for the year 2022/23
+        Project roadmap for the year 2023/2024
       </p>
 
       <Carousel
@@ -128,7 +128,7 @@ function Roadmap() {
           }) => {
             return (
               <div key={id}>
-                <div className="flex place-items-center justify-center items-center px-[25px]">
+                <div className="flex place-items-center justify-center items-center">
                   <div className="roadmap__milestone w-[300px] lg:w-[400px] h-auto bg-[#02383C] dark:bg-white">
                     <div className="roadmap__milestone-description">
                       <h5 className="text-end text-white dark:text-black date">

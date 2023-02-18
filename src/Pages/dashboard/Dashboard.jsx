@@ -2,7 +2,7 @@ import React from "react";
 
 function Home() {
   return (
-    <div name="home">
+    <div name="dashboard">
       <div className="xl-pt-[20%] lg:pt-[5%] md:pt-[20%] pt-[30%] w-[100%] mx-auto">
         <img
           src="https://res.cloudinary.com/dpokiomqq/image/upload/v1675807882/dashboard_image_gvyy8j.jpg"

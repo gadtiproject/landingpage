@@ -16,9 +16,9 @@ function SimpleAccordion() {
     {
       id: 2,
       question: "what are the advantages of Using regiz Document Technology?",
-      answer: "Regis turns your Document to a digital Asset.",
+      answer: "Regiz turns your Document to a digital Asset.",
       para: "Puts you in charge and in control of your Document.",
-      para2: "Stores your Document in a Decentralized registry.",
+      para2: "Stores your Document in a Decentralized Regiztry.",
       para3: "Protects rights of use, falsification or alteration of Document.",
       para4: "Makes Document Handling more efficient and Self-driven.",
       para5: "Curbs Certification Fraud.",
@@ -81,7 +81,7 @@ function SimpleAccordion() {
       id: 10,
       question: "How do i pay for minting? ",
       answer:
-        "Purchase regis cryptocurrency (regiscoin) using you debit or credit card. purchased amount will be automatically added to your wallet, use this to pay for all services across the platform.",
+        "Purchase Regiz cryptocurrency (Regizcoin) using you debit or credit card. purchased amount will be automatically added to your wallet, use this to pay for all services across the platform.",
     },
 
     {
@@ -97,7 +97,7 @@ function SimpleAccordion() {
       question:
         "How do you verify if the owner of the certificate is the one uploading it? ",
       answer:
-        "Once you create your account ,you will go through a kyc verification process. you are advised to use your name as shown of valid I.d during registration. all documents uploaded must meet the basic requirements which are clear picture showing all for corners, full name on document as shown on your account.",
+        "Once you create your account ,you will go through a kyc verification process. you are advised to use your name as shown of valid I.d during Regiztration. all documents uploaded must meet the basic requirements which are clear picture showing all for corners, full name on document as shown on your account.",
     },
 
     {
@@ -119,7 +119,7 @@ function SimpleAccordion() {
     <div className="lg:mt-[10%] w-[80%] mx-auto mt-[20%] mb-[10%]">
       <h1 className="text-3xl text-center font-bold mb-10 dark:text-white">FAQS</h1>
 
-      <div className="max-w-[650px] mx-auto space-y-6">
+      <div className="max-w-[650px] mx-auto">
         {data.map(
           ({
             question,
@@ -136,7 +136,7 @@ function SimpleAccordion() {
             return (
               <div key={id}>
                 <Accordion>
-                  <div className="border">
+                  <div className="border p-3">
                     <AccordionSummary
                       expandIcon={
                         <p className="text-[30px] text-black cursor-pointer">
@@ -152,7 +152,7 @@ function SimpleAccordion() {
                     </AccordionSummary>
                   </div>
 
-                  <AccordionDetails className="space-y-5 text-[16px] leading-[24px] text-[#737373]">
+                  <AccordionDetails className="space-y-5 text-[16px] leading-[24px] text-[#737373] flex items-start justify-start">
                     <Typography>{answer}</Typography>
                     <Typography>{para}</Typography>
                     <Typography>{para2}</Typography>

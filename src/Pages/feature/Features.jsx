@@ -51,7 +51,7 @@ function Features() {
             <div className="grid place-items-center">
               <HiDocumentSearch className="text-7xl text-center flex items-center justify-center rounded-full px-3 py-3 bg-[#02383C] dark:bg-[#02383C] hover:border-none transition-color duration-200 text-white" />
               <p className="dark:text-white text-black items-center text-2xl text-center mt-3">
-                Document/asset Lookup
+                Document Search
               </p>
             </div>
           </div>

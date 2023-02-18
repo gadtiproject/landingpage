@@ -21,19 +21,25 @@ function Carousel1() {
     },
   };
   return (
-    <div className="mx-auto w-[80%] relative">
+    <div className="mx-auto h-[50%] relative">
       <Carousel responsive={responsive} infinite>
         {data.map(({ id, img, desc, para }) => {
           return (
-            <div className="rounded-lg shadow-lg p-5 bg-white" key={id}>
-              <div className="w-80 h-44 overflow-hidden flex justify-center mb-2">
+            <div
+              className="place-items-center justify-center items-center"
+              key={id}
+            >
+              <div className="w-[300px] h-44 overflow-hidden flex justify-center mb-2">
                 <img src={img} alt={desc} className="h-full w-auto" />
               </div>
-              <div className="p-[30px]">
-                <p className="text-gray-500 text-base leading-6 text-justify">{desc}</p>
-              <p className="text-gray-500 text-base leading-6 text-justify">{para}</p>
+              <div className="mx-[30px] p-5">
+                <p className="text-gray-500 text-base leading-8 text-justify">
+                  {desc}
+                </p>
+                <p className="text-gray-500 text-base leading-8 text-justify">
+                  {para}
+                </p>
               </div>
-              
             </div>
           );
         })}

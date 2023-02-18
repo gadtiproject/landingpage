@@ -226,11 +226,10 @@ svg{
 .roadmap__milestone {
   display: flex;
   flex-direction: column;
-  border: 1px solid #ccc;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  padding: 20px;
-  margin: 40px;
+  padding: 10px;
+  margin: 20px;
 }
 
 /* Define the style for the milestone title */
@@ -285,6 +284,7 @@ svg{
 
 .react-multiple-carousel__arrow {
   background-color: #02383C;
+  margin:-10px;
 }
 
 .react-multi-carousel-track{

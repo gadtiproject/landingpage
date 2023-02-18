@@ -8,11 +8,11 @@ function About() {
         About Regiz
       </h1>
 
-      <div className="dark:text-gray-300 about-text text-black justify-center items-center grid place-items-center">
-        <div className="box place-items-center lg:text-start text-center justify-center items-center m-10 lg:w-[950px] md:w-[500px] w-[300px]">
+      <div className="dark:text-gray-300  about-text text-black justify-center items-center grid place-items-center">
+        <div className="box place-items-center lg:text-start text-center justify-center items-center m-10 lg:w-[60%] md:w-[500px] w-[300px]">
           <input type="checkbox" id="check" />
 
-          <p className="text-[14px] lg:text-[1rem] md:text-[1rem] lg:leading-10 lg:tracking-wider justify-center lg:w-full leading-8 break-word">
+          <p className="text-[14px] lg:text-[1rem] md:text-[1rem] leading-9 text-justify lg:leading-10 lg:tracking-wider justify-center lg:w-full break-word">
             Regiz is a Generation Alpha Digital documentation technology (DOCUTECH) project that focuses on the authentication, verification, 
             and digitization of documents so that they can be electronically
             stored more compactly and securely.
@@ -24,7 +24,7 @@ function About() {
           </p>
 
           <div className="content">
-            <p className="text-[14px] lg:text-[1rem] md:text-[1rem] text-center lg:text-justify mt-3 lg:leading-10 lg:tracking-wider leading-8 break-word justify-center lg:w-full">
+            <p className="text-[14px] lg:text-[1rem] md:text-[1rem] lg:text-justify mt-3 leading-9 text-justify lg:leading-10 lg:tracking-wider break-word justify-center lg:w-full">
               The Document would be snapped and uploaded on the Regiz platform
               in selected formats e.g pdf. Every document that is uploaded will
               be minted upon and given a unique identification code, which will
@@ -32,7 +32,7 @@ function About() {
               eradicating fake or in-genuine digital copies of a document.
             </p>
 
-            <p className="text-[14px] lg:text-[1rem] md:text-[1rem] text-center lg:text-justify mt-3 lg:leading-10 lg:tracking-wider leading-8 break-word justify-center lg:w-full">
+            <p className="text-[14px] lg:text-[1rem] md:text-[1rem] lg:text-justify mt-3 leading-9 text-justify lg:leading-10 lg:tracking-wider break-word justify-center lg:w-full">
               A verification and validation process will be applied to all
               certificate issued by institutions and organizations that are
               registered with the government.
@@ -44,13 +44,13 @@ function About() {
               </span>
             </p>
 
-            <p className="text-[14px] lg:text-[1rem] md:text-[1rem] text-center lg:text-justify mt-3 lg:leading-10 lg:tracking-wider leading-8 break-word justify-center lg:w-full">
+            <p className="text-[14px] lg:text-[1rem] md:text-[1rem] lg:text-justify mt-3 leading-9 text-justify lg:leading-10 lg:tracking-wider break-word justify-center lg:w-full">
               Regiz will be a decentralized application based on blockchain
               technology where users will have control over their data much like
               they do over their money.
             </p>
 
-            <p className="text-[14px] lg:text-[1rem] md:text-[1rem] text-center lg:text-justify mt-3 lg:leading-10 lg:tracking-wider leading-8 break-word justify-center lg:w-full">
+            <p className="text-[14px] lg:text-[1rem] md:text-[1rem] lg:text-justify mt-3 leading-9 text-justify lg:leading-10 lg:tracking-wider break-word justify-center lg:w-full">
               These documents will then become digital assets with monetary
               value.
             </p>

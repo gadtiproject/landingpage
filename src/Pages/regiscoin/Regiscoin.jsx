@@ -12,11 +12,11 @@ function Regizcoin() {
           data-aos="fade-left"
           className="leading-10  m-5 lg:text-start  break-word place-items-center"
         >
-          <p className=" dark:text-white text-black  text-xl  lg:text-2xl w-[320px] md:w-[400px] lg:w-[500px]">
+          <p className="dark:text-white text-black mt-3 text-base leading-9 lg:leading-10 text-justify lg:text-xl w-[310px] md:w-[400px] lg:w-[600px] break-word">
             Regizcoin is a token owned by Regiz LLC.
           </p>
 
-          <p className="dark:text-white text-black mt-3  text-[1.2rem] lg:leading-[52px] leading-10 text-justify lg:text-xl w-[310px] md:w-[400px] lg:w-[600px] break-word">
+          <p className="dark:text-white text-black mt-3 text-base leading-9 lg:leading-10 text-justify lg:text-xl w-[310px] md:w-[400px] lg:w-[600px] break-word">
             Regizcoin will be used for payments to access services on the
             platform. Either on the Documentation Technology platform or Social
             Marketplace, Regizcoin will be our acceptable transaction currency.
@@ -60,7 +60,7 @@ function Regizcoin() {
           <h3 className="lg:text-5xl text-3xl text-center mt-3 dark:text-white font-bold tracking-wide mb-5 pt-5 text-black">
             Token Distribution
           </h3>
-          <div className="lg:m-20 text-start m-5 md:w-[500px] lg:w-[540px] w-[360px]">
+          <div className="lg:m-20 text-start m-5 md:w-[500px] lg:w-[540px] w-[300px]">
             <p className="dark:text-white text-black text-xl">
               Private Sales 1%
             </p>
@@ -131,7 +131,7 @@ function Regizcoin() {
             10% of transaction fee
           </p>
 
-          <div className="lg:m-10 text-start m-5 md:w-[500px] lg:w-[540px] w-[360px]">
+          <div className="lg:m-10 text-start m-5 md:w-[500px] lg:w-[540px] w-[300px]">
             <p className="dark:text-white text-black text-xl">Liquidity 2%</p>
             <div className="w-full shadow bg-[#323F52] mt-3 rounded-lg">
               <div

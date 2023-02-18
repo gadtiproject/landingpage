@@ -1,7 +1,8 @@
 export const data = [
   {
     id: 1,
-    desc: "Mary is a graduate who obtained her Bachelor's degree in Accounting from the University of Liverpool, and a certification from the Association of Chartered Certified Accountants (ACCA).",
+    desc
+    :"Mary is a graduate who obtained her Bachelor's degree in Accounting from the University of Liverpool, and a certification from the Association of chartered Certified Accountanrs (ACCA).",
     img: "https://res.cloudinary.com/dpokiomqq/image/upload/v1666979242/girlwithlbooks2_htta1r.png",
   },
   {

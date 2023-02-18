@@ -20,13 +20,12 @@ function Contact() {
             />
           </div>
 
-          
-            <p className="text-[#FFFEFE] leading-[28px] lg:leading-[25px]">
-              Regiz is a Generation Alpha Digital documentation technology
-              (DOCUTECH) project that focuses on the authentication,
-              verification, and digitization of documents so that they can be
-              electronically stored more compactly and securely.
-            </p>
+          <p className="text-[#FFFEFE] leading-[30px] tracking-wider text-base lg:leading-[25px]">
+            Regiz is a Generation Alpha Digital Documentation Technology (DOCTECH) 
+            (DOCUTECH) project that focuses on the authentication, verification,
+            and digitization of documents so that they can be electronically
+            stored more compactly and securely.
+          </p>
         </div>
 
         <div className="p-4 lg:text-center">
@@ -34,7 +33,9 @@ function Contact() {
 
           <ul className="space-y-5">
             <li className="text-[14px] hover:text-[#100] text-[#FFFEFE] cursor-pointer">
+               <Navigate to="dashboard" smooth={true} duration={500}>
               <NavLink to="/home">Home</NavLink>
+              </Navigate>
             </li>
 
             <li className="text-[14px] hover:text-[#100] text-[#FFFEFE] cursor-pointer">
