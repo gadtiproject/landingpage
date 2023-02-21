@@ -2,7 +2,7 @@ export const data = [
   {
     id: 1,
     desc
-    :"Mary is a graduate who obtained her Bachelor's degree in Accounting from the University of Liverpool, and a certification from the Association of chartered Certified Accountanrs (ACCA).",
+    :"Mary is a graduate who obtained her Bachelor's degree in Accounting from the University of Liverpool, and a certification from the Association of chartered Certified Accountants (ACCA).",
     img: "https://res.cloudinary.com/dpokiomqq/image/upload/v1666979242/girlwithlbooks2_htta1r.png",
   },
   {
@@ -19,25 +19,25 @@ export const data = [
   },
   {
     id: 4,
-    desc: "She then takes a clear picture of both documents and uploads them on the regiz Platform.",
+    desc: "She then takes a clear picture of both document and uploads them on the regiz Platform.",
     img: "https://res.cloudinary.com/dpokiomqq/image/upload/v1666979316/girltakingpicture_uujf0b.png",
   },
   {
     id: 5,
-    desc: "Mary pays a token for Minting using RegisCoin.",
-    para: "Mary gets a unique Identification Number and also a Grade B Minting stamp) for each document by minting on them I.e., certificate Genuine but unverified.",
+    desc: "Mary pays a token for Minting using regiz Coin.",
+    para: "Mary gets a chain Identification Number and also a Grade B Minting stamp) for each document by minting on them I.e, certificate Genuine but unverified.",
     img: "https://res.cloudinary.com/dpokiomqq/image/upload/v1666979269/girlgotsms_grhr3i.png",
   },
   {
     id: 6,
     desc: "Unsatisfied, Mary went Further to request Verification by her university and (ACCA) respectively.",
-    para: "She clicked the Verify and Upgrade to Grade A Button. Mary pays a token for verification using Regis Coin ",
+    para: "She clicked the Verify and Upgrade to Grade A Button. Mary pays a token for verification using regiz Coin ",
     img: "https://res.cloudinary.com/dpokiomqq/image/upload/v1666979267/girlclicksabutton_qdxixn.png",
   },
   {
     id: 7,
-    desc: "A few hours later, Mary got a notification that Her Certificate has Been verified and Upgraded to Grade A. (Genuine Grade A)",
-    para: "Mary Submitted her CV via Email and also Shared her  Document verification I.D. for Authenticity confirmation Purposes. (Grade A) Certificates.",
+    desc: "A few days later, Mary got a notification that Her Certificate has Been verified and Upgraded to Grade A. (Genuine Grade A)",
+    para: "Mary Submitted her CV via Email and also Shared her  Document verified chain I.D. for Authenticity confirmation Purposes. (Grade A) Certificates.",
     img: "https://res.cloudinary.com/dpokiomqq/image/upload/v1666979310/girlsubmittedemail_nrpwvr.png",
   },
   {
@@ -58,7 +58,7 @@ export const data = [
   },
   {
     id: 11,
-    desc: "A few hours later, the team was able to verify the certificate of each applicant if they are authentic, by inputting the Document ID provided by the applicant on the Regiz document search; on the app.",
+    desc: "A few days later, the team was able to verify the certificate of each applicant if they are authentic, by inputting the Document chain I.D provided by the applicant on the Regiz document search; on the app.",
     para: "The first Document they searched popped up with a Notification displaying (Genuine Grade A) I.e., (certificate Genuine and verified.)",
     img: "https://res.cloudinary.com/dpokiomqq/image/upload/v1666982110/theteam_qowzgo.png",
   },

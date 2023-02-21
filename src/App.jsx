@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import AnimatedCursor from "react-animated-cursor";
-import Layout from "./components/Layout";
 import AllPages from "./Pages/AllPages";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -18,7 +17,7 @@ function App() {
 
   return (
     <>
-      <AnimatedCursor
+      {/* <AnimatedCursor
         innerSize={9}
         outerSize={15}
         color="102, 204, 123"
@@ -38,23 +37,20 @@ function App() {
           "button",
           ".link",
         ]}
-      />
+      /> */}
 
       <div className="bg-white dark:bg-[#070909] min-h-screen font-inter">
         <div className="overflow-hidden">
           <Router>
             <Routes>
-              <Route path="/" element={<Layout />}>
-                <Route index element={<AllPages />} />
-                <Route path="home" element={<AllPages />} />
-                <Route path="contact" element={<Contact />} />
-                <Route path="contact" element={<Contact />} />
-                <Route path="/faq" element={<Faqs />} />
-                <Route path="/careers" element={<CareerPage />} />
-              </Route>
+              <Route index element={<AllPages />} />
+              <Route path="home" element={<AllPages />} />
+              <Route path="contact" element={<Contact />} />
+              <Route path="contact" element={<Contact />} />
+              <Route path="/faq" element={<Faqs />} />
+              <Route path="/careers" element={<CareerPage />} />
             </Routes>
           </Router>
-          
         </div>
       </div>
     </>

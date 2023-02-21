@@ -22,7 +22,7 @@ function Carousel1() {
   };
   return (
     <div className="mx-auto h-[50%] relative">
-      <Carousel responsive={responsive} infinite>
+      <Carousel responsive={responsive}>
         {data.map(({ id, img, desc, para }) => {
           return (
             <div

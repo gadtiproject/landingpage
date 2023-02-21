@@ -1,10 +1,15 @@
 import React from "react";
 import Contactus from "../Pages/contactpage/Contactus";
-
+import PageFooter from "./PageFooter";
+import PageNavbar from "./PageNavbar";
 function Contact() {
-  return <div>
+  return (
+  <div>
+    <PageNavbar />
     <Contactus/>
-  </div>;
+    <PageFooter/>
+  </div>
+  )
 }
 
 export default Contact;

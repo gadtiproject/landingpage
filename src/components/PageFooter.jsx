@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 import { Link as Navigate, animateScroll as scroll } from "react-scroll";
 import ScrollToTop from "react-scroll-to-top";
 
-function Contact() {
+function PageFooter() {
   return (
     <div
       name="contact"
@@ -21,10 +21,10 @@ function Contact() {
           </div>
 
           <p className="text-[#FFFEFE] leading-[30px] tracking-wider text-base lg:leading-[25px]">
-            Regiz is a Generation Alpha Digital Documentation Technology (DOCTECH) 
-            (DOCUTECH) project that focuses on the authentication, verification,
-            and digitization of documents so that they can be electronically
-            stored more compactly and securely.
+            Regiz is a Generation Alpha Digital Documentation Technology
+            (DOCTECH) (DOCUTECH) project that focuses on the authentication,
+            verification, and digitization of documents so that they can be
+            electronically stored more compactly and securely.
           </p>
         </div>
 
@@ -33,31 +33,13 @@ function Contact() {
 
           <ul className="space-y-5">
             <li className="text-[14px] hover:text-[#100] text-[#FFFEFE] cursor-pointer">
-               <Navigate to="dashboard" smooth={true} duration={500}>
-              <NavLink to="/home">Home</NavLink>
+              <Navigate to="dashboard" smooth={true} duration={500}>
+                <NavLink to="/home">Home</NavLink>
               </Navigate>
             </li>
 
             <li className="text-[14px] hover:text-[#100] text-[#FFFEFE] cursor-pointer">
               <NavLink to="/faq">FAQ</NavLink>
-            </li>
-
-            <li className="text-[14px] hover:text-[#100] text-[#FFFEFE] cursor-pointer">
-              <Navigate to="roadmap" smooth={true} duration={500}>
-                RoadMap
-              </Navigate>
-            </li>
-
-            <li className="text-[14px] hover:text-[#100] text-[#FFFEFE] cursor-pointer">
-              <Navigate to="feature" smooth={true} duration={500}>
-                Features
-              </Navigate>
-            </li>
-
-            <li className="text-[14px] hover:text-[#100] text-[#FFFEFE] cursor-pointer">
-              <Navigate to="Regiscoin" smooth={true} duration={500}>
-                Regiscoin
-              </Navigate>
             </li>
           </ul>
         </div>
@@ -192,4 +174,5 @@ function Contact() {
   );
 }
 
-export default Contact;
+
+export default PageFooter;

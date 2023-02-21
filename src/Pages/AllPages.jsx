@@ -8,10 +8,14 @@ import Regiscoin from "./regiscoin/Regiscoin";
 import Roadmap from "./roadmap/Roadmap";
 import Team from "./team/Team";
 import Personna from "./persona/Personna"
+import Navbar from "../components/Navbar";
+import MainFooter from "../components/MainFooter";
+
 function AllPages() {
   return (
       <div>
-         <Dashboard />
+        <Navbar/>
+        <Dashboard />
         <About />
         <Features />
         <Benefits />
@@ -20,6 +24,7 @@ function AllPages() {
         <Personna/> 
         <Roadmap />
         <Team />
+        <MainFooter/>
       </div>
   );
 }

@@ -60,7 +60,7 @@ function Regizcoin() {
           <h3 className="lg:text-5xl text-3xl text-center mt-3 dark:text-white font-bold tracking-wide mb-5 pt-5 text-black">
             Token Distribution
           </h3>
-          <div className="lg:m-20 text-start m-5 md:w-[500px] lg:w-[540px] w-[300px]">
+          <div className="lg:m-20 text-start m-5 md:w-[500px] lg:w-[540px] w-[300px] bg-slate-50 p-5 rounded shadow-md">
             <p className="dark:text-white text-black text-xl">
               Private Sales 1%
             </p>
@@ -123,7 +123,7 @@ function Regizcoin() {
           </div>
         </div>
 
-        <div className="justify-center items-center place-items-center lg:h-[600px]">
+        <div className="justify-center items-center place-items-center lg:h-[600px] ">
           <h3 className="lg:text-5xl text-3xl text-center mt-3 dark:text-white font-bold tracking-wide mb-5 pt-5 text-black">
             Taxes
           </h3>
@@ -131,7 +131,7 @@ function Regizcoin() {
             10% of transaction fee
           </p>
 
-          <div className="lg:m-10 text-start m-5 md:w-[500px] lg:w-[540px] w-[300px]">
+          <div className="lg:m-10 text-start m-5 md:w-[500px] lg:w-[540px] w-[300px] bg-slate-50 p-5 rounded shadow-md">
             <p className="dark:text-white text-black text-xl">Liquidity 2%</p>
             <div className="w-full shadow bg-[#323F52] mt-3 rounded-lg">
               <div

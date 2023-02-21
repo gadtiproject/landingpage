@@ -310,22 +310,6 @@ function Navbar() {
                     Persona
                   </Link>
                 </li>
-                <li>
-                  <NavLink to="/faq"                     
-                  className="
-                            dropdown-item
-                            text-sm
-                            py-2
-                            px-4                           
-                            font-normal
-                            block
-                            w-full
-                            whitespace-nowrap
-                            bg-transparent
-                            text-gray-700
-                            hover:bg-gray-100
-                          ">FAQ</NavLink>
-                </li>
               </ul>
             </div>
           </li>
@@ -334,6 +318,12 @@ function Navbar() {
             <Link to="roadmap" smooth={true} duration={500}>
               Roadmap
             </Link>
+          </li>
+
+          <li>
+            <NavLink to="/faq" className="hover:text-[#66CC7B] cursor-pointer">
+              FAQ
+            </NavLink>
           </li>
         </ul>
         <div className="pr-5 mt-[1%] lg:block hidden">
@@ -670,26 +660,6 @@ function Navbar() {
                         Team
                       </Link>
                     </li>
-                    <li>
-                      <NavLink
-                        to="/faq"
-                        onClick={handleClose}
-                        className=" dropdown-item
-                                          text-sm
-                                          py-2
-                                          uppercase
-                                          px-4
-                                          font-normal
-                                          block
-                                          w-full
-                                          whitespace-nowrap
-                                          bg-transparent
-                                          text-gray-700
-                                          hover:bg-gray-100"
-                      >
-                        FAQ
-                      </NavLink>
-                    </li>
                   </ul>
                 </div>
               </div>
@@ -705,6 +675,16 @@ function Navbar() {
               >
                 Roadmap
               </Link>
+            </li>
+
+            <li>
+              <NavLink
+                to="/faq"
+                onClick={handleClose}
+                className="w-full mb-3 text-[#000101] dark:text-white hover:bg-[#02383C] py-2 px-4 hover:text-white leading-6 text-base uppercase"
+              >
+                FAQ
+              </NavLink>
             </li>
 
             <button

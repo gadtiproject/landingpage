@@ -58,8 +58,8 @@ function Howitworks() {
                 <FaStarOfLife className="lg:text-xl text-x" />
               </div>
               <li className="mx-4 dark:text-[#fff] text-black text-x tracking-wide leading-8  lg:text-xl text-sm">
-                Mint on Document to get a unique document I.D (Grade B
-                verification badge) Genuine Unverified
+                Mint on Document to get a document chain I.D Grade B
+                verification badge (Genuine Unverified)
               </li>
             </div>
 
@@ -69,7 +69,7 @@ function Howitworks() {
               </div>
               <li className="mx-4 dark:text-[#fff] text-black text-x tracking-wide leading-8  lg:text-xl text-sm">
                 Proceed to verify the document from issuing body and upgrade to
-                (Grade A) Genuine Verified.
+                Grade A (Genuine Verified.)
               </li>
             </div>
           </ul>
@@ -113,7 +113,7 @@ function Howitworks() {
                 <FaStarOfLife className="lg:text-xl text-x" />
               </div>
               <li className="mx-4 mb-3 dark:text-[#fff] text-black text-x tracking-wide leading-8  lg:text-xl text-sm">
-                Social Interactions.
+                Content Creator Tools.
               </li>
             </div>
 
@@ -122,7 +122,7 @@ function Howitworks() {
                 <FaStarOfLife className="lg:text-xl text-x" />
               </div>
               <li className="mx-4 mb-3 dark:text-[#fff] text-black text-x tracking-wide leading-8  lg:text-xl text-sm">
-                Content Creator Tools.
+                Social Interactions.
               </li>
             </div>
           </ul>

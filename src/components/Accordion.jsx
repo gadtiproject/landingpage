@@ -15,7 +15,7 @@ function SimpleAccordion() {
 
     {
       id: 2,
-      question: "what are the advantages of Using regiz Document Technology?",
+      question: "What are the advantages of Using regiz Document Technology?",
       answer: "Regiz turns your Document to a digital Asset.",
       para: "Puts you in charge and in control of your Document.",
       para2: "Stores your Document in a Decentralized Regiztry.",
@@ -39,7 +39,7 @@ function SimpleAccordion() {
       id: 4,
       question: "How much does it cost to mint Grade B document? ",
       answer:
-        "it cost only $3.99 to mint a Grade B document and has a Search Validity of up to 1yr, and $4.99 to mint a Grade B document with Search Validity Of up to 2yr",
+        "It cost only $3.99 to mint a Grade B document and has a Search Validity of up to 1yr, and $4.99 to mint a Grade B document with Search Validity Of up to 2yr",
     },
 
     {
@@ -47,13 +47,13 @@ function SimpleAccordion() {
       question:
         "How much doest it cost to verify my documents and upgrade to Grade A? ",
       answer:
-        "verification starts from $29.99 up $50, one time payment,+Search 3yrs search Validity, Validity Renews @ $3.99/yr ,$4.99 2yrs.",
+        "Verification starts from $29.99 up $50, one time payment,+Search 3yrs search Validity, Validity Renews @ $3.99/yr ,$4.99 2yrs.",
     },
     {
       id: 6,
       question: "How long does it take to verify my document? ",
       answer:
-        "it takes approximately seven working Days to complete a verification process.",
+        "It takes approximately seven working Days to complete a verification process.",
     },
 
     {
@@ -152,7 +152,7 @@ function SimpleAccordion() {
                     </AccordionSummary>
                   </div>
 
-                  <AccordionDetails className="space-y-5 text-[16px] leading-[24px] text-[#737373] flex items-start justify-start">
+                  <AccordionDetails className="space-y-5 text-[16px] leading-9 text-[#737373] tracking-wider">
                     <Typography>{answer}</Typography>
                     <Typography>{para}</Typography>
                     <Typography>{para2}</Typography>
