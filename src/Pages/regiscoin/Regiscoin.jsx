@@ -60,60 +60,60 @@ function Regizcoin() {
           <h3 className="lg:text-5xl text-3xl text-center mt-3 dark:text-white font-bold tracking-wide mb-5 pt-5 text-black">
             Token Distribution
           </h3>
-          <div className="lg:m-20 text-start m-5 md:w-[500px] lg:w-[540px] w-[300px] bg-slate-50 p-5 rounded shadow-md">
-            <p className="dark:text-white text-black text-xl">
+          <div className="lg:m-20 text-start m-5 md:w-[500px] lg:w-[540px] w-[300px]  bg-slate-50 p-5 rounded shadow-md">
+            <p className="text-black text-xl">
               Private Sales 1%
             </p>
             <div className="w-full shadow bg-[#323F52] mt-3 rounded-lg">
               <div
-                className="bg-blue-500 rounded-lg text-xs leading-none py-[2px] mb-3 text-center dark:text-white text-black w-20 lg:w-[1%]"
+                className="bg-blue-500 rounded-lg text-xs leading-none py-[2px] mb-3 text-center text-black w-20 lg:w-[1%]"
                 data-aos="slide-right"
               ></div>
             </div>
 
-            <p className="dark:text-white text-black text-xl">
+            <p className="text-black text-xl">
               Public Sales 10%
             </p>
             <div className="w-full shadow bg-[#323F52] mt-3 rounded-lg">
               <div
-                className="bg-blue-500 rounded-lg text-xs leading-none py-[2px] mb-3 text-center dark:text-white text-black w-20 lg:w-[10%]"
+                className="bg-blue-500 rounded-lg text-xs leading-none py-[2px] mb-3 text-center text-black w-20 lg:w-[10%]"
                 data-aos="slide-right"
               ></div>
             </div>
 
-            <p className="dark:text-white text-black text-xl">Team 3%</p>
+            <p className="text-black text-xl">Team 3%</p>
             <div className="w-full shadow bg-[#323F32] mt-5 rounded-lg">
               <div
-                className="bg-green-500 text-xs rounded-lg leading-none py-[2px] mb-3 text-center dark:text-white text-black w-14 lg:w-[3%]"
+                className="bg-green-500 text-xs rounded-lg leading-none py-[2px] mb-3 text-center text-black w-14 lg:w-[3%]"
                 data-aos="slide-right"
               ></div>
             </div>
 
-            <p className="dark:text-white text-black text-xl">Airdrops 5%</p>
+            <p className="text-black text-xl">Airdrops 5%</p>
             <div className="w-full shadow bg-[#323F52] mt-5 rounded-lg">
               <div
-                className="bg-red-500 text-xs rounded-lg leading-none py-[2px] mb-3 text-center dark:text-white text-black w-12 lg:w-[5%]"
+                className="bg-red-500 text-xs rounded-lg leading-none py-[2px] mb-3 text-center text-black w-12 lg:w-[5%]"
                 data-aos="slide-right"
               ></div>
             </div>
 
-            <p className="dark:text-white text-black text-xl">Rewards 10%</p>
+            <p className="text-black text-xl">Rewards 10%</p>
             <div className="w-full shadow bg-[#323F52] mt-5 rounded-lg">
               <div
-                className="bg-blue-500 text-xs rounded-lg leading-none py-[2px] mb-3 text-center dark:text-white text-black w-24 lg:w-[10%]"
+                className="bg-blue-500 text-xs rounded-lg leading-none py-[2px] mb-3 text-center text-black w-24 lg:w-[10%]"
                 data-aos="slide-right"
               ></div>
             </div>
 
-            <p className="dark:text-white text-black text-xl">Liquidity 40%</p>
+            <p className="text-black text-xl">Liquidity 40%</p>
             <div className="w-full shadow bg-[#323F52] mt-5 rounded-lg">
               <div
-                className="bg-orange-500 text-xs rounded-lg leading-none py-[2px] mb-3 text-center dark:text-white text-black w-36 lg:w-[40%]"
+                className="bg-orange-500 text-xs rounded-lg leading-none py-[2px] mb-3 text-center text-black w-36 lg:w-[40%]"
                 data-aos="slide-right"
               ></div>
             </div>
 
-            <p className="dark:text-white text-black text-xl">Locked 30%</p>
+            <p className="text-black text-xl">Locked 30%</p>
             <div className="w-full shadow bg-[#323F52] mt-5 rounded-lg">
               <div
                 className="bg-cyan-500 rounded-lg text-xs leading-none py-[2px] mb-3 text-center text-white w-12 lg:w-[30%]"
@@ -124,42 +124,42 @@ function Regizcoin() {
         </div>
 
         <div className="justify-center items-center place-items-center lg:h-[600px] ">
-          <h3 className="lg:text-5xl text-3xl text-center mt-3 dark:text-white font-bold tracking-wide mb-5 pt-5 text-black">
+          <h3 className="lg:text-5xl text-3xl text-center mt-3 font-bold tracking-wide mb-5 pt-5 text-black dark:text-white">
             Taxes
           </h3>
-          <p className="text-x text-center dark:text-white italics tracking-wide text-black">
+          <p className="text-x text-center italics tracking-wide text-black">
             10% of transaction fee
           </p>
 
           <div className="lg:m-10 text-start m-5 md:w-[500px] lg:w-[540px] w-[300px] bg-slate-50 p-5 rounded shadow-md">
-            <p className="dark:text-white text-black text-xl">Liquidity 2%</p>
+            <p className="text-black text-xl">Liquidity 2%</p>
             <div className="w-full shadow bg-[#323F52] mt-3 rounded-lg">
               <div
-                className="bg-blue-500 rounded-lg text-xs leading-none py-[2px] mb-3 text-center dark:text-white text-black w-20 lg:w-[2%]"
+                className="bg-blue-500 rounded-lg text-xs leading-none py-[2px] mb-3 text-center text-black w-20 lg:w-[2%]"
                 data-aos="slide-right"
               ></div>
             </div>
 
-            <p className="dark:text-white text-black text-xl">Airdrop 3%</p>
+            <p className="text-black text-xl">Airdrop 3%</p>
             <div className="w-full shadow bg-[#323F52] mt-5 rounded-lg">
               <div
-                className="bg-orange-500 text-xs rounded-lg leading-none py-[2px] mb-3 text-center dark:text-white text-black w-36 lg:w-[3%]"
+                className="bg-orange-500 text-xs rounded-lg leading-none py-[2px] mb-3 text-center text-black w-36 lg:w-[3%]"
                 data-aos="slide-right"
               ></div>
             </div>
 
-            <p className="dark:text-white text-black text-xl">Dev 2%</p>
+            <p className="text-black text-xl">Dev 2%</p>
             <div className="w-full shadow bg-[#323F52] mt-5 rounded-lg">
               <div
-                className="bg-green-500 text-xs rounded-lg leading-none py-[2px] mb-3 text-center dark:text-white text-black w-14 lg:w-[2%]"
+                className="bg-green-500 text-xs rounded-lg leading-none py-[2px] mb-3 text-center text-black w-14 lg:w-[2%]"
                 data-aos="slide-right"
               ></div>
             </div>
 
-            <p className="dark:text-white text-black text-xl">Marketing 3%</p>
+            <p className="text-black text-xl">Marketing 3%</p>
             <div className="w-full shadow bg-[#323F52] mt-5 rounded-lg">
               <div
-                className="bg-red-500 text-xs rounded-lg leading-none py-[2px] mb-3 text-center dark:text-white text-black w-12 lg:w-[3%]"
+                className="bg-red-500 text-xs rounded-lg leading-none py-[2px] mb-3 text-center text-black w-12 lg:w-[3%]"
                 data-aos="slide-right"
               ></div>
             </div>

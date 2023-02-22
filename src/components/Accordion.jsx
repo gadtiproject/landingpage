@@ -135,8 +135,8 @@ function SimpleAccordion() {
           }) => {
             return (
               <div key={id}>
-                <Accordion>
-                  <div className="border p-3">
+                <Accordion className="mb-[30px] mt-[30px]">
+                  <div className="border p-3 rounded">
                     <AccordionSummary
                       expandIcon={
                         <p className="text-[30px] text-black cursor-pointer">

@@ -1,25 +1,10 @@
 import React from "react";
-import Carousel from "react-multi-carousel";
-import "react-multi-carousel/lib/styles.css";
+import Accordion from "@mui/material/Accordion";
+import AccordionSummary from "@mui/material/AccordionSummary";
+import AccordionDetails from "@mui/material/AccordionDetails";
+import Typography from "@mui/material/Typography";
 
 function Roadmap() {
-  const responsive = {
-    desktop: {
-      breakpoint: { max: 3000, min: 1024 },
-      items: 3,
-      slidesToSlide: 1, // optional, default to 1.
-    },
-    tablet: {
-      breakpoint: { max: 1024, min: 464 },
-      items: 1,
-      slidesToSlide: 2, // optional, default to 1.
-    },
-    mobile: {
-      breakpoint: { max: 464, min: 0 },
-      items: 1,
-      slidesToSlide: 1, // optional, default to 1.
-    },
-  };
 
   const data = [
     {
@@ -72,7 +57,7 @@ function Roadmap() {
 
     {
       id: 5,
-      date: "Q5 - 2023",
+      date: "Q1 - 2024",
       para1: "Add verification partners",
       sub1: "Partnership with issuing organizations",
       para2: "Basic demo",
@@ -84,7 +69,7 @@ function Roadmap() {
     },
     {
       id: 6,
-      date: "Q6 - 2024",
+      date: "Q2 - 2024",
       para1: "Launch Dapp",
       sub1: "launch on App Store and Play store", 
     },
@@ -100,11 +85,7 @@ function Roadmap() {
         Project roadmap for the year 2023/2024
       </p>
 
-      <Carousel
-        responsive={responsive}
-        focusOnSelect={false}
-        infinite
-      >
+      <div className="max-w-[650px] mx-auto">
         {data.map(
           ({
             date,
@@ -128,54 +109,47 @@ function Roadmap() {
           }) => {
             return (
               <div key={id}>
-                <div className="flex place-items-center justify-center items-center">
-                  <div className="roadmap__milestone w-[300px] lg:w-[400px] h-auto bg-[#02383C] dark:bg-white">
-                    <div className="roadmap__milestone-description">
-                      <h5 className="text-end text-white dark:text-black date">
+                <Accordion className="mb-[30px] mt-[30px]">
+                  <div className="border p-2 rounded">
+                    <AccordionSummary
+                      expandIcon={
+                        <p className="text-[30px] text-black cursor-pointer">
+                          +
+                        </p>
+                      }
+                      aria-controls="panel1a-content"
+                      id="panel1a-header"
+                    >
+                      <Typography className="text-[18px] font-600 leading-[28px] text-[#1c2022]">
                         {date}
-                      </h5>
-                      <div className="text-white dark:text-black text-start mt-5">
-                        <p className="font-bold text-[24px]">{para1}</p>
-                        <p className="text-[15px] text-white dark:text-[#111] font-[poppins]">
-                          {sub1}
-                        </p>
-                        <p className="font-bold text-[24px] mt-3">{para2}</p>
-                        <p className="text-[15px] text-white dark:text-[#111] font-[poppins]">
-                          {sub2}
-                        </p>
-                        <p className="font-bold text-[24px] mt-3">{para3}</p>
-                        <p className="text-[15px] text-white dark:text-[#111] font-[poppins]">
-                          {sub3}
-                        </p>
-                        <p className="font-bold text-[24px] mt-3">{para4}</p>
-                        <p className="text-[15px] text-white dark:text-[#111] font-[poppins]">
-                          {sub4}
-                        </p>
-                        <p className="font-bold text-[24px] mt-3">{para5}</p>
-                        <p className="text-[15px] text-white dark:text-[#111] font-[poppins]">
-                          {sub5}
-                        </p>
-                        <p className="font-bold mt-3 text-2zl">{para6}</p>
-                        <p className="text-[15px] text-white dark:text-[#111] font-[poppins]">
-                          {sub6}
-                        </p>
-                        <p className="font-bold mt-3 text-[24px]">{para7}</p>
-                        <p className="text-[15px] text-white dark:text-[#111] font-[poppins]">
-                          {sub7}
-                        </p>
-                        <p className="font-bold mt-3 text-[24px]">{para8}</p>
-                        <p className="text-[15px] text-white dark:text-[#111] font-[poppins]">
-                          {sub8}
-                        </p>
-                      </div>
-                    </div>
+                      </Typography>
+                    </AccordionSummary>
                   </div>
-                </div>
+
+                  <AccordionDetails className="space-y-5 text-[16px] leading-9 text-[#737373] tracking-wider">
+                    <Typography>{para1}</Typography>
+                    <Typography>{para2}</Typography>
+                    <Typography>{para3}</Typography>
+                    <Typography>{para4}</Typography>
+                    <Typography>{para5}</Typography>
+                    <Typography>{para6}</Typography>
+                    <Typography>{para7}</Typography>
+                    <Typography>{para8}</Typography>
+                    <Typography>{sub1}</Typography>
+                    <Typography>{sub2}</Typography>
+                    <Typography>{sub3}</Typography>
+                    <Typography>{sub4}</Typography>
+                    <Typography>{sub5}</Typography>
+                    <Typography>{sub6}</Typography>
+                    <Typography>{sub7}</Typography>
+                    <Typography>{sub8}</Typography>
+                  </AccordionDetails>
+                </Accordion>
               </div>
             );
           }
         )}
-      </Carousel>
+      </div>
     </div>
   );
 }

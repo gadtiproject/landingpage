@@ -156,7 +156,7 @@ function PageFooter() {
           <div className="mb-3 text-white lg:text-center lg:mt-28">
             <span className="hover:underline">Privacy |</span>
             <span className="hover:underline"> Terms</span>
-            <p className="mt-3">© 2023 Copyright Regiz LLC</p>
+            <p className="mt-3">© 2023 Copyright Regiz LLC.</p>
           </div>
         </div>
       </div>
