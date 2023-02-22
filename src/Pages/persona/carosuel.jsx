@@ -23,14 +23,19 @@ function Carousel1() {
   return (
     <div className="mx-auto h-[50%] relative">
       <Carousel responsive={responsive}>
-        {data.map(({ id, img, desc, para }) => {
+        {data.map(({ id, img, desc, para, desc1 }) => {
           return (
             <div
               className="place-items-center justify-center items-center"
               key={id}
             >
-              <div className="w-[300px] h-44 overflow-hidden flex justify-center mb-2">
-                <img src={img} alt={desc} className="h-full w-auto" />
+              <div className="grid items-center justify-center">
+                <div className="w-[300px] h-44 overflow-hidden flex justify-center items-center mb-2">
+                  <img src={img} alt={desc} className="h-full w-auto" />
+                </div>
+                <p className="dark:text-gray-300 text-gray-500 text-base leading-8 text-justify lg:w-full w-[300px]">
+                  {desc1}
+                </p>
               </div>
               <div className="mx-[30px] p-5">
                 <p className="text-gray-500 text-base leading-8 text-justify">

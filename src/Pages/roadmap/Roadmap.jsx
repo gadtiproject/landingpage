@@ -77,7 +77,7 @@ function Roadmap() {
 
 
   return (
-    <div name="roadmap" className="text-white  dark:bg-[#070909] bg-[#f0f0f1]">
+    <div name="roadmap" className="text-white  dark:bg-[#070909] bg-[#f0f0f1]  w-[80%] mx-auto">
       <p className="text-5xl text-center mt-3 dark:text-white text-black font-bold tracking-wide mb-5 p-5">
         Roadmap
       </p>
