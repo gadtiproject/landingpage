@@ -1,5 +1,5 @@
 import React from "react";
-import Dashboard from "./dashboard/Dashboard";
+import Home from "./home/home";
 import About from "./about/About";
 import Features from "./feature/Features";
 import Benefits from "./benefit/Benefits";
@@ -15,7 +15,7 @@ function AllPages() {
   return (
       <div>
         <Navbar/>
-        <Dashboard />
+        <Home />
         <About />
         <Features />
         <Benefits />

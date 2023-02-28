@@ -1,0 +1,43 @@
+import React from "react";
+
+function Home() {
+  return (
+    <div
+      name="home"
+      className="lg:mt-[5%] lg:w-[90%] lg:h-[588px] mx-auto items-center justify-center grid"
+    >
+      <div className="lg:grid-cols-2 grid gap-[20px] m-10">
+        <div className="">
+          <p className="lg:font-[600] fon-bold text-[#6A7380]">Experiencing</p>
+          <h2 className="lg:text-[45px] w-[440px] text-[35px] font-[600] mt-2">
+            The world’s{" "}
+            <span className="text-[#0cc0df]">First block chain</span>{" "}
+            <span>Documentation Technology </span>
+            (DOCUTECH)
+          </h2>
+          <p className="lg:w-[500px] w-[440px] mt-5 text-[#8B919A] text-[18px] lg:leading-6 lg:tracking-wide">
+            The era of document falsification and in unverifiability is about to
+            be a thing of the past. Welcome to the Generation Alpha Digital
+            Documentation Technology.{" "}
+            <span className="text-black font-bold">
+              We are making documents Digital Asset.{" "}
+            </span>
+            Yes, you heard that right.
+          </p>
+          <button className="rounded-md hover:font-bold border mt-5 px-6 py-2 hover:border-[#0cc0df] hover:bg-transparent bg-[#0cc0df] hover:shadow-sm transistion-all duration-300">
+            Get Started
+          </button>
+        </div>
+
+        <div className="items-center justify-center flex lg:mt-0 mt-[30px]">
+          <img
+            src="https://res.cloudinary.com/dpokiomqq/image/upload/v1677050201/dashboard_image_gvyy8j_1_fqhxxa.jpg"
+            alt="regiz-dashboard" 
+          />
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default Home;

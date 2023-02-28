@@ -36,38 +36,38 @@ function Navbar() {
   }, [theme]);
 
   return (
-    <div className="z-10 top-0 fixed w-full">
+    <div className="bg-white dark:bg-black">
       {/* logo image */}
-      <div className="lg:flex justify-between px-5 p-3 fixed top-0 z-10 w-full  bg-white dark:bg-black transistion-all duration-300 hidden">
-        <div className="lg:flex items-center md:hidden flex">
-          <img
-            src="https://res.cloudinary.com/dpokiomqq/image/upload/v1671902954/regizlogo_2_ey8kjj.png"
-            className="w-[70px]"
-          />
-          <h1 className="dark:text-[#FEFEFF] lg:text-4xl text-2xl font-bold text-black">
-            Regiz
-          </h1>
-        </div>
-
-        {/* Links for desxtop */}
-        <ul className="lg:flex items-center justift-center space-x-6 text-black dark:text-[#FEFEFF] hidden">
-          <li className="hover:text-[#66CC7B] cursor-pointer">
-            <Link to="home" smooth={true} duration={500}>
-              Home
-            </Link>
-          </li>
-          <li className="hover:text-[#66CC7B]  cursor-pointer ">
-            <Link to="about" smooth={true} duration={500}>
-              About
-            </Link>
-          </li>
-          <li>
-            <div className="dropdown relative">
-              <button
-                className="
+      <div className="w-full fixed top-0 z-10 bg-white dark:bg-black pt-[0.5%] ">
+        <div className="justify-between lg:flex hidden items-center bg-white dark:bg-black w-[90%] mx-auto">
+          <div className="lg:flex items-center md:hidden flex">
+            <img
+              src="https://res.cloudinary.com/dpokiomqq/image/upload/v1671902954/regizlogo_2_ey8kjj.png"
+              className="w-[70px]"
+            />
+            <h1 className="dark:text-[#FEFEFF] lg:text-3xl text-2xl text-black font-[TitanOne]">
+              regiz
+            </h1>
+          </div>
+          {/* Links for desxtop */}
+          <ul className="lg:flex items-center justift-center gap-[50px] text-black dark:text-[#FEFEFF] hidden">
+            <li className="hover:text-[#0cc0df] cursor-pointer">
+              <Link to="home" smooth={true} duration={500}>
+                Home
+              </Link>
+            </li>
+            <li className="hover:text-[#0cc0df]  cursor-pointer ">
+              <Link to="about" smooth={true} duration={500}>
+                About
+              </Link>
+            </li>
+            <li>
+              <div className="dropdown relative">
+                <button
+                  className="
                         dropdown-toggle
                         px-3
-                        hover:text-[#66CC7B] 
+                        hover:text-[#0cc0df] 
                         link
                         font-medium
                         leading-tight
@@ -80,38 +80,38 @@ function Navbar() {
                         items-center
                         whitespace-nowrap
                       "
-                type="button"
-                id="dropdownMenuButton1"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                SERVICE
-                <svg
-                  aria-hidden="true"
-                  focusable="false"
-                  data-prefix="fas"
-                  data-icon="caret-down"
-                  className="w-2 ml-2"
-                  role="img"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 320 512"
+                  type="button"
+                  id="dropdownMenuButton1"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
                 >
-                  <path
-                    fill="currentColor"
-                    d="M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z"
-                  ></path>
-                </svg>
-              </button>
-              <ul
-                className="dropdown-menu min-w-max absolute hidden bg-white cursor-pointer text-base z-50 float-left py-2 list-none text-left rounded-lg shadow-lg mt-1 m-0 bg-clip-padding border-none"
-                aria-labelledby="dropdownMenuButton1"
-              >
-                <li>
-                  <Link
-                    to="feature"
-                    smooth={true}
-                    duration={500}
-                    className="
+                  SERVICE
+                  <svg
+                    aria-hidden="true"
+                    focusable="false"
+                    data-prefix="fas"
+                    data-icon="caret-down"
+                    className="w-2 ml-2"
+                    role="img"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 320 512"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z"
+                    ></path>
+                  </svg>
+                </button>
+                <ul
+                  className="dropdown-menu min-w-max absolute hidden bg-white cursor-pointer text-base z-50 float-left py-2 list-none text-left rounded-lg shadow-lg mt-1 m-0 bg-clip-padding border-none"
+                  aria-labelledby="dropdownMenuButton1"
+                >
+                  <li>
+                    <Link
+                      to="feature"
+                      smooth={true}
+                      duration={500}
+                      className="
                             dropdown-item
                             text-sm
                             py-2
@@ -125,17 +125,17 @@ function Navbar() {
                             text-gray-700
                             hover:bg-gray-100
                           "
-                  >
-                    Features
-                  </Link>
-                </li>
+                    >
+                      Features
+                    </Link>
+                  </li>
 
-                <li>
-                  <Link
-                    to="benefit"
-                    smooth={true}
-                    duration={500}
-                    className="
+                  <li>
+                    <Link
+                      to="benefit"
+                      smooth={true}
+                      duration={500}
+                      className="
                             dropdown-item
                             text-sm
                             py-2
@@ -148,20 +148,20 @@ function Navbar() {
                             text-gray-700
                             hover:bg-gray-100
                           "
-                  >
-                    Benefit
-                  </Link>
-                </li>
-              </ul>
-            </div>
-          </li>
-          <li>
-            <div className="dropdown relative">
-              <button
-                className="
+                    >
+                      Benefit
+                    </Link>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <div className="dropdown relative">
+                <button
+                  className="
                         dropdown-toggle
                         px-3
-                        hover:text-[#66CC7B] 
+                        hover:text-[#0cc0df] 
                         link
                         font-medium
                         leading-tight
@@ -174,30 +174,30 @@ function Navbar() {
                         items-center
                         whitespace-nowrap
                       "
-                type="button"
-                id="dropdownMenuButton1"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                PAGES
-                <svg
-                  aria-hidden="true"
-                  focusable="false"
-                  data-prefix="fas"
-                  data-icon="caret-down"
-                  className="w-2 ml-2"
-                  role="img"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 320 512"
+                  type="button"
+                  id="dropdownMenuButton1"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
                 >
-                  <path
-                    fill="currentColor"
-                    d="M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z"
-                  ></path>
-                </svg>
-              </button>
-              <ul
-                className="
+                  PAGES
+                  <svg
+                    aria-hidden="true"
+                    focusable="false"
+                    data-prefix="fas"
+                    data-icon="caret-down"
+                    className="w-2 ml-2"
+                    role="img"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 320 512"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z"
+                    ></path>
+                  </svg>
+                </button>
+                <ul
+                  className="
                         dropdown-menu
                         min-w-max
                         absolute
@@ -217,14 +217,14 @@ function Navbar() {
                         bg-clip-padding
                         border-none
                       "
-                aria-labelledby="dropdownMenuButton1"
-              >
-                <li>
-                  <Link
-                    to="how"
-                    smooth={true}
-                    duration={500}
-                    className="
+                  aria-labelledby="dropdownMenuButton1"
+                >
+                  <li>
+                    <Link
+                      to="how"
+                      smooth={true}
+                      duration={500}
+                      className="
                             dropdown-item
                             text-sm
                             py-2
@@ -238,16 +238,16 @@ function Navbar() {
                             text-gray-700
                             hover:bg-gray-100
                           "
-                  >
-                    How it works
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to="Regiscoin"
-                    smooth={true}
-                    duration={500}
-                    className="
+                    >
+                      How it works
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      to="Regiscoin"
+                      smooth={true}
+                      duration={500}
+                      className="
                             dropdown-item
                             text-sm
                             py-2
@@ -261,16 +261,16 @@ function Navbar() {
                             text-gray-700
                             hover:bg-gray-100
                           "
-                  >
-                    Regiscoin
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to="team"
-                    smooth={true}
-                    duration={500}
-                    className="
+                    >
+                      Regiscoin
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      to="team"
+                      smooth={true}
+                      duration={500}
+                      className="
                             dropdown-item
                             text-sm
                             py-2
@@ -283,16 +283,16 @@ function Navbar() {
                             text-gray-700
                             hover:bg-gray-100
                           "
-                  >
-                    TEAM
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to="persona"
-                    smooth={true}
-                    duration={500}
-                    className="
+                    >
+                      TEAM
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      to="persona"
+                      smooth={true}
+                      duration={500}
+                      className="
                             dropdown-item
                             text-sm
                             py-2                            
@@ -306,42 +306,56 @@ function Navbar() {
                             text-gray-700
                             hover:bg-gray-100
                           "
-                  >
-                    Persona
-                  </Link>
-                </li>
-              </ul>
-            </div>
-          </li>
-
-          <li className="hover:text-[#66CC7B] cursor-pointer ">
-            <Link to="roadmap" smooth={true} duration={500}>
-              Roadmap
-            </Link>
-          </li>
-
-          <li>
-            <NavLink to="/faq" className="hover:text-[#66CC7B] cursor-pointer">
-              FAQ
-            </NavLink>
-          </li>
-        </ul>
-        <div className="pr-5 mt-[1%] lg:block hidden">
-          <button
-            type="button"
-            onClick={handleThemeSwitch}
-            className="bg-[#3CC3A9] w-[40px] h-[40px] rounded"
-          >
-            {theme === "dark" ? (
-              <div className="text-white">
-                <ion-icon name="sunny"></ion-icon>{" "}
+                    >
+                      Persona
+                    </Link>
+                  </li>
+                </ul>
               </div>
-            ) : (
-              <div className="text-white">
-                <ion-icon name="moon"></ion-icon>
-              </div>
-            )}
-          </button>
+            </li>
+
+            <li className="hover:text-[#0cc0df] cursor-pointer ">
+              <Link to="roadmap" smooth={true} duration={500}>
+                Roadmap
+              </Link>
+            </li>
+
+            <li>
+              <NavLink
+                to="/faq"
+                className="hover:text-[#0cc0df] cursor-pointer"
+              >
+                FAQ
+              </NavLink>
+            </li>
+          </ul>
+
+          <div className="hidden lg:flex gap-[20px] items-center justify-center">
+
+            <button className="bg-[#0cc0df] rounded px-4 py-2 hover:opacity-75 transistion-all duration-300">
+              Get Started
+            </button>
+
+            <button
+              type="button"
+              onClick={handleThemeSwitch}
+              className="pt-2"
+            >
+              {theme === "dark" ? (
+                <div className="text-[gray] text-2xl">
+                  <ion-icon name="moon"></ion-icon>{" "}
+                </div>
+              ) : (
+                <div className="text-[black] text-2xl">
+                  <ion-icon name="sunny"></ion-icon>
+                </div>
+              )}
+            </button>
+          </div>
+
+          {/* <div className="">
+          
+          </div> */}
         </div>
       </div>
 
