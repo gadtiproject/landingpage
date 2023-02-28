@@ -2,67 +2,42 @@ import React from "react";
 
 function About() {
   return (
-    <div name="about" className="pt-[5%] dark:bg-[#070909] bg-white">
-      
+    <div
+      name="about"
+      className="mt-[20%] dark:bg-[#070909] bg-white w-[90%] mx-auto grid place-items-center justify-center"
+    >
       <h1 className="lg:text-5xl text-3xl dark:text-white text-black text-center mt-3 font-bold tracking-wide ">
-        About Regiz
+        What is Regiz?
       </h1>
 
-      <div className="dark:text-gray-300  about-text text-black justify-center items-center grid place-items-center">
-        <div className="box place-items-center lg:text-start text-center justify-center items-center m-10 lg:w-[60%] md:w-[500px] w-[300px]">
-          <input type="checkbox" id="check" />
+      <p className="dark:text-gray-300  w-[389px] text-[16px] text-center mt-5">
+        Regiz is a Digital documentation technology project that focuses on the
+        authentication, verification, and digitization of documents so that they
+        can be electronically stored more compactly and securely. It may be
+        educational certificates or professional certifications, computerized
+        receipts, work identification cards, or any suitable documents.
+      </p>
 
-          <p className="text-[14px] lg:text-[1rem] md:text-[1rem] leading-9 text-justify lg:leading-10 lg:tracking-wider justify-center lg:w-full break-word">
-            Regiz is a Generation Alpha Digital documentation technology (DOCUTECH) project that focuses on the authentication, verification, 
-            and digitization of documents so that they can be electronically
-            stored more compactly and securely.
-            <span className="mx-3">
-              It may be educational certificates or professional certifications,
-              computerized receipts, work identification cards, or any suitable
-              documents.
-            </span>
-          </p>
+      <div className="mt-[15%]">
+        <h4 className="lg:text-5xl text-3xl dark:text-white text-black text-center mt-3 font-bold tracking-wide ">
+          What do we do?
+        </h4>
 
-          <div className="content">
-            <p className="text-[14px] lg:text-[1rem] md:text-[1rem] lg:text-justify mt-3 leading-9 text-justify lg:leading-10 lg:tracking-wider break-word justify-center lg:w-full">
-              The Document would be snapped and uploaded on the Regiz platform
-              in selected formats e.g pdf. Every document that is uploaded will
-              be minted upon and given a unique identification code, which will
-              automatically make it a certified digital copy; Thereby
-              eradicating fake or in-genuine digital copies of a document.
-            </p>
-
-            <p className="text-[14px] lg:text-[1rem] md:text-[1rem] lg:text-justify mt-3 leading-9 text-justify lg:leading-10 lg:tracking-wider break-word justify-center lg:w-full">
-              A verification and validation process will be applied to all
-              certificate issued by institutions and organizations that are
-              registered with the government.
-              <span>
-                {" "}
-                With the owner's permission, third parties can also check up on
-                these documents for confirmation purposes (using the Regiz app).
-                This allows anyone to verify its legitimacy globally.
-              </span>
-            </p>
-
-            <p className="text-[14px] lg:text-[1rem] md:text-[1rem] lg:text-justify mt-3 leading-9 text-justify lg:leading-10 lg:tracking-wider break-word justify-center lg:w-full">
-              Regiz will be a decentralized application based on blockchain
-              technology where users will have control over their data much like
-              they do over their money.
-            </p>
-
-            <p className="text-[14px] lg:text-[1rem] md:text-[1rem] lg:text-justify mt-3 leading-9 text-justify lg:leading-10 lg:tracking-wider break-word justify-center lg:w-full">
-              These documents will then become digital assets with monetary
-              value.
-            </p>
-          </div>
-
-          <label
-            htmlFor="check"
-            className="px-3 py-3 rounded-full text-white  bg-[#02383C] hover:animate-bounce"
-          >
-            READ MORE
-          </label>
-        </div>
+        <p className="dark:text-gray-300  w-[389px] text-[16px] text-center mt-5">
+          <span className="mb-3"> We mint on your uploaded document using Block Chain Technology, by
+          giving that document a unique  chain Identity, and a verification
+          Badge. 
+         </span>
+          The document becomes a valuable digital asset stored in a
+          decentralized registry for verification purposes. All documents that
+          are issued by a government-registered institution/organization will
+          pass through a verification/confirmation process. These documents can
+          also be looked up by a third party, (using the Regiz app) with
+          authorization from the owner, to confirm their authenticity globally.
+          Regiz will be a decentralized application, where users will be in
+          charge of their Data Like they are in Charge of their Money) built on
+          blockchain technology.
+        </p>
       </div>
     </div>
   );
