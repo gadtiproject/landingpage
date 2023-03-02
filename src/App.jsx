@@ -39,7 +39,7 @@ function App() {
         ]}
       /> */}
 
-      <div className="bg-white dark:bg-[#070909] min-h-screen font-inter">
+      <div className="bg-[#FEFFFE] dark:bg-[#070909] min-h-screen font-inter">
         <div className="overflow-hidden">
           <Router>
             <Routes>

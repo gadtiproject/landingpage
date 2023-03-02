@@ -38,7 +38,7 @@ function Navbar() {
   return (
     <div className="bg-white dark:bg-black">
       {/* logo image */}
-      <div className="w-full fixed top-0 z-10 bg-white dark:bg-black pt-[0.5%] ">
+      <div className="w-full fixed top-0 z-10 bg-white dark:bg-black pt-[0.5%] border-[#E8EBED] border-b">
         <div className="justify-between lg:flex hidden items-center bg-white dark:bg-black w-[90%] mx-auto">
           <div className="lg:flex items-center md:hidden flex">
             <img
@@ -331,16 +331,11 @@ function Navbar() {
           </ul>
 
           <div className="hidden lg:flex gap-[20px] items-center justify-center">
-
             <button className="bg-[#0cc0df] rounded px-4 py-2 hover:opacity-75 transistion-all duration-300">
               Get Started
             </button>
 
-            <button
-              type="button"
-              onClick={handleThemeSwitch}
-              className="pt-2"
-            >
+            <button type="button" onClick={handleThemeSwitch} className="pt-2">
               {theme === "dark" ? (
                 <div className="text-[gray] text-2xl">
                   <ion-icon name="moon"></ion-icon>{" "}

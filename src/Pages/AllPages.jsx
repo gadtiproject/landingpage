@@ -17,14 +17,14 @@ function AllPages() {
         <Navbar/>
         <Home />
         <About />
+        <Howitworks />
         <Features />
         <Benefits />
-        <Howitworks />
-        <Regiscoin /> 
+        {/*<Regiscoin /> 
         <Personna/> 
         <Roadmap />
         <Team />
-        <MainFooter/>
+        <MainFooter/> */}
       </div>
   );
 }

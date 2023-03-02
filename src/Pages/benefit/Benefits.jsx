@@ -4,7 +4,7 @@ function Benefits() {
   return (
     <div
       name="benefit"
-      className="dark:bg-[#070909]  bg-gray-100 dark:text-[#fff] pt-5 lg:h-[600px] h-full mt-24 justify-center place-items-center"
+      className="dark:bg-[#070909] dark:text-[#fff] pt-5 lg:h-[600px] h-full mt-24 justify-center place-items-center"
     >
       <h1 className="lg:text-5xl text-3xl text-center mt-3 text-black font-bold tracking-wide mb-5 dark:text-[#fff] pt-8">
         BENEFITS

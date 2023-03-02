@@ -4,7 +4,7 @@ function Home() {
   return (
     <div
       name="home"
-      className="lg:mt-[5%] lg:w-[90%] lg:h-[588px] lg:mx-auto items-center justify-center grid"
+      className="lg:mt-[10%] lg:w-[80%] lg:h-[588px] lg:mx-auto items-center justify-center grid"
     >
       <div className="lg:grid-cols-2 grid gap-[20px] mt-5 dark:text-white">
         <div className=" w-[90%] mx-auto ">
@@ -29,11 +29,11 @@ function Home() {
           </button>
         </div>
 
-        <div className="lg:mt-0 mt-[30px] bg-[red] w-[90%] mx-auto">
+        <div className="lg:mt-0 mt-[30px] w-[90%] mx-auto justify-center items-center flex">
           <img
-            src="https://res.cloudinary.com/dpokiomqq/image/upload/v1677050201/dashboard_image_gvyy8j_1_fqhxxa.jpg"
+            src="https://res.cloudinary.com/dpokiomqq/image/upload/v1677754986/WhatsApp_Image_2023-03-01_at_8.40.38_AM_xsbp3x.jpg"
             alt="regiz-dashboard"
-            className="items-center justify-center flex"
+            className="items-center justify-center flex w-[700px]"
           />
         </div>
       </div>
