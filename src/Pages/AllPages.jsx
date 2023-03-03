@@ -20,8 +20,8 @@ function AllPages() {
         <Howitworks />
         <Features />
         <Benefits />
-        {/*<Regiscoin /> 
-        <Personna/> 
+        <Regiscoin /> 
+       {/* <Personna/> 
         <Roadmap />
         <Team />
         <MainFooter/> */}

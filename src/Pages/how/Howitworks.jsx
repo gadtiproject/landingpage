@@ -39,7 +39,7 @@ function Howitworks() {
             </li>
           </ul>
         </div>
-        <div className="h-32 lg:w-[500px] w-[300px] mt-[80%]">
+        <div className="h-32 lg:w-[500px] w-[300px] mt-[80%] lg:mt-0">
           <p className="font-light text-[13px] py-5 uppercase lg:text-center text-center">
             There are 2 categories of Documents
           </p>

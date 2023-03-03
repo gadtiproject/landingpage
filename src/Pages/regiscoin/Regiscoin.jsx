@@ -2,8 +2,8 @@ import React from "react";
 
 function Regizcoin() {
   return (
-    <div name="Regizcoin" className="pt-5 dark:bg-[#070909] bg-gray-100 ">
-      <h5 className="lg:text-5xl text-3xl text-center dark:text-white text-black font-bold tracking-wide mb-5 pt-5">
+    <div name="Regizcoin">
+      <h5 className="lg:text-4xl text-3xl text-center dark:text-white text-black font-bold tracking-wide mb-5 pt-5">
         Regizcoin
       </h5>
 
@@ -21,7 +21,7 @@ function Regizcoin() {
             platform. Either on the Documentation Technology platform or Social
             Marketplace, Regizcoin will be our acceptable transaction currency.
             The purpose of the coin is for easy accessibility and usage of the
-            platform, It makes the platform accessible to users globally.
+            platform; it makes the platform accessible to users globally.
           </p>
         </div>
 
@@ -29,24 +29,24 @@ function Regizcoin() {
           className="mt-5 lg:mt-0 flex items-center justify-center place-items-center"
           data-aos="fade-up"
         >
-          <div className=" bg-[#02383C] text-center mx-5 mb-3 rounded-lg h-[300px] w-[300px] md:w-[400px]  lg:w-[500px]">
+          <div className="text-center mx-5 mb-3 rounded-lg h-[300px] w-[300px] md:w-[400px]  lg:w-[500px]">
             <div className="p-2">
-              <div className="flex text-white justify-between m-5 text-x hover:animate-pulse transition-colors duration-200">
+              <div className="flex text-black justify-between m-5 text-x">
                 <p>Token Name</p>
                 <p className="text-end uppercase">Regiz coin</p>
               </div>
               <hr className="border-black border-1" />
-              <div className="flex text-white gap-5 justify-between m-5 text-x hover:animate-pulse hover:text-white transition-colors duration-200">
+              <div className="flex text-black gap-5 justify-between m-5 text-x">
                 <p>Symbol</p>
                 <p className="uppercase">rgz</p>
               </div>
               <hr className="border-black border-1" />
-              <div className="flex text-white gap-5 justify-between m-5 text-x hover:animate-pulse hover:text-white transition-colors duration-200">
+              <div className="flex text-black gap-5 justify-between m-5 text-x">
                 <p>Token Supply</p>
-                <p>100 Billions</p>
+                <p>100 Billion</p>
               </div>
               <hr className="border-black border-1" />
-              <div className="flex text-white gap-5 justify-between m-5 text-x hover:animate-pulse hover:text-white transition-colors duration-200">
+              <div className="flex text-black gap-5 justify-between m-5 text-x">
                 <p>Total in Circulation</p>
                 <p>67%</p>
               </div>
@@ -57,13 +57,11 @@ function Regizcoin() {
 
       <div className="dark:bg-[#070909]  bg-[#fff] grid lg:flex justify-center items-center place-items-center">
         <div className="justify-center items-center place-items-center h-[600px]">
-          <h3 className="lg:text-5xl text-3xl text-center mt-3 dark:text-white font-bold tracking-wide mb-5 pt-5 text-black">
+          <h3 className="lg:text-4xl text-3xl text-center mt-3 dark:text-white font-bold tracking-wide mb-5 pt-5 text-black">
             Token Distribution
           </h3>
           <div className="lg:m-20 text-start m-5 md:w-[500px] lg:w-[540px] w-[300px]  bg-slate-50 p-5 rounded shadow-md">
-            <p className="text-black text-xl">
-              Private Sales 1%
-            </p>
+            <p className="text-black text-xl">Private Sales 1%</p>
             <div className="w-full shadow bg-[#323F52] mt-3 rounded-lg">
               <div
                 className="bg-blue-500 rounded-lg text-xs leading-none py-[2px] mb-3 text-center text-black w-20 lg:w-[1%]"
@@ -71,9 +69,7 @@ function Regizcoin() {
               ></div>
             </div>
 
-            <p className="text-black text-xl">
-              Public Sales 10%
-            </p>
+            <p className="text-black text-xl">Public Sales 10%</p>
             <div className="w-full shadow bg-[#323F52] mt-3 rounded-lg">
               <div
                 className="bg-blue-500 rounded-lg text-xs leading-none py-[2px] mb-3 text-center text-black w-20 lg:w-[10%]"
@@ -124,7 +120,7 @@ function Regizcoin() {
         </div>
 
         <div className="justify-center items-center place-items-center lg:h-[600px] ">
-          <h3 className="lg:text-5xl text-3xl text-center mt-3 font-bold tracking-wide mb-5 pt-5 text-black dark:text-white">
+          <h3 className="lg:text-4xl text-3xl text-center mt-3 font-bold tracking-wide mb-5 pt-5 text-black dark:text-white">
             Taxes
           </h3>
           <p className="text-x text-center italics tracking-wide text-black">
