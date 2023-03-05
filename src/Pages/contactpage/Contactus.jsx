@@ -69,20 +69,20 @@ function Contactus() {
                 <p className="lg:w-[400px] mt-[30px] leading-8 text-[19px]">
                   Feel free to get in touch with us via email or phone
                 </p>
-                <hr className="border-1 border-[#02383C] lg:w-[450px] md:w-[500px]  w-[343px] mt-[30px]" />
+                <hr className="border-1 border-[#0BC0DF] lg:w-[450px] md:w-[500px]  w-[343px] mt-[30px]" />
 
                 <div className="flex gap-[50px] mt-8 place-items-center items-center">
-                  <HiMail className="text-5xl fill-[#02383C]" />
+                  <HiMail className="text-5xl fill-[#0BC0DF]" />
                   <div className="flex flex-col gap-5">
                     <a
                       href="mailto:info@regiz.io"
-                      className="hover:text-[#02383C] cursor-pointer"
+                      className="hover:text-[#0BC0DF] cursor-pointer"
                     >
                       info@regiz.io
                     </a>
                     <a
                       href="mailto:support@regiz.io"
-                      className="hover:text-[#02383C] cursor-pointer"
+                      className="hover:text-[#0BC0DF] cursor-pointer"
                     >
                       support@regiz.io
                     </a>
@@ -90,9 +90,9 @@ function Contactus() {
                 </div>
 
                 <div className="flex gap-[50px] mt-8 place-items-center items-center">
-                  <HiPhone className="text-5xl fill-[#02383C]" />
+                  <HiPhone className="text-5xl fill-[#0BC0DF]" />
                   <div className="flex flex-col gap-5">
-                    <a href="tel:08032113990" className="hover:text-[#02383C]">
+                    <a href="tel:08032113990" className="hover:text-[#0BC0DF]">
                       +2348032113990
                     </a>
                   </div>
@@ -165,10 +165,39 @@ function Contactus() {
                 <button
                   id="btn__submit"
                   type="submit"
-                  className="mt-3 w-[330px]  bg-[#02383C] hover:bg-[#164043] ring-opacity-25  focus:ring-4 ring-[#02383C] text-[#FFFF] rounded-[10px] px-5 py-5 lg:w-[448px]"
+                  className="mt-3 w-[330px] relative  transition duration-300  bg-[#0BC0DF] hover:bg-[#0197B2] ring-opacity-25 ease  focus:ring-4 ring-[#0BC0DF] text-[#FFFF] rounded-[10px] px-5 py-5 lg:w-[448px]"
                 >
-                  Send message
+                  <span class="absolute bottom-0 left-0 h-full -ml-2">
+                    <svg
+                      viewBox="0 0 487 487"
+                      class="w-auto h-full opacity-100 object-stretch"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M0 .3c67 2.1 134.1 4.3 186.3 37 52.2 32.7 89.6 95.8 112.8 150.6 23.2 54.8 32.3 101.4 61.2 149.9 28.9 48.4 77.7 98.8 126.4 149.2H0V.3z"
+                        fill="#FFF"
+                        fill-rule="nonzero"
+                        fill-opacity=".1"
+                      ></path>
+                    </svg>
+                  </span>
+                  <span class="absolute top-0 right-0 w-12 h-full -mr-3">
+                    <svg
+                      viewBox="0 0 487 487"
+                      class="object-cover w-full h-full"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M487 486.7c-66.1-3.6-132.3-7.3-186.3-37s-95.9-85.3-126.2-137.2c-30.4-51.8-49.3-99.9-76.5-151.4C70.9 109.6 35.6 54.8.3 0H487v486.7z"
+                        fill="#FFF"
+                        fill-rule="nonzero"
+                        fill-opacity=".1"
+                      ></path>
+                    </svg>
+                  </span>
+                  <span class="relative">Send a message</span>
                 </button>
+
                 <Toaster />
               </div>
             </form>

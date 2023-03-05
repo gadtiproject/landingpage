@@ -1,10 +1,6 @@
 import React from "react";
-import Accordion from "@mui/material/Accordion";
-import AccordionSummary from "@mui/material/AccordionSummary";
-import AccordionDetails from "@mui/material/AccordionDetails";
-import Typography from "@mui/material/Typography";
-import { MdOutlineStorefront } from "react-icons/md";
 import { BsFillSignpostFill } from "react-icons/bs";
+
 function Roadmap() {
   const data = [
     {
@@ -108,7 +104,7 @@ function Roadmap() {
           }) => {
             return (
               <div key={id}>
-                <div className="bg-[pink]">
+                <div>
                   <div className="flex m-4 mt-4">
                     <p className="text-xl text-blue-500 dark:text-white">
                       <BsFillSignpostFill className="fill-black" />
@@ -117,35 +113,26 @@ function Roadmap() {
                       {date}
                     </h1>
                   </div>
-                    <div
-                      className="bg-[yellow] "
-                      data-aos="fade-up"
-                    >
-                      <div className="bg-[green] flex gap-40">
-                        <div>
-                          <p>{para1}</p>
-                        </div>
-                        <div>
-                          <p>{para2}</p>
-                        </div>
-                        <div>
-                          <p>{para3}</p>
-                        </div>
-                        <p>{para4}</p>
-                        <p>{para5}</p>
-                        <p>{para6}</p>
-                        <p>{para7}</p>
-                        <p>{para8}</p>
-                        <p>{sub1}</p>
-                        <p>{sub2}</p>
-                        <p>{sub3}</p>
-                        <p>{sub4}</p>
-                        <p>{sub5}</p>
-                        <p>{sub6}</p>
-                        <p>{sub7}</p>
-                        <p>{sub8}</p>
-                      </div>
+                  <div>
+                    <div className="space-y-6">
+                      <p>{para1}</p>
+                      <p>{para2}</p>
+                      <p>{para3}</p>
+                      <p>{para4}</p>
+                      <p>{para5}</p>
+                      <p>{para6}</p>
+                      <p>{para7}</p>
+                      <p>{para8}</p>
+                      <p>{sub1}</p>
+                      <p>{sub2}</p>
+                      <p>{sub3}</p>
+                      <p>{sub4}</p>
+                      <p>{sub5}</p>
+                      <p>{sub6}</p>
+                      <p>{sub7}</p>
+                      <p>{sub8}</p>
                     </div>
+                  </div>
                 </div>
               </div>
             );

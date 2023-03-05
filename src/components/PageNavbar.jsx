@@ -50,36 +50,32 @@ function PageNavbar() {
         </div>
 
         {/* Links for desxtop */}
-        <ul className="lg:flex items-center justift-center space-x-6 text-black dark:text-[#FEFEFF] hidden">
-          <li className="hover:text-[#66CC7B] cursor-pointer">
+        <ul className="lg:flex items-center justift-center space-x-6 text-black dark:text-[#FEFEFF] hidden gap-6">
+          <li className="hover:text-[#0BC0DF] cursor-pointer">
             <NavLink to="/home">HOME</NavLink>
           </li>
-          <li className="hover:text-[#66CC7B] cursor-pointer uppercase">
+          <li className="hover:text-[#0BC0DF] cursor-pointer uppercase">
             <NavLink to="/Careers">Careers</NavLink>
           </li>
-          <li className="hover:text-[#66CC7B] cursor-pointer uppercase">
+          <li className="hover:text-[#0BC0DF] cursor-pointer uppercase">
             <NavLink to="/contact">Contact</NavLink>
           </li>
-          <li className="hover:text-[#66CC7B] cursor-pointer uppercase">
+          <li className="hover:text-[#0BC0DF] cursor-pointer uppercase">
             <NavLink to="/faq">Faq</NavLink>
           </li>
         </ul>
         <div className="pr-5 mt-[1%] lg:block hidden">
-          <button
-            type="button"
-            onClick={handleThemeSwitch}
-            className="bg-[#3CC3A9] w-[40px] h-[40px] rounded"
-          >
-            {theme === "dark" ? (
-              <div className="text-white">
-                <ion-icon name="sunny"></ion-icon>{" "}
-              </div>
-            ) : (
-              <div className="text-white">
-                <ion-icon name="moon"></ion-icon>
-              </div>
-            )}
-          </button>
+          <button type="button" onClick={handleThemeSwitch} className="pt-2">
+              {theme === "dark" ? (
+                <div className="text-[gray] text-2xl">
+                  <ion-icon name="moon"></ion-icon>{" "}
+                </div>
+              ) : (
+                <div className="text-[black] text-2xl">
+                  <ion-icon name="sunny"></ion-icon>
+                </div>
+              )}
+            </button>
         </div>
       </div>
 
@@ -125,18 +121,14 @@ function PageNavbar() {
               <Link to="/contact">CONTACT</Link>
             </li>
 
-            <button
-              type="button"
-              onClick={handleThemeSwitch}
-              className="w-12 bg-[#02383C] text-lg px-2 py-2 m-3 rounded-md"
-            >
+            <button type="button" onClick={handleThemeSwitch} className="pt-2">
               {theme === "dark" ? (
-                <div className="text-white">
-                  <ion-icon name="sunny"></ion-icon>{" "}
+                <div className="text-[gray] text-2xl">
+                  <ion-icon name="moon"></ion-icon>{" "}
                 </div>
               ) : (
-                <div className="text-white">
-                  <ion-icon name="moon"></ion-icon>
+                <div className="text-[black] text-2xl">
+                  <ion-icon name="sunny"></ion-icon>
                 </div>
               )}
             </button>

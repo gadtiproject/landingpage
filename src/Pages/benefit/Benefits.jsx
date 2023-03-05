@@ -6,7 +6,7 @@ function Benefits() {
         BENIFITS
       </h4>
 
-      <div className="h-[500px] lg:flex grid items-center justify-center gap-[20px]">
+      <div className="h-[500px] lg:flex grid items-center justify-center gap-[60px]">
         <div className="h-full w-[400px] space-y-6">
           <div>
             <h3 className="text-black mt-3 text-xl tracking-wide text-start dark:text-[#fff] font-bold">

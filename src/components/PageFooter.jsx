@@ -6,12 +6,9 @@ import ScrollToTop from "react-scroll-to-top";
 
 function PageFooter() {
   return (
-    <div
-      name="contact"
-      className=" lg:h-[320px] p-6 bg-[#02383C] font-[poppins]"
-    >
+    <div name="contact" className=" lg:h-[320px] p-6 bg-[#0197B2]">
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-        <div className="p-4 lg:flex mb-3">
+        <div className="p-4 lg:flex mb-3 gap-[20px]">
           <div className="w-[700px] mb-5">
             <img
               src="https://res.cloudinary.com/dpokiomqq/image/upload/v1671902954/regizlogo_2_ey8kjj.png"
@@ -66,7 +63,7 @@ function PageFooter() {
               <a
                 href="https://facebook.com/Regizofficial"
                 type="button"
-                className="rounded-full border-2 text-[#02383C] bg-white hover:bg-black leading-normal uppercase  focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-10 h-10 m-1"
+                className="rounded-full bg-white hover:bg-black hover:text-white leading-normal uppercase  focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-10 h-10 m-1"
               >
                 <svg
                   aria-hidden="true"
@@ -88,7 +85,7 @@ function PageFooter() {
               <a
                 href="https://twitter.com/Regizofficial"
                 type="button"
-                className="rounded-full border-2 text-[#02383C] bg-white hover:bg-black leading-normal uppercase  focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-10 h-10 m-1"
+                className="rounded-full bg-white hover:bg-black hover:text-white leading-normal uppercase  focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-10 h-10 m-1"
               >
                 <svg
                   aria-hidden="true"
@@ -110,7 +107,7 @@ function PageFooter() {
               <a
                 href="https://instagram.com/Regizofficial"
                 type="button"
-                className="rounded-full border-2 text-[#02383C] bg-white hover:bg-black leading-normal uppercase  focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-10 h-10 m-1"
+                className="rounded-full bg-white hover:bg-black hover:text-white leading-normal uppercase  focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-10 h-10 m-1"
               >
                 <svg
                   aria-hidden="true"
@@ -132,7 +129,7 @@ function PageFooter() {
               <a
                 href="https://www.linkedin.com/company/regizofficial/"
                 type="button"
-                className="rounded-full border-2 text-[#02383C] bg-white hover:bg-black leading-normal uppercase  focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-10 h-10 m-1"
+                className="rounded-full bg-white hover:bg-black hover:text-white leading-normal uppercase  focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-10 h-10 m-1"
               >
                 <svg
                   aria-hidden="true"
