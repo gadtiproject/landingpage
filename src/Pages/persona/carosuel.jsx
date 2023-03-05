@@ -31,7 +31,7 @@ function Carousel1() {
             >
               <div className="grid items-center justify-center">
                 <div className="w-[300px] h-44 overflow-hidden flex justify-center items-center mb-2">
-                  <img src={img} alt={desc} className="h-full w-auto" />
+                  <img src={img} alt={para} className="h-full w-auto" />
                 </div>
                 <p className="dark:text-gray-300 text-gray-500 text-base leading-8 text-justify lg:w-full w-[300px]">
                   {desc1}

@@ -7,25 +7,26 @@ import Howitworks from "./how/Howitworks";
 import Regiscoin from "./regiscoin/Regiscoin";
 import Roadmap from "./roadmap/Roadmap";
 import Team from "./team/Team";
-import Personna from "./persona/Personna"
+import Personna from "./persona/Personna";
 import Navbar from "../components/Navbar";
 import MainFooter from "../components/MainFooter";
-
+import Community from "./community/community";
 function AllPages() {
   return (
-      <div>
-        <Navbar/>
-        <Home />
-        <About />
-        <Howitworks />
-        <Features />
-        <Benefits />
-        <Regiscoin /> 
-       {/* <Personna/> 
-        <Roadmap />
-        <Team />
-        <MainFooter/> */}
-      </div>
+    <div>
+      <Navbar />
+      <Home />
+      <About />
+      <Howitworks />
+      <Features />
+      <Benefits />
+      <Regiscoin />
+      <Personna />
+      <Roadmap />
+      <Team /> 
+      <Community/>
+      <MainFooter />
+    </div>
   );
 }
 

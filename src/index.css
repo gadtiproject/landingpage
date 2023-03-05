@@ -33,7 +33,7 @@ html{
   transition: all 0.3s ease-in-out;
 }
 .arrow-right:hover{
-  border-left-color: #02383C;
+  border-left-color: #0cc0df;
 }
 
 .words{
@@ -288,8 +288,8 @@ svg{
 
 
 .react-multiple-carousel__arrow {
-  background-color: #02383C;
   margin:-10px;
+  color:black;
 }
 
 .react-multi-carousel-track{

@@ -6,12 +6,9 @@ import ScrollToTop from "react-scroll-to-top";
 
 function Contact() {
   return (
-    <div
-      name="contact"
-      className=" lg:h-[320px] p-6 bg-[#02383C] font-[poppins]"
-    >
+    <div name="contact" className=" lg:h-[320px] p-6 bg-[#0197B2]">
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-        <div className="p-4 lg:flex mb-3">
+        <div className="p-4 lg:flex mb-3 gap-[20px]">
           <div className="w-[700px] mb-5">
             <img
               src="https://res.cloudinary.com/dpokiomqq/image/upload/v1671902954/regizlogo_2_ey8kjj.png"
@@ -21,25 +18,47 @@ function Contact() {
           </div>
 
           <p className="text-[#FFFEFE] leading-[30px] tracking-wider text-base lg:leading-[25px]">
-            Regiz is a Generation Alpha Digital Documentation Technology (DOCTECH) 
-            (DOCUTECH) project that focuses on the authentication, verification,
-            and digitization of documents so that they can be electronically
-            stored more compactly and securely.
+            We are Regiz, the world’s first blockchain documentation technology
+            platform dedicated to meeting your document verification needs.
+            connect your wallet and start minting your documents to give it a
+            unique chain identity.
           </p>
         </div>
 
         <div className="p-4 lg:text-center">
-          <h6 className="font-[900] text-[19px] mb-5 text-white">QUICK MENU</h6>
+          <h6 className="font-[900] text-[19px] mb-5 text-white">COMPANY</h6>
 
           <ul className="space-y-5">
             <li className="text-[14px] hover:text-[#100] text-[#FFFEFE] cursor-pointer">
-               <Navigate to="dashboard" smooth={true} duration={500}>
-              <NavLink to="/home">Home</NavLink>
+              <Navigate to="dashboard" smooth={true} duration={500}>
+                <NavLink to="/home">Home</NavLink>
               </Navigate>
             </li>
 
             <li className="text-[14px] hover:text-[#100] text-[#FFFEFE] cursor-pointer">
-              <NavLink to="/faq">FAQ</NavLink>
+              <Navigate to="about" smooth={true} duration={500}>
+                About Us
+              </Navigate>
+            </li>
+
+            <li className="text-[14px] hover:text-[#100] text-[#FFFEFE] cursor-pointer">
+              <NavLink to="/contact">Contact Us</NavLink>
+            </li>
+            <li className="text-[14px] hover:text-[#100] text-[#FFFEFE] cursor-pointer">
+              <NavLink to="/Careers">Careers</NavLink>
+            </li>
+          </ul>
+        </div>
+
+        <div className="p-4 lg:text-center">
+          <h6 className="font-[900] text-[19px] mb-5 text-white">
+            USEFUL LINKS
+          </h6>
+          <ul className="space-y-5">
+            <li className="text-[14px] hover:text-[#100] text-[#FFFEFE] cursor-pointer">
+              <Navigate to="Regiscoin" smooth={true} duration={500}>
+                Regiscoin
+              </Navigate>
             </li>
 
             <li className="text-[14px] hover:text-[#100] text-[#FFFEFE] cursor-pointer">
@@ -55,21 +74,7 @@ function Contact() {
             </li>
 
             <li className="text-[14px] hover:text-[#100] text-[#FFFEFE] cursor-pointer">
-              <Navigate to="Regiscoin" smooth={true} duration={500}>
-                Regiscoin
-              </Navigate>
-            </li>
-          </ul>
-        </div>
-
-        <div className="p-4 lg:text-center">
-          <h6 className="font-[900] text-[19px] mb-5 text-white">CONTACT US</h6>
-          <ul className="space-y-5">
-            <li className="text-[14px] hover:text-[#100] text-[#FFFEFE] cursor-pointer">
-              <NavLink to="/contact">Contact</NavLink>
-            </li>
-            <li className="text-[14px] hover:text-[#100] text-[#FFFEFE] cursor-pointer">
-              <NavLink to="/Careers">Careers</NavLink>
+              <NavLink to="/faq">FAQ</NavLink>
             </li>
           </ul>
         </div>
@@ -84,7 +89,7 @@ function Contact() {
               <a
                 href="https://facebook.com/Regizofficial"
                 type="button"
-                className="rounded-full border-2 text-[#02383C] bg-white hover:bg-black leading-normal uppercase  focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-10 h-10 m-1"
+                className="rounded-full bg-white hover:bg-black hover:text-white leading-normal uppercase  focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-10 h-10 m-1"
               >
                 <svg
                   aria-hidden="true"
@@ -106,7 +111,7 @@ function Contact() {
               <a
                 href="https://twitter.com/Regizofficial"
                 type="button"
-                className="rounded-full border-2 text-[#02383C] bg-white hover:bg-black leading-normal uppercase  focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-10 h-10 m-1"
+                className="rounded-full bg-white hover:bg-black hover:text-white leading-normal uppercase  focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-10 h-10 m-1"
               >
                 <svg
                   aria-hidden="true"
@@ -128,7 +133,7 @@ function Contact() {
               <a
                 href="https://instagram.com/Regizofficial"
                 type="button"
-                className="rounded-full border-2 text-[#02383C] bg-white hover:bg-black leading-normal uppercase  focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-10 h-10 m-1"
+                className="rounded-full bg-white hover:bg-black hover:text-white leading-normal uppercase  focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-10 h-10 m-1"
               >
                 <svg
                   aria-hidden="true"
@@ -150,7 +155,7 @@ function Contact() {
               <a
                 href="https://www.linkedin.com/company/regizofficial/"
                 type="button"
-                className="rounded-full border-2 text-[#02383C] bg-white hover:bg-black leading-normal uppercase  focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-10 h-10 m-1"
+                className="rounded-full bg-white hover:bg-black hover:text-white leading-normal uppercase  focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-10 h-10 m-1"
               >
                 <svg
                   aria-hidden="true"
@@ -184,7 +189,7 @@ function Contact() {
         width=""
         component={
           <p>
-            <HiOutlineChevronUp className="text-[#02383C] w-10 text-3xl" />
+            <HiOutlineChevronUp className="w-10 text-3xl" />
           </p>
         }
       />

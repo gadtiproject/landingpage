@@ -11,7 +11,7 @@ function About() {
         What is Regiz?
       </h1>
 
-      <p className="dark:text-gray-300 leading-[25px]  w-[369px] lg:w-[700px] text-[16px] text-center mt-5">
+      <p className="dark:text-gray-300 leading-[25px]  w-[350px] lg:w-[700px] text-[16px] text-center mt-5">
         Regiz is a Digital documentation technology project that focuses on the
         authentication, verification, and digitization of documents so that they
         can be electronically stored more compactly and securely. It may be
@@ -24,7 +24,7 @@ function About() {
           What do we do?
         </h4>
 
-        <p className="dark:text-gray-300 leading-[25px]  w-[369px] lg:w-[700px] text-[16px] text-center mt-5">
+        <p className="dark:text-gray-300 leading-[25px]  w-[350px] lg:w-[700px] text-[16px] text-center mt-5">
           <span className="mb-3">
             {" "}
             We mint on your uploaded document using Block Chain Technology, by

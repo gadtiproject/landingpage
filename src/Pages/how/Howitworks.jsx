@@ -8,7 +8,7 @@ function Howitworks() {
       </h4>
 
       <div className="grid lg:grid-cols-2 gap-[60px] items-center justify-center mx-auto w-[70%] dark:text-[#EEEE]">
-        <div className="h-32 lg:w-[500px] w-[300px]">
+        <div className="h-32 lg:w-[500px] w-[350px]">
           <p className="lg:text-[40px] text-[24px] font-[600]">Documentation Technology</p>
           <ul>
             <li className="mt-4">
@@ -39,7 +39,7 @@ function Howitworks() {
             </li>
           </ul>
         </div>
-        <div className="h-32 lg:w-[500px] w-[300px] mt-[80%] lg:mt-0">
+        <div className="h-32 lg:w-[500px] w-[350px] mt-[80%] lg:mt-0">
           <p className="font-light text-[13px] py-5 uppercase lg:text-center text-center">
             There are 2 categories of Documents
           </p>

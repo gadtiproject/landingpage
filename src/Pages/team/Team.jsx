@@ -4,7 +4,7 @@ function Team() {
   return (
     <div
       name="team"
-      className="pt-5 dark:lg:pt-20 lg:h-[500px] md:h-full mt-20"
+      className="lg:h-[400px] md:h-full my-[5%]"
     >
       <h1 className="lg:text-5xl text-3xl text-center  dark:text-white text-black font-bold tracking-wide mt-5">
         Team

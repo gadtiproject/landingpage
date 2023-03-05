@@ -2,12 +2,13 @@ import React from "react";
 
 function Regizcoin() {
   return (
-    <div name="Regizcoin">
+    <div name="Regizcoin" className="mt-[35%] lg:mt-[2%]">
+
       <h5 className="lg:text-4xl text-3xl text-center dark:text-white text-black font-bold tracking-wide mb-5 pt-5">
         Regizcoin
       </h5>
 
-      <div className="grid lg:flex lg:m-10 m-5 place-items-center gap-5 items-center justify-center  ">
+      <div className="grid lg:flex lg:m-10 m-5 place-items-center gap-5 items-center justify-center">
         <div
           data-aos="fade-left"
           className="leading-10  m-5 lg:text-start  break-word place-items-center"
@@ -16,7 +17,7 @@ function Regizcoin() {
             Regizcoin is a token owned by Regiz LLC.
           </p>
 
-          <p className="dark:text-white text-black mt-3 text-base leading-9 lg:leading-10 text-justify lg:text-xl w-[310px] md:w-[400px] lg:w-[600px] break-word">
+          <p className="dark:text-white text-black mt-3 text-base leading-9 lg:leading-10 text-justify lg:text-xl w-[350px] md:w-[400px] lg:w-[600px] break-word">
             Regizcoin will be used for payments to access services on the
             platform. Either on the Documentation Technology platform or Social
             Marketplace, Regizcoin will be our acceptable transaction currency.

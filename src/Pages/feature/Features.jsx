@@ -2,10 +2,8 @@ import React from "react";
 import { MdStarRate } from "react-icons/md";
 import { GoVerified } from "react-icons/go";
 import { HiDocumentSearch } from "react-icons/hi";
-import { MdBusiness } from "react-icons/md";
 import { ImCancelCircle } from "react-icons/im";
 import { TbBadge } from "react-icons/tb";
-import { AiFillGift } from "react-icons/ai";
 import { RiWallet3Fill } from "react-icons/ri";
 import { AiOutlineWechat } from "react-icons/ai";
 
@@ -16,20 +14,20 @@ function Features() {
       className="dark:bg-[#070909] mt-24 lg:mt-[25%] w-[90%] mx-auto"
     >
       <div className="grid place-items-center justify-center">
-        <h3 className="lg:text-4xl text-3xl text-center mt-3 pt-5 text-black font-bold tracking-wide mb-5 dark:text-white">
+        <h3 className="lg:text-4xl text-3xl text-center mt-3 pt-5 text-black font-bold trackin0cc0df mb-5 dark:text-white">
           Regiz Features
         </h3>
 
-        <p className="text-center lg:w-[600px] w-[300px] text-[16px] text-[#68778D] leading-[25px]">
+        <p className="text-center lg:w-[600px] w-[350px] text-[16px] text-[#68778D] leading-[25px]">
           With Regiz document verification and digitization has been made easy,
           just upload your Documents and relax while we mint on your document
           and give it a unique chain identity.
         </p>
       </div>
 
-      <div className="grid lg:grid-cols-4 gap-x-[30px] gap-y-[40px] justify-center place-items-center mt-[5%]">
+      <div className="grid lg:grid-cols-4 gap-x-[30px] gap-y-[40px] justify-center place-items-center mt-[10%] lg:mt-[5%]">
         <div className="w-[289px] h-[220px] rounded-lg bg-[#F5F9FC] relative">
-          <MdStarRate className="fill-[#0cc0df] border border-[#0cc0df] rounded-full w-[40px] h-[40px] top-[-20px] absolute mx-3" />
+          <MdStarRate className="fill-[#0097b2] border border-[#0097b2] rounded-full w-[40px] h-[40px] top-[-20px] absolute mx-3" />
           <h1 className="text-[20px] font-bold text-[#0cc0df] p-3 leading-[28px] mt-6">
             Document Minting
           </h1>
@@ -38,7 +36,7 @@ function Features() {
           </p>
         </div>
         <div className="w-[289px] h-[220px] rounded-lg bg-[#F5F9FC] relative">
-          <GoVerified className="fill-[#0cc0df] border-[#0cc0df] rounded-full w-[40px] h-[40px] top-[-20px] absolute mx-3" />
+          <GoVerified className="fill-[#0097b2] border-[#0097b2] rounded-full w-[40px] h-[40px] top-[-20px] absolute mx-3" />
           <h1 className="text-[20px] font-bold text-[#0cc0df] p-3 leading-[28px] mt-6">
             Document Verification
           </h1>
@@ -48,7 +46,7 @@ function Features() {
           </p>
         </div>
         <div className="w-[289px] h-[220px] rounded-lg bg-[#F5F9FC] relative">
-          <TbBadge className="fill-[#0cc0df] border-[#0cc0df] rounded-full w-[40px] h-[40px] top-[-20px] absolute mx-3" />
+          <TbBadge className="fill-[#0097b2] border-[#0097b2] rounded-full w-[40px] h-[40px] top-[-20px] absolute mx-3" />
           <h1 className="text-[20px] font-bold text-[#0cc0df] p-3 leading-[28px] mt-6">
             Originality Badge
           </h1>
@@ -58,7 +56,7 @@ function Features() {
           </p>
         </div>
         <div className="w-[289px] h-[220px] rounded-lg bg-[#F5F9FC] relative">
-          <HiDocumentSearch className="fill-[#0cc0df] border-[#0cc0df] rounded-full w-[40px] h-[40px] top-[-20px] absolute mx-3" />
+          <HiDocumentSearch className="fill-[#0097b2] border-[#0097b2] rounded-full w-[40px] h-[40px] top-[-20px] absolute mx-3" />
           <h1 className="text-[20px] font-bold text-[#0cc0df] p-3 leading-[28px] mt-6">
             Document Search
           </h1>
@@ -67,7 +65,7 @@ function Features() {
           </p>
         </div>
         <div className="w-[289px] h-[220px] rounded-lg bg-[#F5F9FC] relative">
-          <ImCancelCircle className="fill-[#0cc0df] border-[#0cc0df] rounded-full w-[40px] h-[40px] top-[-20px] absolute mx-3" />
+          <ImCancelCircle className="fill-[#0097b2] border-[#0097b2] rounded-full w-[40px] h-[40px] top-[-20px] absolute mx-3" />
           <h1 className="text-[20px] font-bold text-[#0cc0df] p-3 leading-[28px] mt-6">
             Document Blacklisting
           </h1>
@@ -76,7 +74,7 @@ function Features() {
           </p>
         </div>
         <div className="w-[289px] h-[220px] rounded-lg bg-[#F5F9FC] relative">
-          <RiWallet3Fill className="fill-[#0cc0df] border-[#0cc0df] rounded-full w-[40px] h-[40px] top-[-20px] absolute mx-3" />
+          <RiWallet3Fill className="fill-[#0097b2] border-[#0097b2] rounded-full w-[40px] h-[40px] top-[-20px] absolute mx-3" />
           <h1 className="text-[20px] font-bold text-[#0cc0df] p-3 leading-[28px] mt-6">
             Wallet
           </h1>
@@ -85,7 +83,7 @@ function Features() {
           </p>
         </div>
         <div className="w-[289px] h-[220px] rounded-lg bg-[#F5F9FC] relative">
-          <AiOutlineWechat className="fill-[#0cc0df] border-[#0cc0df] rounded-full w-[40px] h-[40px] top-[-20px] absolute mx-3" />
+          <AiOutlineWechat className="fill-[#0097b2] border-[#0097b2] rounded-full w-[40px] h-[40px] top-[-20px] absolute mx-3" />
           <h1 className="text-[20px] font-bold text-[#0cc0df] p-3 leading-[28px] mt-6">
             Customer Support
           </h1>

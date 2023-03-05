@@ -3,9 +3,9 @@ import Accordion from "@mui/material/Accordion";
 import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import Typography from "@mui/material/Typography";
-
+import { MdOutlineStorefront } from "react-icons/md";
+import { BsFillSignpostFill } from "react-icons/bs";
 function Roadmap() {
-
   const data = [
     {
       id: 1,
@@ -71,21 +71,20 @@ function Roadmap() {
       id: 6,
       date: "Q2 - 2024",
       para1: "Launch Dapp",
-      sub1: "launch on App Store and Play store", 
+      sub1: "launch on App Store and Play store",
     },
   ];
 
-
   return (
-    <div name="roadmap" className="text-white  dark:bg-[#070909] bg-[#f0f0f1]  w-[80%] mx-auto">
-      <p className="text-5xl text-center mt-3 dark:text-white text-black font-bold tracking-wide mb-5 p-5">
+    <div name="roadmap" className="w-[80%] mx-auto">
+      <p className="text-4xl text-center mt-3 dark:text-white text-black font-bold tracking-wide mb-5 p-5">
         Roadmap
       </p>
       <p className="text-gray-500 text-xl leading-5 text-center font-[poppins] p-5">
         Project roadmap for the year 2023/2024
       </p>
 
-      <div className="max-w-[650px] mx-auto">
+      <div className="max-w-[750px] mx-auto">
         {data.map(
           ({
             date,
@@ -109,42 +108,45 @@ function Roadmap() {
           }) => {
             return (
               <div key={id}>
-                <Accordion className="mb-[30px] mt-[30px]">
-                  <div className="border p-2 rounded">
-                    <AccordionSummary
-                      expandIcon={
-                        <p className="text-[30px] text-black cursor-pointer">
-                          +
-                        </p>
-                      }
-                      aria-controls="panel1a-content"
-                      id="panel1a-header"
-                    >
-                      <Typography className="text-[18px] font-600 leading-[28px] text-[#1c2022]">
-                        {date}
-                      </Typography>
-                    </AccordionSummary>
+                <div className="bg-[pink]">
+                  <div className="flex m-4 mt-4">
+                    <p className="text-xl text-blue-500 dark:text-white">
+                      <BsFillSignpostFill className="fill-black" />
+                    </p>
+                    <h1 className="text-blue-500 text-xl mx-3 dark:text-white">
+                      {date}
+                    </h1>
                   </div>
-
-                  <AccordionDetails className="space-y-5 text-[16px] leading-9 text-[#737373] tracking-wider">
-                    <Typography>{para1}</Typography>
-                    <Typography>{para2}</Typography>
-                    <Typography>{para3}</Typography>
-                    <Typography>{para4}</Typography>
-                    <Typography>{para5}</Typography>
-                    <Typography>{para6}</Typography>
-                    <Typography>{para7}</Typography>
-                    <Typography>{para8}</Typography>
-                    <Typography>{sub1}</Typography>
-                    <Typography>{sub2}</Typography>
-                    <Typography>{sub3}</Typography>
-                    <Typography>{sub4}</Typography>
-                    <Typography>{sub5}</Typography>
-                    <Typography>{sub6}</Typography>
-                    <Typography>{sub7}</Typography>
-                    <Typography>{sub8}</Typography>
-                  </AccordionDetails>
-                </Accordion>
+                    <div
+                      className="bg-[yellow] "
+                      data-aos="fade-up"
+                    >
+                      <div className="bg-[green] flex gap-40">
+                        <div>
+                          <p>{para1}</p>
+                        </div>
+                        <div>
+                          <p>{para2}</p>
+                        </div>
+                        <div>
+                          <p>{para3}</p>
+                        </div>
+                        <p>{para4}</p>
+                        <p>{para5}</p>
+                        <p>{para6}</p>
+                        <p>{para7}</p>
+                        <p>{para8}</p>
+                        <p>{sub1}</p>
+                        <p>{sub2}</p>
+                        <p>{sub3}</p>
+                        <p>{sub4}</p>
+                        <p>{sub5}</p>
+                        <p>{sub6}</p>
+                        <p>{sub7}</p>
+                        <p>{sub8}</p>
+                      </div>
+                    </div>
+                </div>
               </div>
             );
           }
