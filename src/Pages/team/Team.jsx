@@ -2,10 +2,7 @@ import React from 'react'
 
 function Team() {
   return (
-    <div
-      name="team"
-      className="lg:h-[400px] md:h-full mt-24 lg:mt-[5%]"
-    >
+    <div name="team" className="lg:h-[400px] md:h-full mt-24 lg:mt-[5%]">
       <h1 className="lg:text-5xl text-3xl text-center  dark:text-white text-black font-bold tracking-wide mt-5">
         Team
       </h1>
@@ -14,9 +11,9 @@ function Team() {
           <div className="flex flex-wrap justify-center mt-8">
             <div className="px-4">
               <img
-                src="https://res.cloudinary.com/dpokiomqq/image/upload/v1676277613/Wahab_-_Edited_eesa70.png"
+                src="https://res.cloudinary.com/dpokiomqq/image/upload/v1678092434/WhatsApp_Image_2023-02-27_at_3.18.50_PM_hrqhk6.jpg"
                 alt="profileimage"
-                className="shadow rounded-full max-w-full  align-middle w-[130px] h-[130px] hover:scale-125 transistion-all duration-300"
+                className="shadow rounded-full max-w-full align-middle w-[130px] h-[130px] object-cover hover:scale-125 transistion-all duration-300"
                 id="profile_img"
               />
             </div>
