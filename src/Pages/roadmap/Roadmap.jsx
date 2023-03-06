@@ -114,7 +114,7 @@ function Roadmap() {
                     </h1>
                   </div>
                   <div>
-                    <div className="space-y-6">
+                    <div className="space-y-6 dark:text-gray-200">
                       <p>{para1}</p>
                       <p>{para2}</p>
                       <p>{para3}</p>

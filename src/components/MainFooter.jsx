@@ -6,7 +6,7 @@ import ScrollToTop from "react-scroll-to-top";
 
 function Contact() {
   return (
-    <div name="contact" className=" lg:h-[320px] p-6 bg-[#0197B2]">
+    <div name="contact" className="lg:h-[320px] p-6 bg-[#0197B2] mt-24 lg:mt-[5%]">
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
         <div className="p-4 lg:flex mb-3 gap-[20px]">
           <div className="w-[700px] mb-5">

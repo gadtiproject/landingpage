@@ -1,13 +1,13 @@
 import React from "react";
 function Benefits() {
   return (
-    <div name="benefit" className="mt-[5%]">
+    <div name="benefit" className="mt-24 w-[90%] mx-auto">
       <h4 className="lg:text-4xl text-3xl text-center dark:text-white text-black font-bold tracking-wide mb-5 pt-5">
         BENIFITS
       </h4>
 
-      <div className="h-[500px] lg:flex grid items-center justify-center gap-[60px]">
-        <div className="h-full w-[400px] space-y-6">
+      <div className="lg:h-[500px] lg:flex grid place-items-center lg:items-center justify-center lg:gap-[60px] space-y-6 lg:space-y-0">
+        <div className="h-full lg:w-[400px] w-[350px] space-y-6">
           <div>
             <h3 className="text-black mt-3 text-xl tracking-wide text-start dark:text-[#fff] font-bold">
               Decentralized database
@@ -44,7 +44,7 @@ function Benefits() {
             </p>
           </div>
         </div>
-        <div className="h-full w-[400px] space-y-6">
+        <div className="h-full lg:w-[400px] w-[350px] space-y-6">
           <div>
             <h3 className="text-black dark:text-[#fff] mt-2 text-xl tracking-wide text-start font-bold">
               Accessibility{" "}
@@ -72,7 +72,6 @@ function Benefits() {
             </p>
           </div>
         </div>
-
       </div>
     </div>
   );

@@ -3,8 +3,8 @@ import React from "react";
 function Careers() {
   return (
     <div className="h-[500px] flex items-center justify-center">
-      <div className="text-center space-y-6">
-        <p className="text-5xl text-center font-bold text-black dark:text-white">
+      <div className="text-center space-y-6 mt-24 lg:mt-0">
+        <p className="lg:text-5xl text-4xl text-center font-bold text-black dark:text-white">
           Sorry, we're not hiring now...
         </p>
         <button className="">

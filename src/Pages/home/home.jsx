@@ -4,18 +4,18 @@ function Home() {
   return (
     <div
       name="home"
-      className="lg:mt-[10%] lg:w-[80%] lg:h-[588px] lg:mx-auto items-center justify-center grid"
+      className="lg:mt-[10%] mt-[5%] lg:w-[80%] lg:h-[588px] lg:mx-auto items-center justify-center grid"
     >
       <div className="lg:grid-cols-2 grid gap-[20px] mt-5 dark:text-white">
         <div className=" w-[90%] mx-auto ">
           <p className="lg:font-[600] fon-bold text-[#6A7380]">Experiencing</p>
-          <h2 className="lg:text-[45px] lg:w-[532px] w-[400px] text-[35px] font-[600] mt-2">
+          <h2 className="lg:text-[45px] lg:w-[532px] w-[350px] text-[34.5px] font-[600] mt-2">
             The world’s{" "}
             <span className="text-[#0cc0df]">First block chain</span>{" "}
             <span>Documentation Technology </span>
             (DOCUTECH)
           </h2>
-          <p className="lg:w-[532px] w-[389px] mt-5 text-[#8B919A] text-[18px] lg:leading-6 lg:tracking-wide">
+          <p className="lg:w-[532px] w-[350px] mt-5 text-[#8B919A] text-[18px] lg:leading-6 lg:tracking-wide">
             The era of document falsification and in unverifiability is about to
             be a thing of the past. Welcome to the Generation Alpha Digital
             Documentation Technology.{" "}
@@ -24,7 +24,7 @@ function Home() {
             </span>
             Yes, you heard that right.
           </p>
-          <button className="rounded-md hover:font-bold border mt-5 px-6 py-2 dark:text-black dark:border-black hover:border-[#0cc0df] hover:bg-transparent bg-[#0cc0df] hover:shadow-sm transistion-all duration-300">
+          <button className="rounded-md mt-5 px-6 py-2 dark:text-black hover:opacity-75 hover:text-white bg-[#0cc0df] hover:shadow-sm transistion-all duration-300">
             Get Started
           </button>
         </div>

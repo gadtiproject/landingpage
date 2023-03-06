@@ -38,7 +38,7 @@ function Navbar() {
   return (
     <div className="bg-white dark:bg-black">
       {/* logo image */}
-      <div className="w-full fixed top-0 z-10 bg-white dark:bg-black pt-[0.5%] border-[#E8EBED] border-b">
+      <div className="w-full fixed top-0 z-10 bg-white dark:bg-black pt-[0.5%] md:border-t border-[#E8EBED] border-b">
         <div className="justify-between lg:flex hidden items-center bg-white dark:bg-black w-[90%] mx-auto">
           <div className="lg:flex items-center md:hidden flex">
             <img
@@ -360,7 +360,7 @@ function Navbar() {
             src="https://res.cloudinary.com/dpokiomqq/image/upload/v1671902954/regizlogo_2_ey8kjj.png"
             className="w-[70px]"
           />
-          <h1 className="text-3xl mt-3">Regiz</h1>
+          <h1 className="text-3xl mt-3 font-bold">regiz</h1>
         </div>
 
         <div
@@ -381,13 +381,13 @@ function Navbar() {
           !nav ? "hidden" : "absolute w-full drop-shadow-lg cursor-pointer"
         }
       >
-        <div className="flex flex-col bg-white dark:bg-[#010101] relative z-10">
+        <div className="flex flex-col bg-white dark:bg-[#010101] relative z-10 drop-shadow-lg">
           <ul>
-            <li className="w-full mb-3 text-[#000101] dark:text-white hover:bg-[#02383C] py-2 px-4 hover:text-white leading-6 text-base uppercase cursor-pointer">
+            <li className="w-full mb-3 text-[#000101] dark:text-white hover:bg-[#0097b2] py-2 px-4 hover:text-white leading-6 text-base uppercase cursor-pointer">
               <a href="/">Home</a>
             </li>
 
-            <li className="w-full mb-3 text-[#000101] dark:text-white hover:bg-[#02383C] py-2 px-4 hover:text-white leading-6 text-base uppercase">
+            <li className="w-full mb-3 text-[#000101] dark:text-white hover:bg-[#0097b2] py-2 px-4 hover:text-white leading-6 text-base uppercase">
               <Link
                 onClick={handleClose}
                 to="about"
@@ -399,7 +399,7 @@ function Navbar() {
               </Link>
             </li>
 
-            <div className="w-full mb-3 text-[#000101] dark:text-white hover:bg-[#02383C] py-2 px-4 hover:text-white leading-6 text-base uppercase">
+            <div className="w-full mb-3 text-[#000101] dark:text-white hover:bg-[#0097b2] py-2 px-4 hover:text-white leading-6 text-base uppercase">
               <div>
                 <div className="dropdown relative">
                   <button
@@ -514,7 +514,7 @@ function Navbar() {
               </div>
             </div>
 
-            <div className="w-full mb-3 text-[#000101] dark:text-white hover:bg-[#02383C] py-2 px-4 hover:text-white leading-6 text-base uppercase">
+            <div className="w-full mb-3 text-[#000101] dark:text-white hover:bg-[#0097b2] py-2 px-4 hover:text-white leading-6 text-base uppercase">
               <div>
                 <div className="dropdown relative">
                   <button
@@ -674,7 +674,7 @@ function Navbar() {
               </div>
             </div>
 
-            <li className="w-full mb-3 text-[#000101] dark:text-white hover:bg-[#02383C] py-2 px-4 hover:text-white leading-6 text-base uppercase">
+            <li className="w-full mb-3 text-[#000101] dark:text-white hover:bg-[#0097b2] py-2 px-4 hover:text-white leading-6 text-base uppercase">
               <Link
                 onClick={handleClose}
                 to="roadmap"
@@ -686,12 +686,8 @@ function Navbar() {
               </Link>
             </li>
 
-            <li>
-              <NavLink
-                to="/faq"
-                onClick={handleClose}
-                className="w-full mb-3 text-[#000101] dark:text-white hover:bg-[#02383C] py-2 px-4 hover:text-white leading-6 text-base uppercase"
-              >
+            <li className="w-full mb-3 text-[#000101] dark:text-white hover:bg-[#0097b2] py-2 px-4 hover:text-white leading-6 text-base uppercase">
+              <NavLink to="/faq" onClick={handleClose}>
                 FAQ
               </NavLink>
             </li>
@@ -699,14 +695,14 @@ function Navbar() {
             <button
               type="button"
               onClick={handleThemeSwitch}
-              className="w-12 bg-[#02383C] text-lg px-2 py-2 m-3 rounded-md"
+              className="w-12 bg-[#0097b2] text-lg px-2 py-2  grid items-center justify-center m-3 rounded-full"
             >
               {theme === "dark" ? (
-                <div className="text-white">
+                <div className="text-white text-2xl pt-2">
                   <ion-icon name="sunny"></ion-icon>{" "}
                 </div>
               ) : (
-                <div className="text-white">
+                <div className="text-black text-2xl pt-2">
                   <ion-icon name="moon"></ion-icon>
                 </div>
               )}

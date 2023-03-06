@@ -1,20 +1,20 @@
 const Community = () => {
     return (
       <div className="mx-auto w-[80%] text-center items-center justify-center place-items-center grid h-[200px] my-[5%]">
-        <h6 className="lg:text-4xl">Join the community</h6>
+        <h6 className="lg:text-4xl text-3xl font-bold mb-3">Join the community</h6>
         <div className="text-[#68778D]">
-          <p className="lg:w-[600px] w-[389px]">
+          <p className="lg:w-[600px] w-[350px]">
             Stay connected, join other global users of{" "}
             <span className="text-[#0BC0DF]">Regiz</span>, and tell us what you
             think
           </p>
-          <p className="lg:w-[600px] w-[389px]">
+          <p className="lg:w-[600px] w-[350px]">
             You also get rewards, exclusive invites, and updates before anyone
             else.
           </p>
         </div>
 
-        <button>
+        <button className="mt-[6%]">
           <a
             href="https://t.me/regizcommunity"
             className="relative inline-flex items-center justify-start px-6 py-3 overflow-hidden font-medium transition-all bg-[#0BC0DF] rounded-xl group"

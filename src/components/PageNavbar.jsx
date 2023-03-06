@@ -45,7 +45,7 @@ function PageNavbar() {
             className="w-[70px]"
           />
           <h1 className="dark:text-[#FEFEFF] lg:text-4xl text-2xl font-bold text-black">
-            Regiz
+            regiz
           </h1>
         </div>
 
@@ -66,16 +66,16 @@ function PageNavbar() {
         </ul>
         <div className="pr-5 mt-[1%] lg:block hidden">
           <button type="button" onClick={handleThemeSwitch} className="pt-2">
-              {theme === "dark" ? (
-                <div className="text-[gray] text-2xl">
-                  <ion-icon name="moon"></ion-icon>{" "}
-                </div>
-              ) : (
-                <div className="text-[black] text-2xl">
-                  <ion-icon name="sunny"></ion-icon>
-                </div>
-              )}
-            </button>
+            {theme === "dark" ? (
+              <div className="text-[gray] text-2xl">
+                <ion-icon name="moon"></ion-icon>{" "}
+              </div>
+            ) : (
+              <div className="text-[black] text-2xl">
+                <ion-icon name="sunny"></ion-icon>
+              </div>
+            )}
+          </button>
         </div>
       </div>
 
@@ -85,7 +85,7 @@ function PageNavbar() {
             src="https://res.cloudinary.com/dpokiomqq/image/upload/v1671902954/regizlogo_2_ey8kjj.png"
             className="w-[70px]"
           />
-          <h1 className="text-3xl mt-3">Regiz</h1>
+          <h1 className="text-3xl mt-3">regiz</h1>
         </div>
 
         <div
@@ -108,27 +108,31 @@ function PageNavbar() {
       >
         <div className="flex flex-col bg-white dark:bg-[#010101] relative z-10">
           <ul>
-            <li className="w-full mb-3 text-[#000101] dark:text-white hover:bg-[#02383C] py-2 px-4 hover:text-white leading-6 text-base uppercase cursor-pointer">
+            <li className="w-full mb-3 text-[#000101] dark:text-white hover:bg-[#0097b2] py-2 px-4 hover:text-white leading-6 text-base uppercase cursor-pointer">
               <Link to="/home">HOME</Link>
             </li>
-            <li className="w-full mb-3 text-[#000101] dark:text-white hover:bg-[#02383C] py-2 px-4 hover:text-white leading-6 text-base uppercase cursor-pointer">
+            <li className="w-full mb-3 text-[#000101] dark:text-white hover:bg-[#0097b2] py-2 px-4 hover:text-white leading-6 text-base uppercase cursor-pointer">
               <Link to="/faq">FAQ</Link>
             </li>
-            <li className="w-full mb-3 text-[#000101] dark:text-white hover:bg-[#02383C] py-2 px-4 hover:text-white leading-6 text-base uppercase cursor-pointer">
+            <li className="w-full mb-3 text-[#000101] dark:text-white hover:bg-[#0097b2] py-2 px-4 hover:text-white leading-6 text-base uppercase cursor-pointer">
               <Link to="/Careers">CAREER</Link>
             </li>
-            <li className="w-full mb-3 text-[#000101] dark:text-white hover:bg-[#02383C] py-2 px-4 hover:text-white leading-6 text-base uppercase cursor-pointer">
+            <li className="w-full mb-3 text-[#000101] dark:text-white hover:bg-[#0097b2] py-2 px-4 hover:text-white leading-6 text-base uppercase cursor-pointer">
               <Link to="/contact">CONTACT</Link>
             </li>
 
-            <button type="button" onClick={handleThemeSwitch} className="pt-2">
+            <button
+              type="button"
+              onClick={handleThemeSwitch}
+              className="w-12 bg-[#0097b2] text-lg px-2 py-2  grid items-center justify-center m-3 rounded-full"
+            >
               {theme === "dark" ? (
-                <div className="text-[gray] text-2xl">
-                  <ion-icon name="moon"></ion-icon>{" "}
+                <div className="text-white text-2xl pt-1">
+                  <ion-icon name="sunny"></ion-icon>{" "}
                 </div>
               ) : (
-                <div className="text-[black] text-2xl">
-                  <ion-icon name="sunny"></ion-icon>
+                <div className="text-[black] text-2xl pt-1">
+                  <ion-icon name="moon"></ion-icon>
                 </div>
               )}
             </button>

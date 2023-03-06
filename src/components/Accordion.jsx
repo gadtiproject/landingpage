@@ -116,8 +116,8 @@ function SimpleAccordion() {
     },
   ];
   return (
-    <div className="lg:mt-[10%] w-[80%] mx-auto mt-[20%] mb-[10%]">
-      <h1 className="text-3xl text-center font-bold mb-10 dark:text-white">FAQS</h1>
+    <div className="lg:mt-[10%] w-[80%] mx-auto mt-[25%] mb-[10%]">
+      <h1 className="text-3xl lg:text-4xl text-center font-bold mb-10 dark:text-white">FAQS</h1>
 
       <div className="max-w-[650px] mx-auto">
         {data.map(
@@ -139,7 +139,7 @@ function SimpleAccordion() {
                   <div className="border p-2 rounded">
                     <AccordionSummary
                       expandIcon={
-                        <p className="text-[30px] text-black cursor-pointer">
+                        <p className="text-[35px] text-black font-black cursor-pointer">
                           +
                         </p>
                       }
