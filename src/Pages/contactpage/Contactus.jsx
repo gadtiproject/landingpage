@@ -56,7 +56,7 @@ function Contactus() {
   return (
     <div className="flex flex-col min-h-screen lg:h-screen items-center justify-center">
       <div className="flex items-center justify-center font-[poppins]">
-        <div className="grid lg:grid-cols-2 lg:gap-8 gap-6 w-screen max-w-screen-lg h-full">
+        <div className="grid lg:grid-cols-2 lg:gap-8 gap-6 w-screen max-w-screen-lg h-full lg:mt-24">
           <div className="flex justify-center items-center p-5">
             <div className="dark:text-[#ffffff] text-black md:w-[500px] max-w-[500px] p-5 lg:mt-0 mt-24">
               <h2 className="font-bolder text-4xl">Get in touch</h2>

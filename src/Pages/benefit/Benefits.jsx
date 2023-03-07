@@ -3,10 +3,10 @@ function Benefits() {
   return (
     <div name="benefit" className="mt-24 w-[90%] mx-auto">
       <h4 className="lg:text-4xl text-3xl text-center dark:text-white text-black font-bold tracking-wide mb-5 pt-5">
-        BENIFITS
+        Benefits
       </h4>
 
-      <div className="lg:h-[500px] lg:flex grid place-items-center lg:items-center justify-center lg:gap-[60px] space-y-6 lg:space-y-0">
+      <div className="lg:h-[400px] lg:flex grid place-items-center lg:items-center justify-center lg:gap-[60px] space-y-6 lg:space-y-0">
         <div className="h-full lg:w-[400px] w-[350px] space-y-6">
           <div>
             <h3 className="text-black mt-3 text-xl tracking-wide text-start dark:text-[#fff] font-bold">

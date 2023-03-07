@@ -2,7 +2,7 @@ import React from "react";
 
 function Regizcoin() {
   return (
-    <div name="Regizcoin" className="mt-24 lg:mt-[2%]">
+    <div name="Regizcoin" className="mt-24 lg:mt-0">
       <h5 className="lg:text-4xl text-3xl text-center dark:text-white text-black font-bold tracking-wide mb-5 pt-5">
         Regizcoin
       </h5>
@@ -29,24 +29,24 @@ function Regizcoin() {
           className="mt-5 lg:mt-0 flex items-center justify-center place-items-center"
           data-aos="fade-up"
         >
-          <div className="text-center mx-5 mb-3 rounded-lg h-[300px] w-[300px] md:w-[400px] dark:text-white lg:w-[500px]">
+          <div className="text-center mx-5 mb-3 rounded-lg h-[300px] w-[300px] md:w-[400px] dark:text-white lg:w-[500px] bg-gray-100 shadow-md">
             <div className="p-2">
-              <div className="flex text-black dark:text-white justify-between m-5 text-x">
+              <div className="flex text-black dark:text-black justify-between m-5 text-x">
                 <p>Token Name</p>
                 <p className="text-end uppercase">Regiz coin</p>
               </div>
-              <hr className="border-black dark:border-gray-300 dark:text-white border-1" />
-              <div className="flex text-black dark:text-white gap-5 justify-between m-5 text-x">
+              <hr className="border-black dark:border-gray-300 dark:text-black border-1" />
+              <div className="flex text-black dark:text-black gap-5 justify-between m-5 text-x">
                 <p>Symbol</p>
                 <p className="uppercase">rgz</p>
               </div>
-              <hr className="border-black dark:border-gray-300 dark:text-white border-1" />
-              <div className="flex text-black dark:text-white gap-5 justify-between m-5 text-x">
+              <hr className="border-black dark:border-gray-300 dark:text-black border-1" />
+              <div className="flex text-black dark:text-black gap-5 justify-between m-5 text-x">
                 <p>Token Supply</p>
                 <p>100 Billion</p>
               </div>
-              <hr className="border-black dark:border-gray-300 dark:text-white border-1" />
-              <div className="flex text-black dark:text-white gap-5 justify-between m-5 text-x">
+              <hr className="border-black dark:border-gray-300 dark:text-black border-1" />
+              <div className="flex text-black dark:text-black gap-5 justify-between m-5 text-x">
                 <p>Total in Circulation</p>
                 <p>67%</p>
               </div>

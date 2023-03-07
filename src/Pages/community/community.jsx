@@ -1,6 +1,6 @@
 const Community = () => {
     return (
-      <div className="mx-auto w-[80%] text-center items-center justify-center place-items-center grid h-[200px] my-[5%]">
+      <div className="mx-auto w-[80%] text-center items-center justify-center place-items-center grid h-[200px]">
         <h6 className="lg:text-4xl text-3xl font-bold mb-3">Join the community</h6>
         <div className="text-[#68778D]">
           <p className="lg:w-[600px] w-[350px]">

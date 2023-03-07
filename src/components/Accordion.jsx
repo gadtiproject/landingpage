@@ -39,7 +39,7 @@ function SimpleAccordion() {
       id: 4,
       question: "How much does it cost to mint Grade B document? ",
       answer:
-        "It cost only $3.99 to mint a Grade B document and has a Search Validity of up to 1yr, and $4.99 to mint a Grade B document with Search Validity Of up to 2yr",
+        "It cost only $4.99 to mint a Grade B document and has a Search Validity of up to 1yr, and $5.99 to mint a Grade B document with Search Validity Of up to 2yr",
     },
 
     {
@@ -47,7 +47,7 @@ function SimpleAccordion() {
       question:
         "How much doest it cost to verify my documents and upgrade to Grade A? ",
       answer:
-        "Verification starts from $29.99 up $50, one time payment,+Search 3yrs search Validity, Validity Renews @ $3.99/yr ,$4.99 2yrs.",
+        "Verification starts from $29.99 up $100, one time payment, +Search 3yrs search Validity, Validity Renews @ $4.99/yr ,$5.99 2yrs.",
     },
     {
       id: 6,

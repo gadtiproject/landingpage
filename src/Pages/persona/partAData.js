@@ -41,6 +41,7 @@ export const data = [
   {
     id: 8,
     desc: "Eric Owen’s Limited HR team is looking to employ young and talented individuals to fill various positions that are vacant in the organization. The HR team got many applications, including applicants applying for various positions.",
+    img: "https://res.cloudinary.com/dpokiomqq/image/upload/v1666979397/hrmanager_wmutqb.png",
   },
 
   {
