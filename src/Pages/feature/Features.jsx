@@ -11,7 +11,7 @@ function Features() {
   return (
     <div
       name="feature"
-      className="dark:bg-[#070909] mt-24 lg:mt-[25%] w-[90%] mx-auto"
+      className="dark:bg-[#070909] mt-[5%] lg:mt-[25%] w-[90%] mx-auto"
     >
       <div className="grid place-items-center justify-center">
         <h3 className="lg:text-4xl text-3xl text-center mt-3 pt-5 text-black font-bold trackin0cc0df mb-5 dark:text-white">

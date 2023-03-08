@@ -2,13 +2,13 @@ import React from "react";
 // import { FaStarOfLife } from "react-icons/fa";
 function Howitworks() {
   return (
-    <div name="how" className="dark:bg-[#070909] lg:mt-[10%] mt-[20%]">
+    <div name="how" className="dark:bg-[#070909] mt-[10%]">
       <h4 className="lg:text-4xl text-3xl text-center dark:text-[#fff] text-black font-bold tracking-wide mb-5 pt-5">
         How it works
       </h4>
 
       <div className="grid lg:grid-cols-2 gap-[60px] items-center justify-center mx-auto w-[70%] dark:text-[#EEEE]">
-        <div className="h-32 lg:w-[500px] w-[350px] mt-[70%] lg:mt-0">
+        <div className="h-32 lg:w-[500px] w-[350px] mt-[5%] lg:mt-0">
           <p className="lg:text-[40px] text-[24px] font-[600]">
             Categories of Documents
           </p>
@@ -37,7 +37,7 @@ function Howitworks() {
             </div>
           </div>
         </div>
-        <div className="h-32 lg:w-[500px] w-[350px]">
+        <div className="lg:h-32 lg:w-[500px] w-[350px]">
           <p className="lg:text-[40px] text-[24px] font-[600]">
             Documentation Technology
           </p>

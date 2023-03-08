@@ -7,7 +7,7 @@ function Home() {
       className="lg:mt-[5%] mt-[5%] lg:w-[80%] lg:h-[588px] lg:mx-auto items-center justify-center grid"
     >
       <div className="lg:grid-cols-2 grid gap-[20px] mt-5 dark:text-white">
-        <div className="w-[100%] mx-auto">
+        <div className="w-[90%] mx-auto">
           <p className="lg:font-[600] fon-bold text-[#6A7380]">Experience</p>
           <h2 className="lg:text-[45px] lg:w-[600px] w-[350px] text-[30.5px] font-[600] mt-2">
             World’s <span className="text-[#0cc0df]">First block chain</span>{" "}
@@ -38,7 +38,7 @@ function Home() {
       </div>
 
       <div className="mt-[5%] dark:text-white w-full">
-        <div className="lg:grid-cols-2 grid gap-[20px] ">
+        <div className="lg:grid-cols-2 flex-col-reverse flex gap-[20px] items-center lg:grid">
           <div className="lg:mt-0 mt-[30px] w-[90%] mx-auto justify-center items-center flex">
             <img
               src="https://res.cloudinary.com/dpokiomqq/image/upload/v1678182274/WhatsApp_Image_2023-03-01_at_8.40.38_AM_xsbp3x-removebg-preview_gaq4g0.png"
