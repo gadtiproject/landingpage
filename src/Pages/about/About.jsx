@@ -5,7 +5,7 @@ function About() {
   return (
     <div
       name="about"
-      className="lg:mt-[18%] mt-[20%] dark:bg-[#070909] bg-white w-[90%] mx-auto grid place-items-center justify-center"
+      className="lg:mt-[18%] mt-[5%] dark:bg-[#070909] bg-white w-[90%] mx-auto grid place-items-center justify-center"
     >
       <h1 className="lg:text-4xl text-3xl dark:text-white text-black text-center mt-3 font-bold tracking-wide ">
         What is Regiz?
