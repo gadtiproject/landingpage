@@ -70,7 +70,7 @@ function Team() {
             </div>
           </div>
           <h1 className="font-bold text-black dark:text-white mt-2">
-            Jonh Abraham
+            John Abraham
           </h1>
           <p className="text-gray-500 text-sm leading-5">Frontend developer</p>
         </div>

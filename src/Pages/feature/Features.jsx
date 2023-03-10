@@ -27,7 +27,7 @@ function Features() {
 
       <div className="grid lg:grid-cols-4 gap-x-[30px] gap-y-[40px] justify-center place-items-center mt-[10%] lg:mt-[5%]">
         <div className="w-[289px] h-[220px] rounded-lg bg-[#F5F9FC] relative">
-          <MdStarRate className="fill-[#0097b2] border-[black] border-2 rounded-full w-[40px] h-[40px] top-[-20px] absolute mx-3" />
+          <MdStarRate className="fill-[#0097b2] border-[black] border-2  rounded-full w-[45px] h-[45px] top-[-20px] absolute mx-3" />
           <h1 className="text-[20px] font-bold text-[#0cc0df] p-3 leading-[28px] mt-6">
             Document Minting
           </h1>
@@ -36,7 +36,7 @@ function Features() {
           </p>
         </div>
         <div className="w-[289px] h-[220px] rounded-lg bg-[#F5F9FC] relative">
-          <GoVerified className="fill-[#0097b2] border-[black] border-2 rounded-full w-[40px] h-[40px] top-[-20px] absolute mx-3" />
+          <GoVerified className="fill-[#0097b2] border-[black] border-2 rounded-full w-[45px] h-[45px] top-[-20px] absolute mx-3" />
           <h1 className="text-[20px] font-bold text-[#0cc0df] p-3 leading-[28px] mt-6">
             Document Verification
           </h1>
@@ -46,7 +46,7 @@ function Features() {
           </p>
         </div>
         <div className="w-[289px] h-[220px] rounded-lg bg-[#F5F9FC] relative">
-          <TbBadge className="fill-[#0097b2] border-[black] border-2  rounded-full w-[40px] h-[40px] top-[-20px] absolute mx-3" />
+          <TbBadge className="fill-[#0097b2] border-[black] border-2  rounded-full w-[45px] h-[45px] top-[-20px] absolute mx-3" />
           <h1 className="text-[20px] font-bold text-[#0cc0df] p-3 leading-[28px] mt-6">
             Originality Badge
           </h1>
@@ -56,7 +56,7 @@ function Features() {
           </p>
         </div>
         <div className="w-[289px] h-[220px] rounded-lg bg-[#F5F9FC] relative">
-          <HiDocumentSearch className="fill-[#0097b2] border-[black] border-2  rounded-full w-[40px] h-[40px] top-[-20px] absolute mx-3" />
+          <HiDocumentSearch className="fill-[#0097b2] border-[black] border-2  rounded-full w-[45px] h-[45px] top-[-20px] absolute mx-3" />
           <h1 className="text-[20px] font-bold text-[#0cc0df] p-3 leading-[28px] mt-6">
             Document Search
           </h1>
@@ -65,7 +65,7 @@ function Features() {
           </p>
         </div>
         <div className="w-[289px] h-[220px] rounded-lg bg-[#F5F9FC] relative">
-          <ImCancelCircle className="fill-[#0097b2] border-[black] border-2  rounded-full w-[40px] h-[40px] top-[-20px] absolute mx-3" />
+          <ImCancelCircle className="fill-[#0097b2] border-[black] border-2  rounded-full w-[45px] h-[45px] top-[-20px] absolute mx-3" />
           <h1 className="text-[20px] font-bold text-[#0cc0df] p-3 leading-[28px] mt-6">
             Document Blacklisting
           </h1>
@@ -74,7 +74,7 @@ function Features() {
           </p>
         </div>
         <div className="w-[289px] h-[220px] rounded-lg bg-[#F5F9FC] relative">
-          <RiWallet3Fill className="fill-[#0097b2] border-[black] border-2  rounded-full w-[40px] h-[40px] top-[-20px] absolute mx-3" />
+          <RiWallet3Fill className="fill-[#0097b2] border-[black] border-2  rounded-full w-[45px] h-[45px] top-[-20px] absolute mx-3" />
           <h1 className="text-[20px] font-bold text-[#0cc0df] p-3 leading-[28px] mt-6">
             Wallet
           </h1>
@@ -83,7 +83,7 @@ function Features() {
           </p>
         </div>
         <div className="w-[289px] h-[220px] rounded-lg bg-[#F5F9FC] relative">
-          <AiOutlineWechat className="fill-[#0097b2] border-[black] border-2 rounded-full w-[40px] h-[40px] top-[-20px] absolute mx-3" />
+          <AiOutlineWechat className="fill-[#0097b2] border-[black] border-2 rounded-full w-[45px] h-[45px] top-[-20px] absolute mx-3" />
           <h1 className="text-[20px] font-bold text-[#0cc0df] p-3 leading-[28px] mt-6">
             Customer Support
           </h1>

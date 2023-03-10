@@ -117,7 +117,7 @@ function SimpleAccordion() {
   ];
   return (
     <div className="lg:mt-[10%] w-[80%] mx-auto mt-[25%] mb-[10%]">
-      <h1 className="text-3xl lg:text-4xl text-center font-bold mb-10 dark:text-white">FAQS</h1>
+      <h1 className="text-3xl lg:text-4xl text-center font-bold mb-10 dark:text-white">FAQ'S</h1>
 
       <div className="max-w-[650px] mx-auto">
         {data.map(

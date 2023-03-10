@@ -8,13 +8,13 @@ function Home() {
     >
       <div className="lg:grid-cols-2 grid gap-[20px] mt-5 dark:text-white">
         <div className="w-[90%] mx-auto">
-          <p className="lg:font-[600] fon-bold text-[#6A7380]">Experience</p>
-          <h2 className="lg:text-[45px] lg:w-[600px] w-[350px] text-[30.5px] font-[600] mt-2">
-            World’s <span className="text-[#0cc0df]">First block chain</span>{" "}
-            <span>Documentation Technology </span>
-            (DOCUTECH)
+          <p className="lg:font-[600] font-bold text-[#6A7380]">Experience</p>
+          <h2 className="lg:text-[45px] lg:w-[600px] text-[32.5px] font-[600] mt-2">
+            World’s <span className="text-[#0cc0df]">First Block Chain</span>{" "}
+            <span className="text">Documentation Technology </span>
+            <p className="motion-safe:animate-bounce">DOCUTECH</p>
           </h2>
-          <p className="lg:w-[532px] w-[350px] mt-5 text-[#8B919A] text-[18px] lg:leading-6 lg:tracking-wide">
+          <p className="lg:w-[532px]  mt-5 text-[#8B919A] text-[18px] lg:leading-6 lg:tracking-wide">
             The era of document falsification and unverifiability is about to be
             a thing of the past. Welcome to the Generation Alpha Digital
             Documentation Technology.

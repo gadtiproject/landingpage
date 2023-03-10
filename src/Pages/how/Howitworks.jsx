@@ -21,7 +21,7 @@ function Howitworks() {
                 <span className="font-bold lg:text-[24px] text-[18px]">
                   Grade A{" "}
                 </span>
-                (i.e., Genuine and Verified)
+                i.e., Genuine and Verified
               </p>
             </div>
             <div className="flex space-x-4">
@@ -29,10 +29,10 @@ function Howitworks() {
                 2
               </p>
               <p>
-                                <span className="font-bold lg:text-[24px] text-[18px]">
+                <span className="font-bold lg:text-[24px] text-[18px]">
                   Grade B{" "}
                 </span>
-                (i.e., Genuine but Unverified)
+                i.e., Genuine but Unverified
               </p>
             </div>
           </div>
@@ -43,7 +43,7 @@ function Howitworks() {
           </p>
           <ul>
             <li className="mt-4">
-              Download the Regiz Dapp from your App/Play, or visit{" "}
+              Download the Regiz Dapp from your App/Play store, or visit{" "}
               <a
                 href="https://regiz.io/"
                 className="hover:font-extrabold underline hover:text-[#0cc0df]"
@@ -52,21 +52,18 @@ function Howitworks() {
               </a>{" "}
             </li>
             <li className="mt-4">
-              Launch the app and connect your wallet E.g., Metamask, or Trust
-              wallet.
+              Launch the App and connect your wallet. (Metamask or Trust
+              wallet).
             </li>
-            <li className="mt-4">Complete your KYC/ Verification Process.</li>
+            <li className="mt-4">Complete your KYC/Verification process.</li>
+            <li className="mt-4">Snap and upload your document.</li>
             <li className="mt-4">
-              Snap and upload your desired document in the selected format. E.g
-              pdf
-            </li>
-            <li className="mt-4">
-              Mint on Document to get chain I.D/Grade B verification badge
-              (Genuine Unverified)
+              Mint on the document to get a document ID, and Grade B
+              verification badge (Genuine Unverified).
             </li>
             <li className="mt-4">
-              Proceed to verify the document from issuing body and upgrade to
-              Grade A (Genuine Verified.)
+              Proceed to verify the document from issuing organization, and
+              upgrade to Grade A (Genuine Verified).
             </li>
           </ul>
         </div>
