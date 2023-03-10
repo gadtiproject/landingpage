@@ -6,7 +6,10 @@ import ScrollToTop from "react-scroll-to-top";
 
 function PageFooter() {
   return (
-    <div name="contact" className="lg:h-[320px] p-6 bg-[#0197B2] mt-24 lg:mt-[5%]">
+    <div
+      name="contact"
+      className="lg:h-[320px] p-6 bg-[#0197B2] mt-24 lg:mt-[5%]"
+    >
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
         <div className="p-4 lg:flex mb-3 gap-[20px]">
           <div className="w-[700px] mb-5">
@@ -18,10 +21,10 @@ function PageFooter() {
           </div>
 
           <p className="text-[#FFFEFE] leading-[30px] tracking-wider text-base lg:leading-[25px]">
-            Regiz is a Generation Alpha Digital Documentation Technology
-            (DOCTECH) (DOCUTECH) project that focuses on the authentication,
-            verification, and digitization of documents so that they can be
-            electronically stored more compactly and securely.
+            We are Regiz, the world’s first blockchain documentation technology
+            platform dedicated to meeting your document verification needs.
+            connect your wallet and start minting your documents to give it a
+            unique chain identity.
           </p>
         </div>
 
