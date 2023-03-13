@@ -17,10 +17,10 @@ function App() {
 
   return (
     <>
-      {/* <AnimatedCursor
+      <AnimatedCursor
         innerSize={9}
         outerSize={15}
-        color="102, 204, 123"
+        color="11, 192, 223"
         outerAlpha={0.2}
         innerScale={0.7}
         outerScale={5}
@@ -37,7 +37,7 @@ function App() {
           "button",
           ".link",
         ]}
-      /> */}
+      /> 
 
       <div className="bg-[#FEFFFE] dark:bg-[#070909] min-h-screen font-inter">
         <div className="overflow-hidden">
