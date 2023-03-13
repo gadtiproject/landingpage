@@ -23,7 +23,7 @@ export const data = [
   },
   {
     id: 5,
-    desc: "Finally, she gets a chain identification number, and also a grade B minting stamp for each of the documents. I.e. (Certificate genuine but unverified)",
+    desc: "Finally, she gets a Chain identification number, and also a grade B minting stamp for each of the documents. I.e. (Certificate genuine but unverified)",
     img: "https://res.cloudinary.com/dpokiomqq/image/upload/v1666979269/girlgotsms_grhr3i.png",
   },
   {
@@ -34,8 +34,8 @@ export const data = [
   },
   {
     id: 7,
-    desc: "A few days later, she got a notification that her certificate has been verified and upgraded to A I.e. (Certificate genuine and unverified)",
-    para: "Mary submitted her CV via e-mail, and also shared verified documents chain I.D. for authenticity confirmation purposes.",
+    desc: "A few days later, she got a notification that her certificate has been verified and upgraded to A I.e. (Certificate genuine and verified)",
+    para: "Mary submitted her CV via e-mail, and also shared verified documents Chain ID for authenticity confirmation purposes.",
     img: "https://res.cloudinary.com/dpokiomqq/image/upload/v1666979310/girlsubmittedemail_nrpwvr.png",
   },
   {
@@ -56,7 +56,7 @@ export const data = [
   },
   {
     id: 11,
-    desc: "A few moments later, the team was able to verify the certificate of each applicant if they are authentic, by entering the chain I.D. of each document provided by the applicants, in the search bar.",
+    desc: "A few moments later, the team was able to verify the certificate of each applicant if they are authentic, by entering the Chain ID of each document provided by the applicants, in the search bar.",
     para: "The first document they searched popped up with a notification displaying; a genuine grade A (Genuine Verified).",
     img: "https://res.cloudinary.com/dpokiomqq/image/upload/v1666982110/theteam_qowzgo.png",
   },

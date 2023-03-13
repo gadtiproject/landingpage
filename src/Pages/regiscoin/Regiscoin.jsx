@@ -77,10 +77,10 @@ function Regizcoin() {
               ></div>
             </div>
 
-            <p className="text-black text-xl">Team 3%</p>
+            <p className="text-black text-xl">Team 4%</p>
             <div className="w-full shadow bg-[#323F32] mt-5 rounded-lg">
               <div
-                className="bg-green-500 text-xs rounded-lg leading-none py-[2px] mb-3 text-center text-black w-14 lg:w-[3%]"
+                className="bg-green-500 text-xs rounded-lg leading-none py-[2px] mb-3 text-center text-black w-14 lg:w-[4%]"
                 data-aos="slide-right"
               ></div>
             </div>

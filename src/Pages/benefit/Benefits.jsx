@@ -10,7 +10,7 @@ function Benefits() {
         <div className="h-full lg:w-[400px] w-[350px] space-y-6">
           <div>
             <h3 className="text-black mt-3 text-xl tracking-wide text-start dark:text-[#fff] font-bold">
-              Decentralized database
+              Decentralization
             </h3>
             <p className="text-black mt-2 text-base tracking-wide text-start dark:text-[#fff] lg:w-[350px]">
               Be in charge of your Documents/decide whom to share it with.
