@@ -39,14 +39,12 @@ function PageNavbar() {
     <div className="z-10 top-0 fixed w-full">
       {/* logo image */}
       <div className="lg:flex justify-between px-5 p-3 fixed top-0 z-10 w-full  bg-white dark:bg-black transistion-all duration-300 hidden">
-        <div className="lg:flex items-center md:hidden flex">
+        <div className="lg:flex items-center md:hidden flex justify-center">
           <img
             src="https://res.cloudinary.com/dpokiomqq/image/upload/v1671902954/regizlogo_2_ey8kjj.png"
             className="w-[70px]"
           />
-          <h1 className="dark:text-[#FEFEFF] lg:text-4xl text-2xl font-bold text-black">
-            regiz
-          </h1>
+          <h1 className="text-3xl font-[TitanOne]">regiz</h1>
         </div>
 
         {/* Links for desxtop */}
@@ -85,7 +83,7 @@ function PageNavbar() {
             src="https://res.cloudinary.com/dpokiomqq/image/upload/v1671902954/regizlogo_2_ey8kjj.png"
             className="w-[70px]"
           />
-          <h1 className="text-3xl mt-3">regiz</h1>
+          <h1 className="text-3xl mt-3 font-[TitanOne]">regiz</h1>
         </div>
 
         <div

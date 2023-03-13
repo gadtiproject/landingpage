@@ -360,7 +360,7 @@ function Navbar() {
             src="https://res.cloudinary.com/dpokiomqq/image/upload/v1671902954/regizlogo_2_ey8kjj.png"
             className="w-[70px]"
           />
-          <h1 className="text-3xl mt-3 font-bold">regiz</h1>
+          <h1 className="text-3xl mt-3 font-[TitanOne]">regiz</h1>
         </div>
 
         <div
