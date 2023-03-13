@@ -358,6 +358,7 @@ function Navbar() {
         <div className="flex">
           <img
             src="https://res.cloudinary.com/dpokiomqq/image/upload/v1671902954/regizlogo_2_ey8kjj.png"
+            alt="regizlogo"
             className="w-[70px]"
           />
           <h1 className="text-3xl mt-3 font-[TitanOne]">regiz</h1>

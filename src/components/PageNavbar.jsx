@@ -42,6 +42,7 @@ function PageNavbar() {
         <div className="lg:flex items-center md:hidden flex justify-center">
           <img
             src="https://res.cloudinary.com/dpokiomqq/image/upload/v1671902954/regizlogo_2_ey8kjj.png"
+            alt="regizlogo"
             className="w-[70px]"
           />
           <h1 className="text-3xl font-[TitanOne] dark:text-white">regiz</h1>
