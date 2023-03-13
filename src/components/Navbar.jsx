@@ -43,6 +43,7 @@ function Navbar() {
           <div className="lg:flex items-center md:hidden flex">
             <img
               src="https://res.cloudinary.com/dpokiomqq/image/upload/v1671902954/regizlogo_2_ey8kjj.png"
+              alt="regizlogo"
               className="w-[70px]"
             />
             <h1 className="dark:text-[#FEFEFF] lg:text-3xl text-2xl text-black font-[TitanOne]">
