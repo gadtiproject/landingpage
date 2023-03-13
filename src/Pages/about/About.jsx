@@ -7,9 +7,9 @@ function About() {
       name="about"
       className="lg:mt-[18%] mt-[5%] dark:bg-[#070909] w-[350px]  bg-white lg:w-[700px] mx-auto grid place-items-center justify-center"
     >
-      <h1 className="lg:text-4xl text-3xl dark:text-white text-black text-center mt-3 font-bold tracking-wide ">
+      <h2 className="lg:text-4xl text-3xl dark:text-white text-black text-center mt-3 font-bold tracking-wide ">
         What is Regiz?
-      </h1>
+      </h2>
 
       <p className="dark:text-gray-300 leading-[25px] w-full lg:w-[700px] text-[14px]  lg:text-[16px] mt-5 text-justify">
         Regiz is a digital documentation technology project that focuses on the

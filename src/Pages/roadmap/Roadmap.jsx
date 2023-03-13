@@ -18,9 +18,9 @@ function Roadmap() {
             <p className="text-xl text-blue-500 dark:text-white">
               <BsFillSignpostFill className="fill-black dark:fill-[#0cc0df]" />
             </p>
-            <h1 className="text-[#0cc0df] text-xl mx-3 dark:text-[#EEEE] font-bold">
+            <h2 className="text-[#0cc0df] text-xl mx-3 dark:text-[#EEEE] font-bold">
               Q1 - 2023
-            </h1>
+            </h2>
           </div>
           <p className="text-xl font-light mt-3 bg-gray-100 shadow-sm dark:bg-gray-300 p-2 rounded-md">
             New website
@@ -50,9 +50,9 @@ function Roadmap() {
             <p className="text-xl text-blue-500 dark:text-white">
               <BsFillSignpostFill className="fill-black dark:fill-[#0cc0df]" />
             </p>
-            <h1 className="text-[#0cc0df] text-xl mx-3 dark:text-[#EEEE] font-bold">
+            <h2 className="text-[#0cc0df] text-xl mx-3 dark:text-[#EEEE] font-bold">
               Q2 - 2023
-            </h1>
+            </h2>
           </div>
           <p className="text-xl font-light mt-4 bg-gray-100 shadow-sm dark:bg-gray-300 p-2 rounded-md">
             Token Sale
@@ -82,9 +82,9 @@ function Roadmap() {
             <p className="text-xl text-blue-500 dark:text-white">
               <BsFillSignpostFill className="fill-black dark:fill-[#0cc0df]" />
             </p>
-            <h1 className="text-[#0cc0df] text-xl mx-3 dark:text-[#EEEE] font-bold">
+            <h2 className="text-[#0cc0df] text-xl mx-3 dark:text-[#EEEE] font-bold">
               Q3 - 2023
-            </h1>
+            </h2>
           </div>
           <p className="text-xl font-bold mt-4 bg-gray-100 shadow-sm dark:bg-gray-300 p-2 rounded-md">
             Market campaign
@@ -117,9 +117,9 @@ function Roadmap() {
             <p className="text-xl text-blue-500 dark:text-white">
               <BsFillSignpostFill className="fill-black dark:fill-[#0cc0df]" />
             </p>
-            <h1 className="text-[#0cc0df] text-xl mx-3 dark:text-[#EEEE] font-bold">
+            <h2 className="text-[#0cc0df] text-xl mx-3 dark:text-[#EEEE] font-bold">
               Q4 - 2023
-            </h1>
+            </h2>
           </div>
           <p className="text-xl font-bold mt-4 bg-gray-100 shadow-sm dark:bg-gray-300 p-2 rounded-md">
             UX/UI Review
@@ -152,9 +152,9 @@ function Roadmap() {
             <p className="text-xl text-blue-500 dark:text-white">
               <BsFillSignpostFill className="fill-black dark:fill-[#0cc0df]" />
             </p>
-            <h1 className="text-[#0cc0df] text-xl mx-3 dark:text-[#EEEE] font-bold">
+            <h2 className="text-[#0cc0df] text-xl mx-3 dark:text-[#EEEE] font-bold">
               Q1 - 2024
-            </h1>
+            </h2>
           </div>
           <p className="text-xl font-bold mt-4 bg-gray-100 shadow-sm dark:bg-gray-300 p-2 rounded-md">
             Add verification partners
@@ -181,9 +181,9 @@ function Roadmap() {
             <p className="text-xl text-blue-500 dark:text-white">
               <BsFillSignpostFill className="fill-black dark:fill-[#0cc0df]" />
             </p>
-            <h1 className="text-[#0cc0df] text-xl mx-3 dark:text-[#EEEE] font-bold">
+            <h2 className="text-[#0cc0df] text-xl mx-3 dark:text-[#EEEE] font-bold">
               Q2 - 2024
-            </h1>
+            </h2>
           </div>
           <p className="text-xl font-bold mt-4 bg-gray-100 shadow-sm dark:bg-gray-300 p-2 rounded-md">
             Launch Dapp

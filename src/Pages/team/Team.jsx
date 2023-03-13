@@ -3,9 +3,9 @@ import React from 'react'
 function Team() {
   return (
     <div name="team" className="lg:h-[400px] md:h-full mt-24 lg:mt-[5%]">
-      <h1 className="lg:text-5xl text-3xl text-center  dark:text-white text-black font-bold tracking-wide mt-5">
+      <h2 className="lg:text-5xl text-3xl text-center  dark:text-white text-black font-bold tracking-wide mt-5">
         Team
-      </h1>
+      </h2>
       <div className="grid lg:grid-cols-4  text-white m-10  justify-center items-center text-center gap-3">
         <div className="p-3" data-aos="fade-up">
           <div className="flex flex-wrap justify-center mt-8">
@@ -18,9 +18,9 @@ function Team() {
               />
             </div>
           </div>
-          <h1 className="font-bold text-black dark:text-white mt-2">
+          <h2 className="font-bold text-black dark:text-white mt-2">
             Ogunnaike Wahab B
-          </h1>
+          </h2>
           <p className="text-gray-500 text-sm leading-5">CEO</p>
         </div>
 
@@ -35,9 +35,9 @@ function Team() {
               />
             </div>
           </div>
-          <h1 className="font-bold text-black dark:text-white mt-2">
+          <h2 className="font-bold text-black dark:text-white mt-2">
             Akanji Oluwaleke J
-          </h1>
+          </h2>
           <p className="text-gray-500 text-sm leading-5">CTO</p>
         </div>
 
@@ -52,9 +52,9 @@ function Team() {
               />
             </div>
           </div>
-          <h1 className="font-bold text-black dark:text-white mt-2">
+          <h2 className="font-bold text-black dark:text-white mt-2">
             Egwuenu Precious{" "}
-          </h1>
+          </h2>
           <p className="text-gray-500 text-sm leading-5">Frontend developer</p>
         </div>
 
@@ -69,9 +69,9 @@ function Team() {
               />
             </div>
           </div>
-          <h1 className="font-bold text-black dark:text-white mt-2">
+          <h2 className="font-bold text-black dark:text-white mt-2">
             John Abraham
-          </h1>
+          </h2>
           <p className="text-gray-500 text-sm leading-5">Frontend developer</p>
         </div>
       </div>

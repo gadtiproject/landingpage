@@ -23,8 +23,6 @@ function Contact() {
           <p className="text-[#FFFEFE] leading-[30px] tracking-wider text-base lg:leading-[25px]">
             We are Regiz, the world’s first blockchain documentation technology
             platform dedicated to meeting your document verification needs.
-            connect your wallet and start minting your documents to give it a
-            unique chain identity.
           </p>
         </div>
 
